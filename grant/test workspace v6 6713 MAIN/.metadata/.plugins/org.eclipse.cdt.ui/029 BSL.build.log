@@ -1,0 +1,16 @@
+
+**** Build of configuration Debug for project 029 BSL ****
+
+"C:\\ti2\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../main.c'
+'Invoking: C6000 Compiler'
+"C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/include" --include_path="D:/Program Files/ti/C6xCSL/include" --include_path="D:/Program Files/ti/DSK6713/c6000/dsk6713/include" --define=c6713 --define=CHIP_6713 --display_error_number --diag_warning=225 --diag_wrap=off --mem_model:const=data --mem_model:data=far_aggregates --printf_support=minimal --preproc_with_compile --preproc_dependency="main.pp"  "../main.c"
+"../main.c", line 7: fatal error #5: could not open source file "DSK6713.h"
+
+>> Compilation failure
+1 fatal error detected in the compilation of "../main.c".
+Compilation terminated.
+gmake: *** [main.obj] Error 1
+gmake: Target `all' not remade because of errors.
+
+**** Build Finished ****

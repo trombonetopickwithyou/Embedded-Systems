@@ -1,0 +1,267 @@
+******************************************************************************
+               TMS320C6x Linker PC v7.4.14                     
+******************************************************************************
+>> Linked Sun Aug 23 17:01:05 2015
+
+OUTPUT FILE NAME:   <040 CSL IRQ.out>
+ENTRY POINT SYMBOL: "_c_int00"  address: 00001520
+
+
+MEMORY CONFIGURATION
+
+         name            origin    length      used     unused   attr    fill
+----------------------  --------  ---------  --------  --------  ----  --------
+  VECS                  00000000   00000200  00000200  00000000  RWIX
+  IRAM                  00000200   0002fe00  00002190  0002dc70  RWIX
+  L2RAM                 00030000   00010000  00000000  00010000  RWIX
+  EMIFCE0               80000000   10000000  00000000  10000000  RWIX
+  EMIFCE1               90000000   10000000  00000000  10000000  RWIX
+  EMIFCE2               a0000000   10000000  00000000  10000000  RWIX
+  EMIFCE3               b0000000   10000000  00000000  10000000  RWIX
+
+
+SECTION ALLOCATION MAP
+
+ output                                  attributes/
+section   page    origin      length       input sections
+--------  ----  ----------  ----------   ----------------
+.pinit     0    00000200    00000000     UNINITIALIZED
+
+.vecs      0    00000000    00000200     
+                  00000000    00000200     vecs_timer1.obj (.vecs)
+
+.bss       0    00000200    00000000     UNINITIALIZED
+
+.data      0    00000200    00000000     UNINITIALIZED
+
+.text      0    00000200    00001620     
+                  00000200    000002e0     main.obj (.text)
+                  000004e0    00000240     rts6700.lib : memcpy62.obj (.text:_memcpy)
+                  00000720    00000220     csl6713.lib : csl.obj (.text:__CSL_init)
+                  00000940    000001c0                 : csl_irq.obj (.text:_IRQ_map)
+                  00000b00    000001c0                 : csl_irq.obj (.text:_mux2Tables)
+                  00000cc0    00000140                 : csl_timer.obj (.text:_TIMER_open)
+                  00000e00    00000120                 : csl_timer.obj (.text:_TIMER_reset)
+                  00000f20    00000120     main.obj (.text:retain)
+                  00001040    00000100     rts6700.lib : autoinit.obj (.text:__auto_init)
+                  00001140    000000e0                 : exit.obj (.text:_exit)
+                  00001220    000000c0                 : cpy_tbl.obj (.text:_copy_in)
+                  000012e0    000000a0     csl6713.lib : csl_irq.obj (.text:__IRQ_init)
+                  00001380    000000a0                 : csl_irq.obj (.text:_setMux)
+                  00001420    00000080                 : csl_timer.obj (.text:_TIMER_close)
+                  000014a0    00000080     rts6700.lib : cpp_init.obj (.text:___TI_cpp_init)
+                  00001520    00000080                 : boot.obj (.text:_c_int00)
+                  000015a0    00000060     csl6713.lib : csl_timer.obj (.text:_TIMER_configArgs)
+                  00001600    00000040                 : csl_irq.obj (.text:_IRQ_enable)
+                  00001640    00000040                 : csl_irq.obj (.text:_IRQ_reset)
+                  00001680    00000040                 : csl_timer.obj (.text:_TIMER_start)
+                  000016c0    00000040     rts6700.lib : args_main.obj (.text:__args_main)
+                  00001700    00000020     csl6713.lib : csl.obj (.text:_CSL6713_LIB_)
+                  00001720    00000020                 : csl_irq.obj (.text:_IRQ_globalEnable)
+                  00001740    00000020                 : csl_irq.obj (.text:_IRQ_nmiEnable)
+                  00001760    00000020                 : csl_irq.obj (.text:_IRQ_setVecs)
+                  00001780    00000020                 : csl_timer.obj (.text:_TIMER_getEventId)
+                  000017a0    00000020                 : csl_timer.obj (.text:_TIMER_pause)
+                  000017c0    00000020     rts6700.lib : exit.obj (.text:_abort)
+                  000017e0    00000020     csl6713.lib : csl_irq.obj (.text)
+                  00001800    00000020     vecs_timer1.obj (.text)
+
+.stack     0    00001820    00000800     UNINITIALIZED
+                  00001820    00000008     rts6700.lib : boot.obj (.stack)
+                  00001828    000007f8     --HOLE--
+
+.cinit     0    00002020    00000214     
+                  00002020    0000012c     csl6713.lib : csl_irq.obj (.cinit)
+                  0000214c    00000004     --HOLE-- [fill = 0]
+                  00002150    0000004c                 : csl_timer.obj (.cinit)
+                  0000219c    00000004     --HOLE-- [fill = 0]
+                  000021a0    0000003c                 : csl.obj (.cinit)
+                  000021dc    00000004     --HOLE-- [fill = 0]
+                  000021e0    0000002c     rts6700.lib : exit.obj (.cinit)
+                  0000220c    00000004     --HOLE-- [fill = 0]
+                  00002210    0000001c     main.obj (.cinit)
+                  0000222c    00000004     --HOLE-- [fill = 0]
+                  00002230    00000004     (.pad.cinit) [fill = 0]
+
+.far       0    00002234    0000015c     UNINITIALIZED
+                  00002234    000000f4     csl6713.lib : csl_irq.obj (.far)
+                  00002328    00000028                 : csl.obj (.far)
+                  00002350    00000024                 : csl_timer.obj (.far)
+                  00002374    00000010     main.obj (.far)
+                  00002384    0000000c     rts6700.lib : exit.obj (.far)
+
+
+GLOBAL SYMBOLS: SORTED ALPHABETICALLY BY Name 
+
+address    name
+--------   ----
+00000200   $bss
+00000200   .bss
+00000200   .data
+00000200   .text
+000017c0   C$$EXIT
+00001700   _CSL6713_LIB_
+00001600   _IRQ_enable
+00001720   _IRQ_globalEnable
+00000940   _IRQ_map
+00001740   _IRQ_nmiEnable
+00001640   _IRQ_reset
+00001760   _IRQ_setVecs
+00001420   _TIMER_close
+000015a0   _TIMER_configArgs
+00001780   _TIMER_getEventId
+00000cc0   _TIMER_open
+000017a0   _TIMER_pause
+00000e00   _TIMER_reset
+00001680   _TIMER_start
+00000434   _TimerEventHandler
+00000720   __CSL_init
+00002320   __IRQ_dispatchTable
+0000225c   __IRQ_eventTable
+000017e0   __IRQ_hookFetchPacket
+000012e0   __IRQ_init
+000022e0   __IRQ_intTable
+00002020   __STACK_END
+00000800   __STACK_SIZE
+00002350   __TIMER_deviceTable
+00002370   __TIMER_hBios
+00002368   __TIMER_hDev0
+0000236c   __TIMER_hDev1
+00000001   __TI_args_main
+000014a0   ___TI_cpp_init
+0000238c   ___TI_enable_exit_profile_output
+ffffffff   ___TI_pprof_out_hndl
+ffffffff   ___TI_prof_data_size
+ffffffff   ___TI_prof_data_start
+ffffffff   ___binit__
+00000200   ___bss__
+ffffffff   ___c_args__
+00002020   ___cinit__
+00000200   ___data__
+00000200   ___edata__
+00000200   ___end__
+00001820   ___etext__
+ffffffff   ___pinit__
+00000200   ___text__
+000016c0   __args_main
+00001040   __auto_init
+00002384   __cleanup_ptr
+00002388   __dtors_ptr
+00001820   __stack
+000017c0   _abort
+00001520   _c_int00
+00000f20   _c_int14
+00001220   _copy_in
+00001140   _exit
+00000248   _main
+000004e0   _memcpy
+00000020   _vector1
+00000140   _vector10
+00000160   _vector11
+00000180   _vector12
+000001a0   _vector13
+000001e0   _vector15
+00000040   _vector2
+00000060   _vector3
+00000080   _vector4
+000000a0   _vector5
+000000c0   _vector6
+000000e0   _vector7
+00000100   _vector8
+00000120   _vector9
+00000000   _vectors
+ffffffff   binit
+00002020   cinit
+00000200   edata
+00000200   end
+00001820   etext
+ffffffff   pinit
+
+
+GLOBAL SYMBOLS: SORTED BY Symbol Address 
+
+address    name
+--------   ----
+00000000   _vectors
+00000001   __TI_args_main
+00000020   _vector1
+00000040   _vector2
+00000060   _vector3
+00000080   _vector4
+000000a0   _vector5
+000000c0   _vector6
+000000e0   _vector7
+00000100   _vector8
+00000120   _vector9
+00000140   _vector10
+00000160   _vector11
+00000180   _vector12
+000001a0   _vector13
+000001e0   _vector15
+00000200   $bss
+00000200   .bss
+00000200   .data
+00000200   .text
+00000200   ___bss__
+00000200   ___data__
+00000200   ___edata__
+00000200   ___end__
+00000200   ___text__
+00000200   edata
+00000200   end
+00000248   _main
+00000434   _TimerEventHandler
+000004e0   _memcpy
+00000720   __CSL_init
+00000800   __STACK_SIZE
+00000940   _IRQ_map
+00000cc0   _TIMER_open
+00000e00   _TIMER_reset
+00000f20   _c_int14
+00001040   __auto_init
+00001140   _exit
+00001220   _copy_in
+000012e0   __IRQ_init
+00001420   _TIMER_close
+000014a0   ___TI_cpp_init
+00001520   _c_int00
+000015a0   _TIMER_configArgs
+00001600   _IRQ_enable
+00001640   _IRQ_reset
+00001680   _TIMER_start
+000016c0   __args_main
+00001700   _CSL6713_LIB_
+00001720   _IRQ_globalEnable
+00001740   _IRQ_nmiEnable
+00001760   _IRQ_setVecs
+00001780   _TIMER_getEventId
+000017a0   _TIMER_pause
+000017c0   C$$EXIT
+000017c0   _abort
+000017e0   __IRQ_hookFetchPacket
+00001820   ___etext__
+00001820   __stack
+00001820   etext
+00002020   __STACK_END
+00002020   ___cinit__
+00002020   cinit
+0000225c   __IRQ_eventTable
+000022e0   __IRQ_intTable
+00002320   __IRQ_dispatchTable
+00002350   __TIMER_deviceTable
+00002368   __TIMER_hDev0
+0000236c   __TIMER_hDev1
+00002370   __TIMER_hBios
+00002384   __cleanup_ptr
+00002388   __dtors_ptr
+0000238c   ___TI_enable_exit_profile_output
+ffffffff   ___TI_pprof_out_hndl
+ffffffff   ___TI_prof_data_size
+ffffffff   ___TI_prof_data_start
+ffffffff   ___binit__
+ffffffff   ___c_args__
+ffffffff   ___pinit__
+ffffffff   binit
+ffffffff   pinit
+
+[81 symbols]

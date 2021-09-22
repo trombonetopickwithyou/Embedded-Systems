@@ -1,0 +1,12 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+OPT_SRCS += \
+../grant/test\ workspace\ v6\ 6713\ MAIN/002\ start/Debug/ccsObjs.opt 
+
+OPT_SRCS__QUOTED += \
+"../grant/test workspace v6 6713 MAIN/002 start/Debug/ccsObjs.opt" 
+
+

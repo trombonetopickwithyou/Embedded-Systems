@@ -1,0 +1,1 @@
+"./edma.obj" "./vectors_intr.obj" "../C6713dsk_flash.cmd" -l"libc.a" -l"D:\Embedded\Libraries\bios\lib\csl6713.lib" -l"D:\Embedded\Libraries\dsk6713\lib\dsk6713bsl\Debug\dsk6713bsl.lib" 

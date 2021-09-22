@@ -1,0 +1,41 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+CMD_SRCS += \
+../grant/dsk6713/tutorial/dsk6713/hello1/hello.cmd 
+
+ASM_SRCS += \
+../grant/dsk6713/tutorial/dsk6713/hello1/vectors.asm 
+
+C_SRCS += \
+../grant/dsk6713/tutorial/dsk6713/hello1/hello.c 
+
+OBJS += \
+./grant/dsk6713/tutorial/dsk6713/hello1/hello.obj \
+./grant/dsk6713/tutorial/dsk6713/hello1/vectors.obj 
+
+ASM_DEPS += \
+./grant/dsk6713/tutorial/dsk6713/hello1/vectors.pp 
+
+C_DEPS += \
+./grant/dsk6713/tutorial/dsk6713/hello1/hello.pp 
+
+C_DEPS__QUOTED += \
+"grant\dsk6713\tutorial\dsk6713\hello1\hello.pp" 
+
+OBJS__QUOTED += \
+"grant\dsk6713\tutorial\dsk6713\hello1\hello.obj" \
+"grant\dsk6713\tutorial\dsk6713\hello1\vectors.obj" 
+
+ASM_DEPS__QUOTED += \
+"grant\dsk6713\tutorial\dsk6713\hello1\vectors.pp" 
+
+C_SRCS__QUOTED += \
+"../grant/dsk6713/tutorial/dsk6713/hello1/hello.c" 
+
+ASM_SRCS__QUOTED += \
+"../grant/dsk6713/tutorial/dsk6713/hello1/vectors.asm" 
+
+

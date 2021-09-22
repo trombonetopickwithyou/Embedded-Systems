@@ -1,0 +1,32 @@
+
+**** Build of configuration Debug for project 620 BIOS QDMA ****
+
+"C:\\ti2\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: QDMAcfg.s62'
+'Invoking: C6000 Compiler'
+"C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/include" --include_path="C:/Documents and Settings/One/Desktop/DT Docs/CCS6.0/wsnew/620 BIOS QDMA/Debug" --include_path="C:/ti2/bios_5_42_01_09/packages/ti/bios/include" --include_path="C:/ti2/bios_5_42_01_09/packages/ti/rtdx/include/c6000" --include_path="C:/Documents and Settings/One/Desktop/DT Docs/CCS/libraries/cslupdate/include" --include_path="C:/Documents and Settings/One/Desktop/DT Docs/CCS/libraries/Fastlib/inc" --define=c6713 --define=CHIP_6713 --display_error_number --diag_warning=225 --diag_wrap=off --mem_model:const=far --mem_model:data=far --preproc_with_compile --preproc_dependency="QDMAcfg.pp"  "QDMAcfg.s62"
+'Finished building: QDMAcfg.s62'
+' '
+'Building file: QDMAcfg_c.c'
+'Invoking: C6000 Compiler'
+"C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/include" --include_path="C:/Documents and Settings/One/Desktop/DT Docs/CCS6.0/wsnew/620 BIOS QDMA/Debug" --include_path="C:/ti2/bios_5_42_01_09/packages/ti/bios/include" --include_path="C:/ti2/bios_5_42_01_09/packages/ti/rtdx/include/c6000" --include_path="C:/Documents and Settings/One/Desktop/DT Docs/CCS/libraries/cslupdate/include" --include_path="C:/Documents and Settings/One/Desktop/DT Docs/CCS/libraries/Fastlib/inc" --define=c6713 --define=CHIP_6713 --display_error_number --diag_warning=225 --diag_wrap=off --mem_model:const=far --mem_model:data=far --preproc_with_compile --preproc_dependency="QDMAcfg_c.pp"  "QDMAcfg_c.c"
+'Finished building: QDMAcfg_c.c'
+' '
+'Building file: ../dspfft.asm'
+'Invoking: C6000 Compiler'
+"C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/include" --include_path="C:/Documents and Settings/One/Desktop/DT Docs/CCS6.0/wsnew/620 BIOS QDMA/Debug" --include_path="C:/ti2/bios_5_42_01_09/packages/ti/bios/include" --include_path="C:/ti2/bios_5_42_01_09/packages/ti/rtdx/include/c6000" --include_path="C:/Documents and Settings/One/Desktop/DT Docs/CCS/libraries/cslupdate/include" --include_path="C:/Documents and Settings/One/Desktop/DT Docs/CCS/libraries/Fastlib/inc" --define=c6713 --define=CHIP_6713 --display_error_number --diag_warning=225 --diag_wrap=off --mem_model:const=far --mem_model:data=far --preproc_with_compile --preproc_dependency="dspfft.pp"  "../dspfft.asm"
+'Finished building: ../dspfft.asm'
+' '
+'Building file: ../main.c'
+'Invoking: C6000 Compiler'
+"C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/include" --include_path="C:/Documents and Settings/One/Desktop/DT Docs/CCS6.0/wsnew/620 BIOS QDMA/Debug" --include_path="C:/ti2/bios_5_42_01_09/packages/ti/bios/include" --include_path="C:/ti2/bios_5_42_01_09/packages/ti/rtdx/include/c6000" --include_path="C:/Documents and Settings/One/Desktop/DT Docs/CCS/libraries/cslupdate/include" --include_path="C:/Documents and Settings/One/Desktop/DT Docs/CCS/libraries/Fastlib/inc" --define=c6713 --define=CHIP_6713 --display_error_number --diag_warning=225 --diag_wrap=off --mem_model:const=far --mem_model:data=far --preproc_with_compile --preproc_dependency="main.pp"  "../main.c"
+'Finished building: ../main.c'
+' '
+'Building target: 620 BIOS QDMA.out'
+'Invoking: C6000 Linker'
+"C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/bin/cl6x" -mv6700 --abi=coffabi -g --define=c6713 --define=CHIP_6713 --display_error_number --diag_warning=225 --diag_wrap=off --mem_model:const=far --mem_model:data=far -z --stack_size=0x800 -m"620 BIOS QDMA.map" --heap_size=0x800 -i"C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/lib" -i"C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/include" -i"C:/ti2/bios_5_42_01_09/packages/ti/rtdx/lib/c6000" -i"C:/ti2/bios_5_42_01_09/packages/ti/bios/lib" --reread_libs --warn_sections --display_error_number --diag_wrap=off --xml_link_info="620 BIOS QDMA_linkInfo.xml" --rom_model -o "620 BIOS QDMA.out" -l"./QDMAcfg.cmd"  "./main.obj" "./dspfft.obj" "./QDMAcfg_c.obj" "./QDMAcfg.obj" -l"libc.a" -l"C:\Documents and Settings\One\Desktop\DT Docs\CCS\libraries\cslupdate\lib_3x\csl6713.lib" -l"C:\Documents and Settings\One\Desktop\DT Docs\CCS\libraries\Fastlib\lib\c67xfastMath.lib" 
+<Linking>
+'Finished building target: 620 BIOS QDMA.out'
+' '
+
+**** Build Finished ****

@@ -1,0 +1,20 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+OUT_SRCS += \
+../grant/dsk6713/tutorial/dsk6713/siotest/Debug/siotest1.out \
+../grant/dsk6713/tutorial/dsk6713/siotest/Debug/siotest2.out \
+../grant/dsk6713/tutorial/dsk6713/siotest/Debug/siotest3.out \
+../grant/dsk6713/tutorial/dsk6713/siotest/Debug/siotest4.out \
+../grant/dsk6713/tutorial/dsk6713/siotest/Debug/siotest5.out 
+
+OUT_SRCS__QUOTED += \
+"../grant/dsk6713/tutorial/dsk6713/siotest/Debug/siotest1.out" \
+"../grant/dsk6713/tutorial/dsk6713/siotest/Debug/siotest2.out" \
+"../grant/dsk6713/tutorial/dsk6713/siotest/Debug/siotest3.out" \
+"../grant/dsk6713/tutorial/dsk6713/siotest/Debug/siotest4.out" \
+"../grant/dsk6713/tutorial/dsk6713/siotest/Debug/siotest5.out" 
+
+

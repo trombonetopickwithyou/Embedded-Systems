@@ -1,0 +1,66 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+CMD_SRCS += \
+../grant/dsk6713/examples/dsk6713/bios/quetest/quetest1cfg.cmd \
+../grant/dsk6713/examples/dsk6713/bios/quetest/quetestcfg.cmd 
+
+S62_SRCS += \
+../grant/dsk6713/examples/dsk6713/bios/quetest/quetest1cfg.s62 \
+../grant/dsk6713/examples/dsk6713/bios/quetest/quetestcfg.s62 
+
+C_SRCS += \
+../grant/dsk6713/examples/dsk6713/bios/quetest/quetest.c \
+../grant/dsk6713/examples/dsk6713/bios/quetest/quetest1.c \
+../grant/dsk6713/examples/dsk6713/bios/quetest/quetest1cfg_c.c \
+../grant/dsk6713/examples/dsk6713/bios/quetest/quetestcfg_c.c 
+
+OBJS += \
+./grant/dsk6713/examples/dsk6713/bios/quetest/quetest.obj \
+./grant/dsk6713/examples/dsk6713/bios/quetest/quetest1.obj \
+./grant/dsk6713/examples/dsk6713/bios/quetest/quetest1cfg.obj \
+./grant/dsk6713/examples/dsk6713/bios/quetest/quetest1cfg_c.obj \
+./grant/dsk6713/examples/dsk6713/bios/quetest/quetestcfg.obj \
+./grant/dsk6713/examples/dsk6713/bios/quetest/quetestcfg_c.obj 
+
+S62_DEPS += \
+./grant/dsk6713/examples/dsk6713/bios/quetest/quetest1cfg.pp \
+./grant/dsk6713/examples/dsk6713/bios/quetest/quetestcfg.pp 
+
+C_DEPS += \
+./grant/dsk6713/examples/dsk6713/bios/quetest/quetest.pp \
+./grant/dsk6713/examples/dsk6713/bios/quetest/quetest1.pp \
+./grant/dsk6713/examples/dsk6713/bios/quetest/quetest1cfg_c.pp \
+./grant/dsk6713/examples/dsk6713/bios/quetest/quetestcfg_c.pp 
+
+C_DEPS__QUOTED += \
+"grant\dsk6713\examples\dsk6713\bios\quetest\quetest.pp" \
+"grant\dsk6713\examples\dsk6713\bios\quetest\quetest1.pp" \
+"grant\dsk6713\examples\dsk6713\bios\quetest\quetest1cfg_c.pp" \
+"grant\dsk6713\examples\dsk6713\bios\quetest\quetestcfg_c.pp" 
+
+OBJS__QUOTED += \
+"grant\dsk6713\examples\dsk6713\bios\quetest\quetest.obj" \
+"grant\dsk6713\examples\dsk6713\bios\quetest\quetest1.obj" \
+"grant\dsk6713\examples\dsk6713\bios\quetest\quetest1cfg.obj" \
+"grant\dsk6713\examples\dsk6713\bios\quetest\quetest1cfg_c.obj" \
+"grant\dsk6713\examples\dsk6713\bios\quetest\quetestcfg.obj" \
+"grant\dsk6713\examples\dsk6713\bios\quetest\quetestcfg_c.obj" 
+
+S62_DEPS__QUOTED += \
+"grant\dsk6713\examples\dsk6713\bios\quetest\quetest1cfg.pp" \
+"grant\dsk6713\examples\dsk6713\bios\quetest\quetestcfg.pp" 
+
+C_SRCS__QUOTED += \
+"../grant/dsk6713/examples/dsk6713/bios/quetest/quetest.c" \
+"../grant/dsk6713/examples/dsk6713/bios/quetest/quetest1.c" \
+"../grant/dsk6713/examples/dsk6713/bios/quetest/quetest1cfg_c.c" \
+"../grant/dsk6713/examples/dsk6713/bios/quetest/quetestcfg_c.c" 
+
+S62_SRCS__QUOTED += \
+"../grant/dsk6713/examples/dsk6713/bios/quetest/quetest1cfg.s62" \
+"../grant/dsk6713/examples/dsk6713/bios/quetest/quetestcfg.s62" 
+
+

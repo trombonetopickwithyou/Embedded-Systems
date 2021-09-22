@@ -1,0 +1,39 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+CMD_SRCS += \
+../grant/dsk6713/bin/utilities/flashburn/c6000/dsk6713v2/FBTC6713/Link.cmd 
+
+C_SRCS += \
+../grant/dsk6713/bin/utilities/flashburn/c6000/dsk6713v2/FBTC6713/FBCmd.c \
+../grant/dsk6713/bin/utilities/flashburn/c6000/dsk6713v2/FBTC6713/FBTC6713.c \
+../grant/dsk6713/bin/utilities/flashburn/c6000/dsk6713v2/FBTC6713/FBurnCmd.c 
+
+OBJS += \
+./grant/dsk6713/bin/utilities/flashburn/c6000/dsk6713v2/FBTC6713/FBCmd.obj \
+./grant/dsk6713/bin/utilities/flashburn/c6000/dsk6713v2/FBTC6713/FBTC6713.obj \
+./grant/dsk6713/bin/utilities/flashburn/c6000/dsk6713v2/FBTC6713/FBurnCmd.obj 
+
+C_DEPS += \
+./grant/dsk6713/bin/utilities/flashburn/c6000/dsk6713v2/FBTC6713/FBCmd.pp \
+./grant/dsk6713/bin/utilities/flashburn/c6000/dsk6713v2/FBTC6713/FBTC6713.pp \
+./grant/dsk6713/bin/utilities/flashburn/c6000/dsk6713v2/FBTC6713/FBurnCmd.pp 
+
+C_DEPS__QUOTED += \
+"grant\dsk6713\bin\utilities\flashburn\c6000\dsk6713v2\FBTC6713\FBCmd.pp" \
+"grant\dsk6713\bin\utilities\flashburn\c6000\dsk6713v2\FBTC6713\FBTC6713.pp" \
+"grant\dsk6713\bin\utilities\flashburn\c6000\dsk6713v2\FBTC6713\FBurnCmd.pp" 
+
+OBJS__QUOTED += \
+"grant\dsk6713\bin\utilities\flashburn\c6000\dsk6713v2\FBTC6713\FBCmd.obj" \
+"grant\dsk6713\bin\utilities\flashburn\c6000\dsk6713v2\FBTC6713\FBTC6713.obj" \
+"grant\dsk6713\bin\utilities\flashburn\c6000\dsk6713v2\FBTC6713\FBurnCmd.obj" 
+
+C_SRCS__QUOTED += \
+"../grant/dsk6713/bin/utilities/flashburn/c6000/dsk6713v2/FBTC6713/FBCmd.c" \
+"../grant/dsk6713/bin/utilities/flashburn/c6000/dsk6713v2/FBTC6713/FBTC6713.c" \
+"../grant/dsk6713/bin/utilities/flashburn/c6000/dsk6713v2/FBTC6713/FBurnCmd.c" 
+
+

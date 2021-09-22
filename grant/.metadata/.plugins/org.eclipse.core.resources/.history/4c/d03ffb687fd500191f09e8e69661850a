@@ -1,0 +1,63 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+CMD_SRCS += \
+../grant/dsk6713/examples/dsk6713/bsl/post/post_hex.cmd \
+../grant/dsk6713/examples/dsk6713/bsl/post/postcfg.cmd \
+../grant/dsk6713/examples/dsk6713/bsl/post/userlinker.cmd 
+
+S62_SRCS += \
+../grant/dsk6713/examples/dsk6713/bsl/post/postcfg.s62 
+
+ASM_SRCS += \
+../grant/dsk6713/examples/dsk6713/bsl/post/boot.asm 
+
+C_SRCS += \
+../grant/dsk6713/examples/dsk6713/bsl/post/post.c \
+../grant/dsk6713/examples/dsk6713/bsl/post/postcfg_c.c 
+
+OBJS += \
+./grant/dsk6713/examples/dsk6713/bsl/post/boot.obj \
+./grant/dsk6713/examples/dsk6713/bsl/post/post.obj \
+./grant/dsk6713/examples/dsk6713/bsl/post/postcfg.obj \
+./grant/dsk6713/examples/dsk6713/bsl/post/postcfg_c.obj 
+
+S62_DEPS += \
+./grant/dsk6713/examples/dsk6713/bsl/post/postcfg.pp 
+
+ASM_DEPS += \
+./grant/dsk6713/examples/dsk6713/bsl/post/boot.pp 
+
+C_DEPS += \
+./grant/dsk6713/examples/dsk6713/bsl/post/post.pp \
+./grant/dsk6713/examples/dsk6713/bsl/post/postcfg_c.pp 
+
+C_DEPS__QUOTED += \
+"grant\dsk6713\examples\dsk6713\bsl\post\post.pp" \
+"grant\dsk6713\examples\dsk6713\bsl\post\postcfg_c.pp" 
+
+OBJS__QUOTED += \
+"grant\dsk6713\examples\dsk6713\bsl\post\boot.obj" \
+"grant\dsk6713\examples\dsk6713\bsl\post\post.obj" \
+"grant\dsk6713\examples\dsk6713\bsl\post\postcfg.obj" \
+"grant\dsk6713\examples\dsk6713\bsl\post\postcfg_c.obj" 
+
+S62_DEPS__QUOTED += \
+"grant\dsk6713\examples\dsk6713\bsl\post\postcfg.pp" 
+
+ASM_DEPS__QUOTED += \
+"grant\dsk6713\examples\dsk6713\bsl\post\boot.pp" 
+
+ASM_SRCS__QUOTED += \
+"../grant/dsk6713/examples/dsk6713/bsl/post/boot.asm" 
+
+C_SRCS__QUOTED += \
+"../grant/dsk6713/examples/dsk6713/bsl/post/post.c" \
+"../grant/dsk6713/examples/dsk6713/bsl/post/postcfg_c.c" 
+
+S62_SRCS__QUOTED += \
+"../grant/dsk6713/examples/dsk6713/bsl/post/postcfg.s62" 
+
+

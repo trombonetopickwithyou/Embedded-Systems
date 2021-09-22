@@ -1,0 +1,56 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+LIB_SRCS += \
+../grant/dsk6713/c6000/bios/lib/csl6201.lib \
+../grant/dsk6713/c6000/bios/lib/csl6201e.lib \
+../grant/dsk6713/c6000/bios/lib/csl6202.lib \
+../grant/dsk6713/c6000/bios/lib/csl6202e.lib \
+../grant/dsk6713/c6000/bios/lib/csl6203.lib \
+../grant/dsk6713/c6000/bios/lib/csl6203e.lib \
+../grant/dsk6713/c6000/bios/lib/csl6204.lib \
+../grant/dsk6713/c6000/bios/lib/csl6204e.lib \
+../grant/dsk6713/c6000/bios/lib/csl6205.lib \
+../grant/dsk6713/c6000/bios/lib/csl6205e.lib \
+../grant/dsk6713/c6000/bios/lib/csl6211.lib \
+../grant/dsk6713/c6000/bios/lib/csl6211e.lib \
+../grant/dsk6713/c6000/bios/lib/csl6410.lib \
+../grant/dsk6713/c6000/bios/lib/csl6410e.lib \
+../grant/dsk6713/c6000/bios/lib/csl6411.lib \
+../grant/dsk6713/c6000/bios/lib/csl6411e.lib \
+../grant/dsk6713/c6000/bios/lib/csl6412.lib \
+../grant/dsk6713/c6000/bios/lib/csl6412e.lib \
+../grant/dsk6713/c6000/bios/lib/csl6413.lib \
+../grant/dsk6713/c6000/bios/lib/csl6413e.lib \
+../grant/dsk6713/c6000/bios/lib/csl6414.lib \
+../grant/dsk6713/c6000/bios/lib/csl6414e.lib \
+../grant/dsk6713/c6000/bios/lib/csl6415.lib \
+../grant/dsk6713/c6000/bios/lib/csl6415e.lib \
+../grant/dsk6713/c6000/bios/lib/csl6416.lib \
+../grant/dsk6713/c6000/bios/lib/csl6416e.lib \
+../grant/dsk6713/c6000/bios/lib/csl6418.lib \
+../grant/dsk6713/c6000/bios/lib/csl6418e.lib \
+../grant/dsk6713/c6000/bios/lib/csl6701.lib \
+../grant/dsk6713/c6000/bios/lib/csl6701e.lib \
+../grant/dsk6713/c6000/bios/lib/csl6711.lib \
+../grant/dsk6713/c6000/bios/lib/csl6711C.lib \
+../grant/dsk6713/c6000/bios/lib/csl6711Ce.lib \
+../grant/dsk6713/c6000/bios/lib/csl6711e.lib \
+../grant/dsk6713/c6000/bios/lib/csl6712.lib \
+../grant/dsk6713/c6000/bios/lib/csl6712C.lib \
+../grant/dsk6713/c6000/bios/lib/csl6712Ce.lib \
+../grant/dsk6713/c6000/bios/lib/csl6712e.lib \
+../grant/dsk6713/c6000/bios/lib/csl6713.lib \
+../grant/dsk6713/c6000/bios/lib/csl6713e.lib \
+../grant/dsk6713/c6000/bios/lib/cslDA610.lib \
+../grant/dsk6713/c6000/bios/lib/cslDA610e.lib \
+../grant/dsk6713/c6000/bios/lib/cslDM640.lib \
+../grant/dsk6713/c6000/bios/lib/cslDM640e.lib \
+../grant/dsk6713/c6000/bios/lib/cslDM641.lib \
+../grant/dsk6713/c6000/bios/lib/cslDM641e.lib \
+../grant/dsk6713/c6000/bios/lib/cslDM642.lib \
+../grant/dsk6713/c6000/bios/lib/cslDM642e.lib 
+
+

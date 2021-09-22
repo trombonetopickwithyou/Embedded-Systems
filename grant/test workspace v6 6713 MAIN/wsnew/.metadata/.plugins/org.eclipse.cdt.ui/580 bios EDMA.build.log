@@ -1,0 +1,32 @@
+
+**** Build of configuration Debug for project 580 bios EDMA ****
+
+"C:\\ti2\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../biosedma.tcf'
+'Invoking: TConf'
+"C:/ti2/bios_5_42_01_09/xdctools/tconf" -b -Dconfig.importPath="C:/ti2/bios_5_42_01_09/packages;" "../biosedma.tcf"
+'Finished building: ../biosedma.tcf'
+' '
+'Building file: ../biosedma.c'
+'Invoking: C6000 Compiler'
+"C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/include" --include_path="C:/Documents and Settings/One/Desktop/DT Docs/CCS/libraries/cslupdate/include" --include_path="C:/Documents and Settings/One/Desktop/DT Docs/CCS/libraries/dsk6713/include" --include_path="C:/Documents and Settings/One/Desktop/DT Docs/CCS6.0/wsnew/580 bios EDMA/Debug" --include_path="C:/ti2/bios_5_42_01_09/packages/ti/bios/include" --include_path="C:/ti2/bios_5_42_01_09/packages/ti/rtdx/include/c6000" --define=c6713 --define=CHIP_6713 --display_error_number --diag_warning=225 --diag_wrap=off --mem_model:const=far --mem_model:data=far --preproc_with_compile --preproc_dependency="biosedma.pp"  "../biosedma.c"
+'Finished building: ../biosedma.c'
+' '
+'Building file: biosedmacfg.s??'
+'Invoking: C6000 Compiler'
+"C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/include" --include_path="C:/Documents and Settings/One/Desktop/DT Docs/CCS/libraries/cslupdate/include" --include_path="C:/Documents and Settings/One/Desktop/DT Docs/CCS/libraries/dsk6713/include" --include_path="C:/Documents and Settings/One/Desktop/DT Docs/CCS6.0/wsnew/580 bios EDMA/Debug" --include_path="C:/ti2/bios_5_42_01_09/packages/ti/bios/include" --include_path="C:/ti2/bios_5_42_01_09/packages/ti/rtdx/include/c6000" --define=c6713 --define=CHIP_6713 --display_error_number --diag_warning=225 --diag_wrap=off --mem_model:const=far --mem_model:data=far --preproc_with_compile --preproc_dependency="biosedmacfg.pp"  "biosedmacfg.s??"
+'Finished building: biosedmacfg.s??'
+' '
+'Building file: biosedmacfg_c.c'
+'Invoking: C6000 Compiler'
+"C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/include" --include_path="C:/Documents and Settings/One/Desktop/DT Docs/CCS/libraries/cslupdate/include" --include_path="C:/Documents and Settings/One/Desktop/DT Docs/CCS/libraries/dsk6713/include" --include_path="C:/Documents and Settings/One/Desktop/DT Docs/CCS6.0/wsnew/580 bios EDMA/Debug" --include_path="C:/ti2/bios_5_42_01_09/packages/ti/bios/include" --include_path="C:/ti2/bios_5_42_01_09/packages/ti/rtdx/include/c6000" --define=c6713 --define=CHIP_6713 --display_error_number --diag_warning=225 --diag_wrap=off --mem_model:const=far --mem_model:data=far --preproc_with_compile --preproc_dependency="biosedmacfg_c.pp"  "biosedmacfg_c.c"
+'Finished building: biosedmacfg_c.c'
+' '
+'Building target: 580 bios EDMA.out'
+'Invoking: C6000 Linker'
+"C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/bin/cl6x" -mv6700 --abi=coffabi -g --define=c6713 --define=CHIP_6713 --display_error_number --diag_warning=225 --diag_wrap=off --mem_model:const=far --mem_model:data=far -z --stack_size=0x800 -m"580 bios EDMA.map" --heap_size=0x800 -i"C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/lib" -i"C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/include" -i"C:/ti2/bios_5_42_01_09/packages/ti/rtdx/lib/c6000" -i"C:/ti2/bios_5_42_01_09/packages/ti/bios/lib" --reread_libs --warn_sections --display_error_number --diag_wrap=off --xml_link_info="580 bios EDMA_linkInfo.xml" --rom_model -o "580 bios EDMA.out" -l"./biosedmacfg.cmd"  "./biosedmacfg_c.obj" "./biosedmacfg.obj" "./biosedma.obj" -l"libc.a" -l"C:\Documents and Settings\One\Desktop\DT Docs\CCS\libraries\cslupdate\lib_3x\csl6713.lib" -l"C:\Documents and Settings\One\Desktop\DT Docs\CCS\libraries\dsk6713\lib\dsk6713bsl.lib" 
+<Linking>
+'Finished building target: 580 bios EDMA.out'
+' '
+
+**** Build Finished ****

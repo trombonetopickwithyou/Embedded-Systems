@@ -1,0 +1,32 @@
+
+**** Build of configuration Debug for project 550 BIOS multi SEM ****
+
+"C:\\ti2\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../semaphore.tcf'
+'Invoking: TConf'
+"C:/ti2/bios_5_42_01_09/xdctools/tconf" -b -Dconfig.importPath="C:/ti2/bios_5_42_01_09/packages;" "../semaphore.tcf"
+'Finished building: ../semaphore.tcf'
+' '
+'Building file: ../sem.c'
+'Invoking: C6000 Compiler'
+"C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/include" --include_path="C:/Documents and Settings/One/Desktop/DT Docs/CCS6.0/wsnew/550 BIOS multi SEM/Debug" --include_path="C:/ti2/bios_5_42_01_09/packages/ti/bios/include" --include_path="C:/ti2/bios_5_42_01_09/packages/ti/rtdx/include/c6000" --include_path="C:/Documents and Settings/One/Desktop/DT Docs/CCS/libraries/dsk6713/include" --include_path="C:/Documents and Settings/One/Desktop/DT Docs/CCS/libraries/cslupdate/include" --define=c6713 --define=CHIP_6713 --display_error_number --diag_warning=225 --diag_wrap=off --mem_model:const=far --mem_model:data=far --preproc_with_compile --preproc_dependency="sem.pp"  "../sem.c"
+'Finished building: ../sem.c'
+' '
+'Building file: semaphorecfg.s??'
+'Invoking: C6000 Compiler'
+"C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/include" --include_path="C:/Documents and Settings/One/Desktop/DT Docs/CCS6.0/wsnew/550 BIOS multi SEM/Debug" --include_path="C:/ti2/bios_5_42_01_09/packages/ti/bios/include" --include_path="C:/ti2/bios_5_42_01_09/packages/ti/rtdx/include/c6000" --include_path="C:/Documents and Settings/One/Desktop/DT Docs/CCS/libraries/dsk6713/include" --include_path="C:/Documents and Settings/One/Desktop/DT Docs/CCS/libraries/cslupdate/include" --define=c6713 --define=CHIP_6713 --display_error_number --diag_warning=225 --diag_wrap=off --mem_model:const=far --mem_model:data=far --preproc_with_compile --preproc_dependency="semaphorecfg.pp"  "semaphorecfg.s??"
+'Finished building: semaphorecfg.s??'
+' '
+'Building file: semaphorecfg_c.c'
+'Invoking: C6000 Compiler'
+"C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/include" --include_path="C:/Documents and Settings/One/Desktop/DT Docs/CCS6.0/wsnew/550 BIOS multi SEM/Debug" --include_path="C:/ti2/bios_5_42_01_09/packages/ti/bios/include" --include_path="C:/ti2/bios_5_42_01_09/packages/ti/rtdx/include/c6000" --include_path="C:/Documents and Settings/One/Desktop/DT Docs/CCS/libraries/dsk6713/include" --include_path="C:/Documents and Settings/One/Desktop/DT Docs/CCS/libraries/cslupdate/include" --define=c6713 --define=CHIP_6713 --display_error_number --diag_warning=225 --diag_wrap=off --mem_model:const=far --mem_model:data=far --preproc_with_compile --preproc_dependency="semaphorecfg_c.pp"  "semaphorecfg_c.c"
+'Finished building: semaphorecfg_c.c'
+' '
+'Building target: 550 BIOS multi SEM.out'
+'Invoking: C6000 Linker'
+"C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/bin/cl6x" -mv6700 --abi=coffabi -g --define=c6713 --define=CHIP_6713 --display_error_number --diag_warning=225 --diag_wrap=off --mem_model:const=far --mem_model:data=far -z --stack_size=0x800 -m"550 BIOS multi SEM.map" --heap_size=0x800 -i"C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/lib" -i"C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/include" -i"C:/ti2/bios_5_42_01_09/packages/ti/rtdx/lib/c6000" -i"C:/ti2/bios_5_42_01_09/packages/ti/bios/lib" --reread_libs --warn_sections --display_error_number --diag_wrap=off --xml_link_info="550 BIOS multi SEM_linkInfo.xml" --rom_model -o "550 BIOS multi SEM.out" -l"./semaphorecfg.cmd"  "./semaphorecfg_c.obj" "./semaphorecfg.obj" "./sem.obj" -l"libc.a" -l"C:\Documents and Settings\One\Desktop\DT Docs\CCS\libraries\dsk6713\lib\dsk6713bsl.lib" -l"C:\Documents and Settings\One\Desktop\DT Docs\CCS\libraries\cslupdate\lib_3x\csl6713.lib" 
+<Linking>
+'Finished building target: 550 BIOS multi SEM.out'
+' '
+
+**** Build Finished ****

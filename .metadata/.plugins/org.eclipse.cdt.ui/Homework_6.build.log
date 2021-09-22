@@ -1,0 +1,12 @@
+
+**** Build of configuration Debug for project Homework_6 ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../Homework_6_sem.tcf'
+'Invoking: TConf'
+"C:/ti/bios_5_42_01_09/xdctools/tconf" -b -Dconfig.importPath="C:/ti/bios_5_42_01_09/xdctools;" "../Homework_6_sem.tcf"
+js: "C:/ti/bios_5_42_01_09/xdctools/include/utils.tci", line 976: Error: Can't find Platform.tc[ip] file for 'ti.platforms.dsk6713'
+gmake: *** [Homework_6_semcfg.cmd] Error 1
+gmake: Target `all' not remade because of errors.
+
+**** Build Finished ****

@@ -1,0 +1,27 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+CMD_SRCS += \
+../grant/test\ workspace\ v6\ 6713\ MAIN/150\ fastlib\ update/C6713.cmd 
+
+C_SRCS += \
+../grant/test\ workspace\ v6\ 6713\ MAIN/150\ fastlib\ update/fastlib.c 
+
+OBJS += \
+./grant/test\ workspace\ v6\ 6713\ MAIN/150\ fastlib\ update/fastlib.obj 
+
+C_DEPS += \
+./grant/test\ workspace\ v6\ 6713\ MAIN/150\ fastlib\ update/fastlib.pp 
+
+C_DEPS__QUOTED += \
+"grant\test workspace v6 6713 MAIN\150 fastlib update\fastlib.pp" 
+
+OBJS__QUOTED += \
+"grant\test workspace v6 6713 MAIN\150 fastlib update\fastlib.obj" 
+
+C_SRCS__QUOTED += \
+"../grant/test workspace v6 6713 MAIN/150 fastlib update/fastlib.c" 
+
+

@@ -1,0 +1,27 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Each subdirectory must supply rules for building sources it contributes
+grant/dsk6713/tutorial/dsk6713/mbxtest/mbxtest.obj: ../grant/dsk6713/tutorial/dsk6713/mbxtest/mbxtest.c $(GEN_OPTS) $(GEN_HDRS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: C6000 Compiler'
+	"C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/bios/include" --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/dsk6713/include" --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/dsk6713/lib" --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/bios/lib" --define=c6713 --define=CHIP_6713 --display_error_number --diag_warning=225 --diag_wrap=off --mem_model:const=far --mem_model:data=far --preproc_with_compile --preproc_dependency="grant/dsk6713/tutorial/dsk6713/mbxtest/mbxtest.pp" --obj_directory="grant/dsk6713/tutorial/dsk6713/mbxtest" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+grant/dsk6713/tutorial/dsk6713/mbxtest/mbxtestcfg.obj: ../grant/dsk6713/tutorial/dsk6713/mbxtest/mbxtestcfg.s62 $(GEN_OPTS) $(GEN_HDRS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: C6000 Compiler'
+	"C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/bios/include" --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/dsk6713/include" --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/dsk6713/lib" --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/bios/lib" --define=c6713 --define=CHIP_6713 --display_error_number --diag_warning=225 --diag_wrap=off --mem_model:const=far --mem_model:data=far --preproc_with_compile --preproc_dependency="grant/dsk6713/tutorial/dsk6713/mbxtest/mbxtestcfg.pp" --obj_directory="grant/dsk6713/tutorial/dsk6713/mbxtest" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+grant/dsk6713/tutorial/dsk6713/mbxtest/mbxtestcfg_c.obj: ../grant/dsk6713/tutorial/dsk6713/mbxtest/mbxtestcfg_c.c $(GEN_OPTS) $(GEN_HDRS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: C6000 Compiler'
+	"C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/bios/include" --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/dsk6713/include" --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/dsk6713/lib" --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/bios/lib" --define=c6713 --define=CHIP_6713 --display_error_number --diag_warning=225 --diag_wrap=off --mem_model:const=far --mem_model:data=far --preproc_with_compile --preproc_dependency="grant/dsk6713/tutorial/dsk6713/mbxtest/mbxtestcfg_c.pp" --obj_directory="grant/dsk6713/tutorial/dsk6713/mbxtest" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+

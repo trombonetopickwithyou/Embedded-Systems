@@ -1,0 +1,188 @@
+******************************************************************************
+               TMS320C6x Linker PC v7.4.14                     
+******************************************************************************
+>> Linked Thu Sep 17 16:12:35 2015
+
+OUTPUT FILE NAME:   <120 fastlib old v.out>
+ENTRY POINT SYMBOL: "_c_int00"  address: 00000a80
+
+
+MEMORY CONFIGURATION
+
+         name            origin    length      used     unused   attr    fill
+----------------------  --------  ---------  --------  --------  ----  --------
+  IRAM                  00000000   00030000  000014f4  0002eb0c  RWIX
+  L2RAM                 00030000   00010000  00000000  00010000  RWIX
+  EMIFCE0               80000000   10000000  00000000  10000000  RWIX
+  EMIFCE1               90000000   10000000  00000000  10000000  RWIX
+  EMIFCE2               a0000000   10000000  00000000  10000000  RWIX
+  EMIFCE3               b0000000   10000000  00000000  10000000  RWIX
+
+
+SECTION ALLOCATION MAP
+
+ output                                  attributes/
+section   page    origin      length       input sections
+--------  ----  ----------  ----------   ----------------
+.bss       0    00000000    00000000     UNINITIALIZED
+
+.data      0    00000000    00000000     UNINITIALIZED
+
+.pinit     0    00000000    00000000     UNINITIALIZED
+
+.text      0    00000000    00000ca0     
+                  00000000    00000240     rts6700.lib : memcpy62.obj (.text:_memcpy)
+                  00000240    000001e0     fastlib.obj (.text)
+                  00000420    00000120     rts6700.lib : divi.obj (.text:__divi)
+                  00000540    00000100                 : autoinit.obj (.text:__auto_init)
+                  00000640    000000e0                 : exit.obj (.text:_exit)
+                  00000720    000000e0     fastrts67x.lib : sqrtdp.obj (.text)
+                  00000800    000000c0     rts6700.lib : cpy_tbl.obj (.text:_copy_in)
+                  000008c0    000000a0     fastrts67x.lib : recipdp.obj (.text)
+                  00000960    000000a0                    : sqrtsp.obj (.text)
+                  00000a00    00000080     rts6700.lib : cpp_init.obj (.text:___TI_cpp_init)
+                  00000a80    00000080                 : boot.obj (.text:_c_int00)
+                  00000b00    00000080     fastrts67x.lib : divdp.obj (.text)
+                  00000b80    00000060                    : divsp.obj (.text)
+                  00000be0    00000060                    : recipsp.obj (.text)
+                  00000c40    00000040     rts6700.lib : args_main.obj (.text:__args_main)
+                  00000c80    00000020                 : exit.obj (.text:_abort)
+
+.stack     0    00000ca0    00000800     UNINITIALIZED
+                  00000ca0    00000008     rts6700.lib : boot.obj (.stack)
+                  00000ca8    000007f8     --HOLE--
+
+.cinit     0    000014a0    00000044     
+                  000014a0    0000002c     rts6700.lib : exit.obj (.cinit)
+                  000014cc    00000004     --HOLE-- [fill = 0]
+                  000014d0    0000000c                 : errno.obj (.cinit)
+                  000014dc    00000004     --HOLE-- [fill = 0]
+                  000014e0    00000004     (.pad.cinit) [fill = 0]
+
+.far       0    000014e4    00000010     UNINITIALIZED
+                  000014e4    0000000c     rts6700.lib : exit.obj (.far)
+                  000014f0    00000004                 : errno.obj (.far)
+
+
+GLOBAL SYMBOLS: SORTED ALPHABETICALLY BY Name 
+
+address    name
+--------   ----
+00000000   $bss
+00000000   .bss
+00000000   .data
+00000000   .text
+00000c80   C$$EXIT
+000014a0   __STACK_END
+00000800   __STACK_SIZE
+00000001   __TI_args_main
+00000a00   ___TI_cpp_init
+000014ec   ___TI_enable_exit_profile_output
+ffffffff   ___TI_pprof_out_hndl
+ffffffff   ___TI_prof_data_size
+ffffffff   ___TI_prof_data_start
+ffffffff   ___binit__
+00000000   ___bss__
+ffffffff   ___c_args__
+000014a0   ___cinit__
+00000000   ___data__
+00000000   ___edata__
+00000000   ___end__
+00000ca0   ___etext__
+ffffffff   ___pinit__
+00000000   ___text__
+00000c40   __args_main
+00000540   __auto_init
+00000420   __c6xabi_divi
+000014e4   __cleanup_ptr
+00000b00   __divd
+00000b80   __divf
+00000420   __divi
+000014e8   __dtors_ptr
+00000ca0   __stack
+00000c80   _abort
+00000a80   _c_int00
+00000800   _copy_in
+00000b00   _divdp
+00000b80   _divsp
+000014f0   _errno
+00000640   _exit
+00000240   _main
+00000000   _memcpy
+000008c0   _recip
+000008c0   _recipdp
+00000be0   _recipf
+00000be0   _recipsp
+00000720   _sqrt
+00000720   _sqrtdp
+00000960   _sqrtf
+00000960   _sqrtsp
+ffffffff   binit
+000014a0   cinit
+00000000   edata
+00000000   end
+00000ca0   etext
+ffffffff   pinit
+
+
+GLOBAL SYMBOLS: SORTED BY Symbol Address 
+
+address    name
+--------   ----
+00000000   $bss
+00000000   .bss
+00000000   .data
+00000000   .text
+00000000   ___bss__
+00000000   ___data__
+00000000   ___edata__
+00000000   ___end__
+00000000   ___text__
+00000000   _memcpy
+00000000   edata
+00000000   end
+00000001   __TI_args_main
+00000240   _main
+00000420   __c6xabi_divi
+00000420   __divi
+00000540   __auto_init
+00000640   _exit
+00000720   _sqrt
+00000720   _sqrtdp
+00000800   __STACK_SIZE
+00000800   _copy_in
+000008c0   _recip
+000008c0   _recipdp
+00000960   _sqrtf
+00000960   _sqrtsp
+00000a00   ___TI_cpp_init
+00000a80   _c_int00
+00000b00   __divd
+00000b00   _divdp
+00000b80   __divf
+00000b80   _divsp
+00000be0   _recipf
+00000be0   _recipsp
+00000c40   __args_main
+00000c80   C$$EXIT
+00000c80   _abort
+00000ca0   ___etext__
+00000ca0   __stack
+00000ca0   etext
+000014a0   __STACK_END
+000014a0   ___cinit__
+000014a0   cinit
+000014e4   __cleanup_ptr
+000014e8   __dtors_ptr
+000014ec   ___TI_enable_exit_profile_output
+000014f0   _errno
+ffffffff   ___TI_pprof_out_hndl
+ffffffff   ___TI_prof_data_size
+ffffffff   ___TI_prof_data_start
+ffffffff   ___binit__
+ffffffff   ___c_args__
+ffffffff   ___pinit__
+ffffffff   binit
+ffffffff   pinit
+
+[55 symbols]

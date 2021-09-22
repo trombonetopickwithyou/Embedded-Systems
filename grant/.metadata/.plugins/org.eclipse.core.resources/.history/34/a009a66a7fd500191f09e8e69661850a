@@ -1,0 +1,47 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+CMD_SRCS += \
+../grant/dsk6713/examples/dsk6713/bios/lattest/lattestcfg.cmd 
+
+S62_SRCS += \
+../grant/dsk6713/examples/dsk6713/bios/lattest/lattestcfg.s62 
+
+C_SRCS += \
+../grant/dsk6713/examples/dsk6713/bios/lattest/lattest.c \
+../grant/dsk6713/examples/dsk6713/bios/lattest/lattestcfg_c.c 
+
+OBJS += \
+./grant/dsk6713/examples/dsk6713/bios/lattest/lattest.obj \
+./grant/dsk6713/examples/dsk6713/bios/lattest/lattestcfg.obj \
+./grant/dsk6713/examples/dsk6713/bios/lattest/lattestcfg_c.obj 
+
+S62_DEPS += \
+./grant/dsk6713/examples/dsk6713/bios/lattest/lattestcfg.pp 
+
+C_DEPS += \
+./grant/dsk6713/examples/dsk6713/bios/lattest/lattest.pp \
+./grant/dsk6713/examples/dsk6713/bios/lattest/lattestcfg_c.pp 
+
+C_DEPS__QUOTED += \
+"grant\dsk6713\examples\dsk6713\bios\lattest\lattest.pp" \
+"grant\dsk6713\examples\dsk6713\bios\lattest\lattestcfg_c.pp" 
+
+OBJS__QUOTED += \
+"grant\dsk6713\examples\dsk6713\bios\lattest\lattest.obj" \
+"grant\dsk6713\examples\dsk6713\bios\lattest\lattestcfg.obj" \
+"grant\dsk6713\examples\dsk6713\bios\lattest\lattestcfg_c.obj" 
+
+S62_DEPS__QUOTED += \
+"grant\dsk6713\examples\dsk6713\bios\lattest\lattestcfg.pp" 
+
+C_SRCS__QUOTED += \
+"../grant/dsk6713/examples/dsk6713/bios/lattest/lattest.c" \
+"../grant/dsk6713/examples/dsk6713/bios/lattest/lattestcfg_c.c" 
+
+S62_SRCS__QUOTED += \
+"../grant/dsk6713/examples/dsk6713/bios/lattest/lattestcfg.s62" 
+
+

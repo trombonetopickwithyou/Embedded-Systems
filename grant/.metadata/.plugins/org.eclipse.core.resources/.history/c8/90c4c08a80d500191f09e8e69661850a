@@ -1,0 +1,64 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+CMD_SRCS += \
+../grant/dsk6713/tutorial/dsk6713/maxminmath/mainapplication.cmd \
+../grant/dsk6713/tutorial/dsk6713/maxminmath/maxminlibrary.cmd 
+
+C_SRCS += \
+../grant/dsk6713/tutorial/dsk6713/maxminmath/anothertestapp.c \
+../grant/dsk6713/tutorial/dsk6713/maxminmath/averagevalue.c \
+../grant/dsk6713/tutorial/dsk6713/maxminmath/maximumvalue.c \
+../grant/dsk6713/tutorial/dsk6713/maxminmath/minimumvalue.c \
+../grant/dsk6713/tutorial/dsk6713/maxminmath/testapp.c \
+../grant/dsk6713/tutorial/dsk6713/maxminmath/testapp0.c \
+../grant/dsk6713/tutorial/dsk6713/maxminmath/testapp1.c 
+
+OBJS += \
+./grant/dsk6713/tutorial/dsk6713/maxminmath/anothertestapp.obj \
+./grant/dsk6713/tutorial/dsk6713/maxminmath/averagevalue.obj \
+./grant/dsk6713/tutorial/dsk6713/maxminmath/maximumvalue.obj \
+./grant/dsk6713/tutorial/dsk6713/maxminmath/minimumvalue.obj \
+./grant/dsk6713/tutorial/dsk6713/maxminmath/testapp.obj \
+./grant/dsk6713/tutorial/dsk6713/maxminmath/testapp0.obj \
+./grant/dsk6713/tutorial/dsk6713/maxminmath/testapp1.obj 
+
+C_DEPS += \
+./grant/dsk6713/tutorial/dsk6713/maxminmath/anothertestapp.pp \
+./grant/dsk6713/tutorial/dsk6713/maxminmath/averagevalue.pp \
+./grant/dsk6713/tutorial/dsk6713/maxminmath/maximumvalue.pp \
+./grant/dsk6713/tutorial/dsk6713/maxminmath/minimumvalue.pp \
+./grant/dsk6713/tutorial/dsk6713/maxminmath/testapp.pp \
+./grant/dsk6713/tutorial/dsk6713/maxminmath/testapp0.pp \
+./grant/dsk6713/tutorial/dsk6713/maxminmath/testapp1.pp 
+
+C_DEPS__QUOTED += \
+"grant\dsk6713\tutorial\dsk6713\maxminmath\anothertestapp.pp" \
+"grant\dsk6713\tutorial\dsk6713\maxminmath\averagevalue.pp" \
+"grant\dsk6713\tutorial\dsk6713\maxminmath\maximumvalue.pp" \
+"grant\dsk6713\tutorial\dsk6713\maxminmath\minimumvalue.pp" \
+"grant\dsk6713\tutorial\dsk6713\maxminmath\testapp.pp" \
+"grant\dsk6713\tutorial\dsk6713\maxminmath\testapp0.pp" \
+"grant\dsk6713\tutorial\dsk6713\maxminmath\testapp1.pp" 
+
+OBJS__QUOTED += \
+"grant\dsk6713\tutorial\dsk6713\maxminmath\anothertestapp.obj" \
+"grant\dsk6713\tutorial\dsk6713\maxminmath\averagevalue.obj" \
+"grant\dsk6713\tutorial\dsk6713\maxminmath\maximumvalue.obj" \
+"grant\dsk6713\tutorial\dsk6713\maxminmath\minimumvalue.obj" \
+"grant\dsk6713\tutorial\dsk6713\maxminmath\testapp.obj" \
+"grant\dsk6713\tutorial\dsk6713\maxminmath\testapp0.obj" \
+"grant\dsk6713\tutorial\dsk6713\maxminmath\testapp1.obj" 
+
+C_SRCS__QUOTED += \
+"../grant/dsk6713/tutorial/dsk6713/maxminmath/anothertestapp.c" \
+"../grant/dsk6713/tutorial/dsk6713/maxminmath/averagevalue.c" \
+"../grant/dsk6713/tutorial/dsk6713/maxminmath/maximumvalue.c" \
+"../grant/dsk6713/tutorial/dsk6713/maxminmath/minimumvalue.c" \
+"../grant/dsk6713/tutorial/dsk6713/maxminmath/testapp.c" \
+"../grant/dsk6713/tutorial/dsk6713/maxminmath/testapp0.c" \
+"../grant/dsk6713/tutorial/dsk6713/maxminmath/testapp1.c" 
+
+

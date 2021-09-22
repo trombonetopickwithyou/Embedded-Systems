@@ -1,0 +1,53 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+CMD_SRCS += \
+../grant/dsk6713/examples/dsk6713/bsl/dsk_app/dsk_appcfg.cmd 
+
+S62_SRCS += \
+../grant/dsk6713/examples/dsk6713/bsl/dsk_app/dsk_appcfg.s62 
+
+C_SRCS += \
+../grant/dsk6713/examples/dsk6713/bsl/dsk_app/aic23.c \
+../grant/dsk6713/examples/dsk6713/bsl/dsk_app/dsk_app.c \
+../grant/dsk6713/examples/dsk6713/bsl/dsk_app/dsk_appcfg_c.c 
+
+OBJS += \
+./grant/dsk6713/examples/dsk6713/bsl/dsk_app/aic23.obj \
+./grant/dsk6713/examples/dsk6713/bsl/dsk_app/dsk_app.obj \
+./grant/dsk6713/examples/dsk6713/bsl/dsk_app/dsk_appcfg.obj \
+./grant/dsk6713/examples/dsk6713/bsl/dsk_app/dsk_appcfg_c.obj 
+
+S62_DEPS += \
+./grant/dsk6713/examples/dsk6713/bsl/dsk_app/dsk_appcfg.pp 
+
+C_DEPS += \
+./grant/dsk6713/examples/dsk6713/bsl/dsk_app/aic23.pp \
+./grant/dsk6713/examples/dsk6713/bsl/dsk_app/dsk_app.pp \
+./grant/dsk6713/examples/dsk6713/bsl/dsk_app/dsk_appcfg_c.pp 
+
+C_DEPS__QUOTED += \
+"grant\dsk6713\examples\dsk6713\bsl\dsk_app\aic23.pp" \
+"grant\dsk6713\examples\dsk6713\bsl\dsk_app\dsk_app.pp" \
+"grant\dsk6713\examples\dsk6713\bsl\dsk_app\dsk_appcfg_c.pp" 
+
+OBJS__QUOTED += \
+"grant\dsk6713\examples\dsk6713\bsl\dsk_app\aic23.obj" \
+"grant\dsk6713\examples\dsk6713\bsl\dsk_app\dsk_app.obj" \
+"grant\dsk6713\examples\dsk6713\bsl\dsk_app\dsk_appcfg.obj" \
+"grant\dsk6713\examples\dsk6713\bsl\dsk_app\dsk_appcfg_c.obj" 
+
+S62_DEPS__QUOTED += \
+"grant\dsk6713\examples\dsk6713\bsl\dsk_app\dsk_appcfg.pp" 
+
+C_SRCS__QUOTED += \
+"../grant/dsk6713/examples/dsk6713/bsl/dsk_app/aic23.c" \
+"../grant/dsk6713/examples/dsk6713/bsl/dsk_app/dsk_app.c" \
+"../grant/dsk6713/examples/dsk6713/bsl/dsk_app/dsk_appcfg_c.c" 
+
+S62_SRCS__QUOTED += \
+"../grant/dsk6713/examples/dsk6713/bsl/dsk_app/dsk_appcfg.s62" 
+
+

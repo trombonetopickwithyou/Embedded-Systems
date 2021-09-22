@@ -1,0 +1,25 @@
+
+**** Build of configuration Debug for project 070 AUDIO ****
+
+"C:\\ti2\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../main.c'
+'Invoking: C6000 Compiler'
+"C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/include" --include_path="C:/Documents and Settings/One/Desktop/DT Docs/CCS/libraries/dsk6713/include" --include_path="C:/Documents and Settings/One/Desktop/DT Docs/CCS/libraries/cslupdate/include" --define=c6713 --define=CHIP_6713 --display_error_number --diag_warning=225 --diag_wrap=off --mem_model:const=far --mem_model:data=far --preproc_with_compile --preproc_dependency="main.pp"  "../main.c"
+'Finished building: ../main.c'
+' '
+'Building target: 070 AUDIO.out'
+'Invoking: C6000 Linker'
+"C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/bin/cl6x" -mv6700 --abi=coffabi -g --define=c6713 --define=CHIP_6713 --display_error_number --diag_warning=225 --diag_wrap=off --mem_model:const=far --mem_model:data=far -z --stack_size=0x800 -m"070 AUDIO.map" --heap_size=0x800 -i"C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/lib" -i"C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/include" --reread_libs --verbose_diagnostics --warn_sections --display_error_number --issue_remarks --diag_wrap=off --xml_link_info="070 AUDIO_linkInfo.xml" --rom_model -o "070 AUDIO.out"  "./main.obj" "../C6713.cmd" -l"libc.a" -l"C:\Documents and Settings\One\Desktop\DT Docs\CCS\libraries\cslupdate\lib_3x\csl6713.lib" -l"C:\Documents and Settings\One\Desktop\DT Docs\CCS\libraries\dsk6713\lib\dsk6713bsl.lib" 
+<Linking>
+remark #10205-D: automatic RTS selection:  linking in "rts6700.lib" in place of index library "libc.a"
+warning #16002-D: build attribute vendor section TI missing in "C:\Documents and Settings\One\Desktop\DT Docs\CCS\libraries\cslupdate\lib_3x\csl6713.lib<csl.obj>": compatibility cannot be determined
+warning #16002-D: build attribute vendor section TI missing in "C:\Documents and Settings\One\Desktop\DT Docs\CCS\libraries\cslupdate\lib_3x\csl6713.lib<csl_irq.obj>": compatibility cannot be determined
+warning #16002-D: build attribute vendor section TI missing in "C:\Documents and Settings\One\Desktop\DT Docs\CCS\libraries\cslupdate\lib_3x\csl6713.lib<csl_mcbsp.obj>": compatibility cannot be determined
+warning #16002-D: build attribute vendor section TI missing in "C:\Documents and Settings\One\Desktop\DT Docs\CCS\libraries\cslupdate\lib_3x\csl6713.lib<csl_timer.obj>": compatibility cannot be determined
+warning #16002-D: build attribute vendor section TI missing in "C:\Documents and Settings\One\Desktop\DT Docs\CCS\libraries\dsk6713\lib\dsk6713bsl.lib<dsk6713.obj>": compatibility cannot be determined
+warning #16002-D: build attribute vendor section TI missing in "C:\Documents and Settings\One\Desktop\DT Docs\CCS\libraries\dsk6713\lib\dsk6713bsl.lib<dsk6713_aic23_opencodec.obj>": compatibility cannot be determined
+warning #16002-D: build attribute vendor section TI missing in "C:\Documents and Settings\One\Desktop\DT Docs\CCS\libraries\dsk6713\lib\dsk6713bsl.lib<dsk6713_aic23_registers.obj>": compatibility cannot be determined
+'Finished building target: 070 AUDIO.out'
+' '
+
+**** Build Finished ****

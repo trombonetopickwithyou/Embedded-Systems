@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;220 BSL AUDIO EDMA triple optimized/filter_coefs&apos; to &apos;filter_coefs.h&apos;" description="Rename resource &apos;filter_coefs&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="filter_coefs" name="filter_coefs.h" stamp="1570582032422" updateReferences="true"/>
+</session>

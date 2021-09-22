@@ -1,0 +1,245 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+O_SRCS := 
+CPP_SRCS := 
+K_SRCS := 
+LD_SRCS := 
+S67_SRCS := 
+LDS_SRCS := 
+CMD_SRCS := 
+EXE_SRCS := 
+CXX_SRCS := 
+CMD_UPPER_SRCS := 
+ELF_SRCS := 
+C43_SRCS := 
+S55_SRCS := 
+LD_UPPER_SRCS := 
+C62_SRCS := 
+S_UPPER_SRCS := 
+A_SRCS := 
+SA_SRCS := 
+C55_SRCS := 
+LDS_UPPER_SRCS := 
+C_UPPER_SRCS := 
+OUT_SRCS := 
+INO_SRCS := 
+OBJ_SRCS := 
+S62_SRCS := 
+LIB_SRCS := 
+PDE_SRCS := 
+ASM_SRCS := 
+ASM_UPPER_SRCS := 
+C++_SRCS := 
+CLA_SRCS := 
+S??_SRCS := 
+C_SRCS := 
+C67_SRCS := 
+S_SRCS := 
+S43_SRCS := 
+OPT_SRCS := 
+C64_SRCS := 
+CC_SRCS := 
+C??_SRCS := 
+S64_SRCS := 
+OBJS := 
+BIN_OUTPUTS := 
+S_DEPS := 
+S_UPPER_DEPS := 
+S62_DEPS := 
+C64_DEPS := 
+ASM_DEPS := 
+CC_DEPS := 
+S55_DEPS := 
+C67_DEPS := 
+CLA_DEPS := 
+C??_DEPS := 
+CPP_DEPS := 
+S??_DEPS := 
+C_DEPS := 
+C62_DEPS := 
+EXE_OUTPUTS := 
+CXX_DEPS := 
+C++_DEPS := 
+ASM_UPPER_DEPS := 
+K_DEPS := 
+C43_DEPS := 
+INO_DEPS := 
+S67_DEPS := 
+SA_DEPS := 
+S43_DEPS := 
+OPT_DEPS := 
+PDE_DEPS := 
+S64_DEPS := 
+C_UPPER_DEPS := 
+C55_DEPS := 
+CPP_DEPS__QUOTED := 
+C67_DEPS__QUOTED := 
+INO_DEPS__QUOTED := 
+C??_DEPS__QUOTED := 
+S_UPPER_DEPS__QUOTED := 
+CLA_DEPS__QUOTED := 
+ASM_UPPER_DEPS__QUOTED := 
+C62_DEPS__QUOTED := 
+CXX_DEPS__QUOTED := 
+EXE_OUTPUTS__QUOTED := 
+S67_DEPS__QUOTED := 
+BIN_OUTPUTS__QUOTED := 
+C_DEPS__QUOTED := 
+C_UPPER_DEPS__QUOTED := 
+OPT_DEPS__QUOTED := 
+S_DEPS__QUOTED := 
+K_DEPS__QUOTED := 
+S??_DEPS__QUOTED := 
+C64_DEPS__QUOTED := 
+C++_DEPS__QUOTED := 
+OBJS__QUOTED := 
+CC_DEPS__QUOTED := 
+S43_DEPS__QUOTED := 
+S55_DEPS__QUOTED := 
+SA_DEPS__QUOTED := 
+C55_DEPS__QUOTED := 
+PDE_DEPS__QUOTED := 
+C43_DEPS__QUOTED := 
+S62_DEPS__QUOTED := 
+ASM_DEPS__QUOTED := 
+S64_DEPS__QUOTED := 
+
+# Every subdirectory with source files must be described here
+SUBDIRS := \
+. \
+grant/test\ workspace\ v6\ 6713\ MAIN/260\ fft\ integer \
+grant/test\ workspace\ v6\ 6713\ MAIN/260\ fft\ integer/Debug \
+grant/test\ workspace\ v6\ 6713\ MAIN/250\ fft\ integer\ original \
+grant/test\ workspace\ v6\ 6713\ MAIN/250\ fft\ integer\ original/Debug \
+grant/test\ workspace\ v6\ 6713\ MAIN/240\ rounding \
+grant/test\ workspace\ v6\ 6713\ MAIN/240\ rounding/Debug \
+grant/test\ workspace\ v6\ 6713\ MAIN/230\ qsort \
+grant/test\ workspace\ v6\ 6713\ MAIN/230\ qsort/Debug \
+grant/test\ workspace\ v6\ 6713\ MAIN/220\ BSL\ AUDIO\ EDMA\ triple\ optimized \
+grant/test\ workspace\ v6\ 6713\ MAIN/220\ BSL\ AUDIO\ EDMA\ triple\ optimized/Debug \
+grant/test\ workspace\ v6\ 6713\ MAIN/210\ optimizer\ and\ debugging \
+grant/test\ workspace\ v6\ 6713\ MAIN/210\ optimizer\ and\ debugging/Debug \
+grant/test\ workspace\ v6\ 6713\ MAIN/200\ 2D\ array\ into\ function \
+grant/test\ workspace\ v6\ 6713\ MAIN/200\ 2D\ array\ into\ function/Debug \
+grant/test\ workspace\ v6\ 6713\ MAIN/190\ DSP\ library\ and\ QDMA \
+grant/test\ workspace\ v6\ 6713\ MAIN/190\ DSP\ library\ and\ QDMA/Debug \
+grant/test\ workspace\ v6\ 6713\ MAIN/180\ fixed\ point\ math \
+grant/test\ workspace\ v6\ 6713\ MAIN/180\ fixed\ point\ math/Debug \
+grant/test\ workspace\ v6\ 6713\ MAIN/170\ fixed\ point\ math \
+grant/test\ workspace\ v6\ 6713\ MAIN/170\ fixed\ point\ math/Debug \
+grant/test\ workspace\ v6\ 6713\ MAIN/160\ saturated\ add \
+grant/test\ workspace\ v6\ 6713\ MAIN/160\ saturated\ add/Debug \
+grant/test\ workspace\ v6\ 6713\ MAIN/150\ fastlib\ update \
+grant/test\ workspace\ v6\ 6713\ MAIN/150\ fastlib\ update/Debug \
+grant/test\ workspace\ v6\ 6713\ MAIN/149\ fastlib\ old\ v \
+grant/test\ workspace\ v6\ 6713\ MAIN/149\ fastlib\ old\ v/Debug \
+grant/test\ workspace\ v6\ 6713\ MAIN/140\ shifting \
+grant/test\ workspace\ v6\ 6713\ MAIN/140\ shifting/Debug \
+grant/test\ workspace\ v6\ 6713\ MAIN/130\ BSL\ AUDIO\ EDMA\ triple \
+grant/test\ workspace\ v6\ 6713\ MAIN/130\ BSL\ AUDIO\ EDMA\ triple/Debug \
+grant/test\ workspace\ v6\ 6713\ MAIN/120\ BSL\ AUDIO\ EDMA \
+grant/test\ workspace\ v6\ 6713\ MAIN/120\ BSL\ AUDIO\ EDMA/Debug \
+grant/test\ workspace\ v6\ 6713\ MAIN/110\ BSL\ AUDIO\ INT \
+grant/test\ workspace\ v6\ 6713\ MAIN/110\ BSL\ AUDIO\ INT/Debug \
+grant/test\ workspace\ v6\ 6713\ MAIN/100\ BSL\ AUDIO \
+grant/test\ workspace\ v6\ 6713\ MAIN/100\ BSL\ AUDIO/Debug \
+grant/test\ workspace\ v6\ 6713\ MAIN/089\ BSL\ AUDIO\ polled\ output\ only \
+grant/test\ workspace\ v6\ 6713\ MAIN/089\ BSL\ AUDIO\ polled\ output\ only/Debug \
+grant/test\ workspace\ v6\ 6713\ MAIN/080\ AUDIO\ register\ reads \
+grant/test\ workspace\ v6\ 6713\ MAIN/080\ AUDIO\ register\ reads/Debug \
+grant/test\ workspace\ v6\ 6713\ MAIN/070\ AUDIO \
+grant/test\ workspace\ v6\ 6713\ MAIN/070\ AUDIO/Debug \
+grant/test\ workspace\ v6\ 6713\ MAIN/060\ CSL\ BSL\ XINT \
+grant/test\ workspace\ v6\ 6713\ MAIN/060\ CSL\ BSL\ XINT/Debug \
+grant/test\ workspace\ v6\ 6713\ MAIN/050\ CSL\ TIMER_INT \
+grant/test\ workspace\ v6\ 6713\ MAIN/050\ CSL\ TIMER_INT/Debug \
+grant/test\ workspace\ v6\ 6713\ MAIN/040\ DIP_SW\ and\ LED \
+grant/test\ workspace\ v6\ 6713\ MAIN/040\ DIP_SW\ and\ LED/Debug \
+grant/test\ workspace\ v6\ 6713\ MAIN/030\ BSL \
+grant/test\ workspace\ v6\ 6713\ MAIN/030\ BSL/Debug \
+grant/test\ workspace\ v6\ 6713\ MAIN/029\ BSL \
+grant/test\ workspace\ v6\ 6713\ MAIN/029\ BSL/Debug \
+grant/test\ workspace\ v6\ 6713\ MAIN/020\ circular\ buffer \
+grant/test\ workspace\ v6\ 6713\ MAIN/020\ circular\ buffer/Debug \
+grant/test\ workspace\ v6\ 6713\ MAIN/010\ hello \
+grant/test\ workspace\ v6\ 6713\ MAIN/010\ hello/Debug \
+grant/test\ workspace\ v6\ 6713\ MAIN/002\ start \
+grant/test\ workspace\ v6\ 6713\ MAIN/002\ start/Debug \
+grant/test\ workspace\ v6\ 6713\ MAIN/001\ starting\ up \
+grant/test\ workspace\ v6\ 6713\ MAIN/001\ starting\ up/Debug \
+grant/dsk6713/tutorial/dsk6713/volume4 \
+grant/dsk6713/tutorial/dsk6713/volume4/Debug \
+grant/dsk6713/tutorial/dsk6713/volume3 \
+grant/dsk6713/tutorial/dsk6713/volume3/Debug \
+grant/dsk6713/tutorial/dsk6713/volume2 \
+grant/dsk6713/tutorial/dsk6713/volume2/Debug \
+grant/dsk6713/tutorial/dsk6713/volume1 \
+grant/dsk6713/tutorial/dsk6713/volume1/Debug \
+grant/dsk6713/tutorial/dsk6713/tsktest \
+grant/dsk6713/tutorial/dsk6713/tsktest/Debug \
+grant/dsk6713/tutorial/dsk6713/siotest \
+grant/dsk6713/tutorial/dsk6713/siotest/Debug \
+grant/dsk6713/tutorial/dsk6713/sinewave \
+grant/dsk6713/tutorial/dsk6713/semtest \
+grant/dsk6713/tutorial/dsk6713/semtest/Debug \
+grant/dsk6713/tutorial/dsk6713/mutex \
+grant/dsk6713/tutorial/dsk6713/mutex/Debug \
+grant/dsk6713/tutorial/dsk6713/modem \
+grant/dsk6713/tutorial/dsk6713/memtest \
+grant/dsk6713/tutorial/dsk6713/memtest/Debug \
+grant/dsk6713/tutorial/dsk6713/mbxtest \
+grant/dsk6713/tutorial/dsk6713/mbxtest/Debug \
+grant/dsk6713/tutorial/dsk6713/maxminmath \
+grant/dsk6713/tutorial/dsk6713/hostio2 \
+grant/dsk6713/tutorial/dsk6713/hostio2/Debug \
+grant/dsk6713/tutorial/dsk6713/hostio1 \
+grant/dsk6713/tutorial/dsk6713/hostio1/Debug \
+grant/dsk6713/tutorial/dsk6713/hello2 \
+grant/dsk6713/tutorial/dsk6713/hello2/Debug \
+grant/dsk6713/tutorial/dsk6713/hello1 \
+grant/dsk6713/tutorial/dsk6713/hello1/Debug \
+grant/dsk6713/tutorial/dsk6713/gelsolid \
+grant/dsk6713/tutorial/dsk6713/echo \
+grant/dsk6713/tutorial/dsk6713/echo/Debug \
+grant/dsk6713/tutorial/dsk6713/datedisplay \
+grant/dsk6713/lib \
+grant/dsk6713/lib/dsk6713bsl/dsk6713bsl \
+grant/dsk6713/lib/dsk6713bsl/dsk6713bsl/Debug \
+grant/dsk6713/examples/dsk6713/rtdx/t2h \
+grant/dsk6713/examples/dsk6713/rtdx/shared \
+grant/dsk6713/examples/dsk6713/rtdx/h2t \
+grant/dsk6713/examples/dsk6713/bsl/tone \
+grant/dsk6713/examples/dsk6713/bsl/tone/Debug \
+grant/dsk6713/examples/dsk6713/bsl/post \
+grant/dsk6713/examples/dsk6713/bsl/post/Debug \
+grant/dsk6713/examples/dsk6713/bsl/ledprd \
+grant/dsk6713/examples/dsk6713/bsl/ledprd/Debug \
+grant/dsk6713/examples/dsk6713/bsl/led \
+grant/dsk6713/examples/dsk6713/bsl/led/Debug \
+grant/dsk6713/examples/dsk6713/bsl/dsk_app \
+grant/dsk6713/examples/dsk6713/bsl/dsk_app/Debug \
+grant/dsk6713/examples/dsk6713/bios/switest \
+grant/dsk6713/examples/dsk6713/bios/switest/Debug \
+grant/dsk6713/examples/dsk6713/bios/slice \
+grant/dsk6713/examples/dsk6713/bios/slice/Debug \
+grant/dsk6713/examples/dsk6713/bios/quetest \
+grant/dsk6713/examples/dsk6713/bios/quetest/Debug \
+grant/dsk6713/examples/dsk6713/bios/lattest \
+grant/dsk6713/examples/dsk6713/bios/lattest/Debug \
+grant/dsk6713/examples/dsk6713/bios/copy \
+grant/dsk6713/examples/dsk6713/bios/copy/Debug \
+grant/dsk6713/examples/dsk6713/bios/clktest \
+grant/dsk6713/examples/dsk6713/bios/clktest/Debug \
+grant/dsk6713/examples/dsk6713/bios/bigTime \
+grant/dsk6713/examples/dsk6713/bios/bigTime/Debug \
+grant/dsk6713/examples/dsk6713/bios/audio \
+grant/dsk6713/examples/dsk6713/bios/audio/Debug \
+grant/dsk6713/drivers \
+grant/dsk6713/c6000/dsk6713/lib \
+grant/dsk6713/c6000/bios/lib \
+grant/dsk6713/bin/utilities/flashburn/c6000/dsk6713v2 \
+grant/dsk6713/bin/utilities/flashburn/c6000/dsk6713v2/FBTC6713 \
+grant/dsk6713/bin/utilities/flashburn/c6000/dsk6713v2/BlinkDSK6713 \
+

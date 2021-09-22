@@ -1,0 +1,14 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+EXE_SRCS += \
+../grant/dsk6713/drivers/6713DSKDiag.exe \
+../grant/dsk6713/drivers/c6713dsk.exe 
+
+EXE_SRCS__QUOTED += \
+"../grant/dsk6713/drivers/6713DSKDiag.exe" \
+"../grant/dsk6713/drivers/c6713dsk.exe" 
+
+

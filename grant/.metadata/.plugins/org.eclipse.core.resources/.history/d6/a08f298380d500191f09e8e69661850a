@@ -1,0 +1,24 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+OUT_SRCS += \
+../grant/test\ workspace\ v6\ 6713\ MAIN/110\ BSL\ AUDIO\ INT/Debug/070\ BSL\ AUDIO\ INT.out \
+../grant/test\ workspace\ v6\ 6713\ MAIN/110\ BSL\ AUDIO\ INT/Debug/110\ BSL\ AUDIO\ INT.out 
+
+OBJ_SRCS += \
+../grant/test\ workspace\ v6\ 6713\ MAIN/110\ BSL\ AUDIO\ INT/Debug/audio.9.19.obj \
+../grant/test\ workspace\ v6\ 6713\ MAIN/110\ BSL\ AUDIO\ INT/Debug/vectors_intr.obj 
+
+OPT_SRCS += \
+../grant/test\ workspace\ v6\ 6713\ MAIN/110\ BSL\ AUDIO\ INT/Debug/ccsObjs.opt 
+
+OUT_SRCS__QUOTED += \
+"../grant/test workspace v6 6713 MAIN/110 BSL AUDIO INT/Debug/070 BSL AUDIO INT.out" \
+"../grant/test workspace v6 6713 MAIN/110 BSL AUDIO INT/Debug/110 BSL AUDIO INT.out" 
+
+OPT_SRCS__QUOTED += \
+"../grant/test workspace v6 6713 MAIN/110 BSL AUDIO INT/Debug/ccsObjs.opt" 
+
+

@@ -1,0 +1,8 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+USER_OBJS :=
+
+LIBS := -l"libc.a" -lD:/Embedded/Homework_2/grant/dsk6713/c6000/bios/include -lD:/Embedded/Homework_2/grant/dsk6713/c6000/bios/lib
+

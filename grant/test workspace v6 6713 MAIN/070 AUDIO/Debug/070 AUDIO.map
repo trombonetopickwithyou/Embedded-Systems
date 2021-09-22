@@ -1,0 +1,183 @@
+******************************************************************************
+               TMS320C6x Linker PC v7.4.7                      
+******************************************************************************
+>> Linked Thu Sep 12 11:31:45 2019
+
+OUTPUT FILE NAME:   <070 AUDIO.out>
+ENTRY POINT SYMBOL: "_c_int00"  address: 00000800
+
+
+MEMORY CONFIGURATION
+
+         name            origin    length      used     unused   attr    fill
+----------------------  --------  ---------  --------  --------  ----  --------
+  IRAM                  00000000   00030000  000011d4  0002ee2c  RWIX
+  L2RAM                 00030000   00010000  00000000  00010000  RWIX
+  EMIFCE0               80000000   10000000  00000000  10000000  RWIX
+  EMIFCE1               90000000   10000000  00000000  10000000  RWIX
+  EMIFCE2               a0000000   10000000  00000000  10000000  RWIX
+  EMIFCE3               b0000000   10000000  00000000  10000000  RWIX
+
+
+SECTION ALLOCATION MAP
+
+ output                                  attributes/
+section   page    origin      length       input sections
+--------  ----  ----------  ----------   ----------------
+.text      0    00000000    000008e0     
+                  00000000    000002a0     main.obj (.text)
+                  000002a0    00000240     rts6700.lib : memcpy62.obj (.text:_memcpy)
+                  000004e0    00000100                 : autoinit.obj (.text:__auto_init)
+                  000005e0    000000e0                 : exit.obj (.text:_exit)
+                  000006c0    000000c0                 : cpy_tbl.obj (.text:_copy_in)
+                  00000780    00000080                 : cpp_init.obj (.text:___TI_cpp_init)
+                  00000800    00000080                 : boot.obj (.text:_c_int00)
+                  00000880    00000040                 : args_main.obj (.text:__args_main)
+                  000008c0    00000020                 : exit.obj (.text:_abort)
+
+.bss       0    00000000    00000000     UNINITIALIZED
+
+.data      0    00000000    00000000     UNINITIALIZED
+
+.pinit     0    00000000    00000000     UNINITIALIZED
+
+.stack     0    000008e0    00000800     UNINITIALIZED
+                  000008e0    00000008     rts6700.lib : boot.obj (.stack)
+                  000008e8    000007f8     --HOLE--
+
+.far       0    000010e0    00000080     UNINITIALIZED
+                  000010e0    00000074     main.obj (.far)
+                  00001154    0000000c     rts6700.lib : exit.obj (.far)
+
+.cinit     0    00001160    00000074     
+                  00001160    0000003c     main.obj (.cinit)
+                  0000119c    00000004     --HOLE-- [fill = 0]
+                  000011a0    0000002c     rts6700.lib : exit.obj (.cinit)
+                  000011cc    00000004     --HOLE-- [fill = 0]
+                  000011d0    00000004     (.pad.cinit) [fill = 0]
+
+
+GLOBAL SYMBOLS: SORTED ALPHABETICALLY BY Name 
+
+address    name
+--------   ----
+00000000   $bss
+00000000   .bss
+00000000   .data
+00000000   .text
+000008c0   C$$EXIT
+0000110c   _AIC_data
+UNDEFED    _CSL6713_LIB_
+UNDEFED    _DSK6713_AIC23_codecdatahandle
+UNDEFED    _DSK6713_AIC23_openCodec
+UNDEFED    _DSK6713_init
+UNDEFED    _MCBSP_read
+UNDEFED    _MCBSP_rrdy
+UNDEFED    _MCBSP_write
+UNDEFED    _MCBSP_xrdy
+UNDEFED    __CSL_init
+000010e0   __STACK_END
+00000800   __STACK_SIZE
+00000001   __TI_args_main
+00000780   ___TI_cpp_init
+0000115c   ___TI_enable_exit_profile_output
+ffffffff   ___TI_pprof_out_hndl
+ffffffff   ___TI_prof_data_size
+ffffffff   ___TI_prof_data_start
+ffffffff   ___binit__
+00000000   ___bss__
+ffffffff   ___c_args__
+00001160   ___cinit__
+00000000   ___data__
+00000000   ___edata__
+00000000   ___end__
+000008e0   ___etext__
+ffffffff   ___pinit__
+00000000   ___text__
+00000880   __args_main
+000004e0   __auto_init
+00001154   __cleanup_ptr
+00001158   __dtors_ptr
+000008e0   __stack
+000008c0   _abort
+00001110   _buff
+00000800   _c_int00
+000010e0   _config1
+000006c0   _copy_in
+000005e0   _exit
+00001108   _hCodec
+000001e4   _input_sample
+00001150   _j
+00000048   _main
+000002a0   _memcpy
+00000128   _output_sample
+ffffffff   binit
+00001160   cinit
+00000000   edata
+00000000   end
+000008e0   etext
+ffffffff   pinit
+
+
+GLOBAL SYMBOLS: SORTED BY Symbol Address 
+
+address    name
+--------   ----
+00000000   $bss
+00000000   .bss
+00000000   .data
+00000000   .text
+00000000   ___bss__
+00000000   ___data__
+00000000   ___edata__
+00000000   ___end__
+00000000   ___text__
+00000000   edata
+00000000   end
+00000001   __TI_args_main
+00000048   _main
+00000128   _output_sample
+000001e4   _input_sample
+000002a0   _memcpy
+000004e0   __auto_init
+000005e0   _exit
+000006c0   _copy_in
+00000780   ___TI_cpp_init
+00000800   __STACK_SIZE
+00000800   _c_int00
+00000880   __args_main
+000008c0   C$$EXIT
+000008c0   _abort
+000008e0   ___etext__
+000008e0   __stack
+000008e0   etext
+000010e0   __STACK_END
+000010e0   _config1
+00001108   _hCodec
+0000110c   _AIC_data
+00001110   _buff
+00001150   _j
+00001154   __cleanup_ptr
+00001158   __dtors_ptr
+0000115c   ___TI_enable_exit_profile_output
+00001160   ___cinit__
+00001160   cinit
+ffffffff   ___TI_pprof_out_hndl
+ffffffff   ___TI_prof_data_size
+ffffffff   ___TI_prof_data_start
+ffffffff   ___binit__
+ffffffff   ___c_args__
+ffffffff   ___pinit__
+ffffffff   binit
+ffffffff   pinit
+UNDEFED    _CSL6713_LIB_
+UNDEFED    _DSK6713_AIC23_codecdatahandle
+UNDEFED    _DSK6713_AIC23_openCodec
+UNDEFED    _DSK6713_init
+UNDEFED    _MCBSP_read
+UNDEFED    _MCBSP_rrdy
+UNDEFED    _MCBSP_write
+UNDEFED    _MCBSP_xrdy
+UNDEFED    __CSL_init
+
+[56 symbols]

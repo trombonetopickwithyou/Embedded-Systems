@@ -1,0 +1,1 @@
+-l"./emptycfg.cmd" "./main.obj" "./emptycfg_c.obj" "./emptycfg.obj" -l"libc.a" 

@@ -1,0 +1,27 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+OUT_SRCS += \
+../grant/test\ workspace\ v6\ 6713\ MAIN/089\ BSL\ AUDIO\ polled\ output\ only/Debug/060\ BSL\ AUDIO\ INT.out \
+../grant/test\ workspace\ v6\ 6713\ MAIN/089\ BSL\ AUDIO\ polled\ output\ only/Debug/060\ BSL\ AUDIO.out \
+../grant/test\ workspace\ v6\ 6713\ MAIN/089\ BSL\ AUDIO\ polled\ output\ only/Debug/070\ BSL\ AUDIO.out \
+../grant/test\ workspace\ v6\ 6713\ MAIN/089\ BSL\ AUDIO\ polled\ output\ only/Debug/090\ BSL\ AUDIO\ ugly.out 
+
+OBJ_SRCS += \
+../grant/test\ workspace\ v6\ 6713\ MAIN/089\ BSL\ AUDIO\ polled\ output\ only/Debug/Vectors_poll.obj 
+
+OPT_SRCS += \
+../grant/test\ workspace\ v6\ 6713\ MAIN/089\ BSL\ AUDIO\ polled\ output\ only/Debug/ccsObjs.opt 
+
+OUT_SRCS__QUOTED += \
+"../grant/test workspace v6 6713 MAIN/089 BSL AUDIO polled output only/Debug/060 BSL AUDIO INT.out" \
+"../grant/test workspace v6 6713 MAIN/089 BSL AUDIO polled output only/Debug/060 BSL AUDIO.out" \
+"../grant/test workspace v6 6713 MAIN/089 BSL AUDIO polled output only/Debug/070 BSL AUDIO.out" \
+"../grant/test workspace v6 6713 MAIN/089 BSL AUDIO polled output only/Debug/090 BSL AUDIO ugly.out" 
+
+OPT_SRCS__QUOTED += \
+"../grant/test workspace v6 6713 MAIN/089 BSL AUDIO polled output only/Debug/ccsObjs.opt" 
+
+

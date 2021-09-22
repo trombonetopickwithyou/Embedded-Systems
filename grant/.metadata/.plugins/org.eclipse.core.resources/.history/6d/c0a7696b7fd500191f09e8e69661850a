@@ -1,0 +1,55 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+CPP_SRCS += \
+../grant/dsk6713/examples/dsk6713/bios/bigTime/bigTime.cpp 
+
+CMD_SRCS += \
+../grant/dsk6713/examples/dsk6713/bios/bigTime/bigTimecfg.cmd 
+
+S62_SRCS += \
+../grant/dsk6713/examples/dsk6713/bios/bigTime/bigTimecfg.s62 
+
+C_SRCS += \
+../grant/dsk6713/examples/dsk6713/bios/bigTime/bigTimecfg_c.c 
+
+OBJS += \
+./grant/dsk6713/examples/dsk6713/bios/bigTime/bigTime.obj \
+./grant/dsk6713/examples/dsk6713/bios/bigTime/bigTimecfg.obj \
+./grant/dsk6713/examples/dsk6713/bios/bigTime/bigTimecfg_c.obj 
+
+S62_DEPS += \
+./grant/dsk6713/examples/dsk6713/bios/bigTime/bigTimecfg.pp 
+
+CPP_DEPS += \
+./grant/dsk6713/examples/dsk6713/bios/bigTime/bigTime.pp 
+
+C_DEPS += \
+./grant/dsk6713/examples/dsk6713/bios/bigTime/bigTimecfg_c.pp 
+
+CPP_DEPS__QUOTED += \
+"grant\dsk6713\examples\dsk6713\bios\bigTime\bigTime.pp" 
+
+C_DEPS__QUOTED += \
+"grant\dsk6713\examples\dsk6713\bios\bigTime\bigTimecfg_c.pp" 
+
+OBJS__QUOTED += \
+"grant\dsk6713\examples\dsk6713\bios\bigTime\bigTime.obj" \
+"grant\dsk6713\examples\dsk6713\bios\bigTime\bigTimecfg.obj" \
+"grant\dsk6713\examples\dsk6713\bios\bigTime\bigTimecfg_c.obj" 
+
+S62_DEPS__QUOTED += \
+"grant\dsk6713\examples\dsk6713\bios\bigTime\bigTimecfg.pp" 
+
+CPP_SRCS__QUOTED += \
+"../grant/dsk6713/examples/dsk6713/bios/bigTime/bigTime.cpp" 
+
+S62_SRCS__QUOTED += \
+"../grant/dsk6713/examples/dsk6713/bios/bigTime/bigTimecfg.s62" 
+
+C_SRCS__QUOTED += \
+"../grant/dsk6713/examples/dsk6713/bios/bigTime/bigTimecfg_c.c" 
+
+

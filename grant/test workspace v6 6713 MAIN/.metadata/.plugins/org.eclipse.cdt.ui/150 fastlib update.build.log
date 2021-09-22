@@ -1,0 +1,17 @@
+
+**** Build of configuration Debug for project 150 fastlib update ****
+
+"C:\\ti2\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../fastlib.c'
+'Invoking: C6000 Compiler'
+"C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="C:/Documents and Settings/One/Desktop/DT Docs/CCS/libraries/Fastlib/inc" --include_path="C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/include" --define=c6713 --display_error_number --diag_warning=225 --diag_wrap=off --printf_support=full --preproc_with_compile --preproc_dependency="fastlib.pp"  "../fastlib.c"
+'Finished building: ../fastlib.c'
+' '
+'Building target: 150 fastlib update.out'
+'Invoking: C6000 Linker'
+"C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/bin/cl6x" -mv6700 --abi=coffabi -g --define=c6713 --display_error_number --diag_warning=225 --diag_wrap=off --printf_support=full -z --stack_size=0x800 -m"150 fastlib update.map" --heap_size=0x800 -i"C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/lib" -i"C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/include" --reread_libs --priority --disable_auto_rts --warn_sections --display_error_number --diag_wrap=off --xml_link_info="150 fastlib update_linkInfo.xml" --rom_model -o "150 fastlib update.out"  "./fastlib.obj" "../C6713.cmd" -l"C:\Documents and Settings\One\Desktop\DT Docs\CCS\libraries\Fastlib\lib\c67xfastMath.lib" -l"libc.a" 
+<Linking>
+'Finished building target: 150 fastlib update.out'
+' '
+
+**** Build Finished ****

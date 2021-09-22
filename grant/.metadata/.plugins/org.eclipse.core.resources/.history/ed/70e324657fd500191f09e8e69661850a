@@ -1,0 +1,47 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+CMD_SRCS += \
+../grant/dsk6713/tutorial/dsk6713/semtest/semtestcfg.cmd 
+
+S62_SRCS += \
+../grant/dsk6713/tutorial/dsk6713/semtest/semtestcfg.s62 
+
+C_SRCS += \
+../grant/dsk6713/tutorial/dsk6713/semtest/semtest.c \
+../grant/dsk6713/tutorial/dsk6713/semtest/semtestcfg_c.c 
+
+OBJS += \
+./grant/dsk6713/tutorial/dsk6713/semtest/semtest.obj \
+./grant/dsk6713/tutorial/dsk6713/semtest/semtestcfg.obj \
+./grant/dsk6713/tutorial/dsk6713/semtest/semtestcfg_c.obj 
+
+S62_DEPS += \
+./grant/dsk6713/tutorial/dsk6713/semtest/semtestcfg.pp 
+
+C_DEPS += \
+./grant/dsk6713/tutorial/dsk6713/semtest/semtest.pp \
+./grant/dsk6713/tutorial/dsk6713/semtest/semtestcfg_c.pp 
+
+C_DEPS__QUOTED += \
+"grant\dsk6713\tutorial\dsk6713\semtest\semtest.pp" \
+"grant\dsk6713\tutorial\dsk6713\semtest\semtestcfg_c.pp" 
+
+OBJS__QUOTED += \
+"grant\dsk6713\tutorial\dsk6713\semtest\semtest.obj" \
+"grant\dsk6713\tutorial\dsk6713\semtest\semtestcfg.obj" \
+"grant\dsk6713\tutorial\dsk6713\semtest\semtestcfg_c.obj" 
+
+S62_DEPS__QUOTED += \
+"grant\dsk6713\tutorial\dsk6713\semtest\semtestcfg.pp" 
+
+C_SRCS__QUOTED += \
+"../grant/dsk6713/tutorial/dsk6713/semtest/semtest.c" \
+"../grant/dsk6713/tutorial/dsk6713/semtest/semtestcfg_c.c" 
+
+S62_SRCS__QUOTED += \
+"../grant/dsk6713/tutorial/dsk6713/semtest/semtestcfg.s62" 
+
+

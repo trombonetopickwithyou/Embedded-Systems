@@ -1,0 +1,22 @@
+
+**** Build of configuration Debug for project HW6 ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../main.c'
+'Invoking: C6000 Compiler'
+"C:/ti/ccsv6/tools/compiler/c6000_7.4.24/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="C:/ti/ccsv6/tools/compiler/c6000_7.4.24/include" --include_path="C:/ti/bios_5_42_01_09/packages/ti/bios/include" --include_path="D:/Embedded/libraries" --include_path="D:/Embedded/libraries/bios/include" --include_path="D:/Embedded/libraries/dsk6713/include" --define=c6713 --diag_wrap=off --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="main.pp"  "../main.c"
+"D:/Embedded/libraries/bios/include/csl_stdinc.h", line 47: warning #303-D: typedef name has already been declared (with same type)
+"D:/Embedded/libraries/bios/include/csl_stdinc.h", line 48: warning #303-D: typedef name has already been declared (with same type)
+"D:/Embedded/libraries/bios/include/csl_stdinc.h", line 49: warning #303-D: typedef name has already been declared (with same type)
+"D:/Embedded/libraries/bios/include/csl_stdinc.h", line 51: warning #303-D: typedef name has already been declared (with same type)
+"D:/Embedded/libraries/bios/include/csl_stdinc.h", line 52: warning #303-D: typedef name has already been declared (with same type)
+"D:/Embedded/libraries/bios/include/csl_stdinc.h", line 53: warning #303-D: typedef name has already been declared (with same type)
+"D:/Embedded/libraries/bios/include/csl_chiphal.h", line 263: fatal error #35: #error NO CHIP DEFINED (use -dCHIP_XXXX where XXXX is chip number, i.e. 6201)
+1 fatal error detected in the compilation of "../main.c".
+Compilation terminated.
+
+>> Compilation failure
+gmake: *** [main.obj] Error 1
+gmake: Target `all' not remade because of errors.
+
+**** Build Finished ****

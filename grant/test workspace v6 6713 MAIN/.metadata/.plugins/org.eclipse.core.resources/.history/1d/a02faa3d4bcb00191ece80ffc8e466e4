@@ -1,0 +1,19 @@
+/*
+ * main.c
+ */
+int main(void) {
+	int x = 5;
+
+char *ptr;
+char data;
+
+ptr = (volatile char *) 0x90080000;
+
+for(;;)
+{
+	data = *ptr;
+}
+
+
+	return x;
+}

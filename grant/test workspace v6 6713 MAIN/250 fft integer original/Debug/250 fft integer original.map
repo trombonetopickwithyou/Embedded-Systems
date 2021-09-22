@@ -1,0 +1,180 @@
+******************************************************************************
+               TMS320C6x Linker PC v7.4.7                      
+******************************************************************************
+>> Linked Wed Sep 04 10:40:23 2019
+
+OUTPUT FILE NAME:   <250 fft integer original.out>
+ENTRY POINT SYMBOL: "_c_int00"  address: 00003160
+
+
+MEMORY CONFIGURATION
+
+         name            origin    length      used     unused   attr    fill
+----------------------  --------  ---------  --------  --------  ----  --------
+  IRAM                  00000000   00030000  00003ac0  0002c540  RWIX
+  L2RAM                 00030000   00010000  00000000  00010000  RWIX
+  EMIFCE0               80000000   10000000  00000000  10000000  RWIX
+  EMIFCE1               90000000   10000000  00000000  10000000  RWIX
+  EMIFCE2               a0000000   10000000  00000000  10000000  RWIX
+  EMIFCE3               b0000000   10000000  00000000  10000000  RWIX
+
+
+SECTION ALLOCATION MAP
+
+ output                                  attributes/
+section   page    origin      length       input sections
+--------  ----  ----------  ----------   ----------------
+.bss       0    00000000    00000000     UNINITIALIZED
+
+.far       0    00000000    00001e0c     UNINITIALIZED
+                  00000000    00001e00     main.obj (.far)
+                  00001e00    0000000c     rts6700.lib : exit.obj (.far)
+
+.pinit     0    00000000    00000000     UNINITIALIZED
+
+.text      0    00001e20    00001420     
+                  00001e20    000006c0     dspfft.obj (.text)
+                  000024e0    000005a0     main.obj (.text)
+                  00002a80    00000240     rts6700.lib : memcpy62.obj (.text:_memcpy)
+                  00002cc0    00000180     c67xfastMath.lib : sindp.obj (.text)
+                  00002e40    00000100     rts6700.lib : autoinit.obj (.text:__auto_init)
+                  00002f40    000000e0                 : exit.obj (.text:_exit)
+                  00003020    000000c0                 : cpy_tbl.obj (.text:_copy_in)
+                  000030e0    00000080                 : cpp_init.obj (.text:___TI_cpp_init)
+                  00003160    00000080                 : boot.obj (.text:_c_int00)
+                  000031e0    00000040                 : args_main.obj (.text:__args_main)
+                  00003220    00000020                 : exit.obj (.text:_abort)
+
+.stack     0    00003240    00000800     UNINITIALIZED
+                  00003240    00000008     rts6700.lib : boot.obj (.stack)
+                  00003248    000007f8     --HOLE--
+
+.data      0    00003a40    00000060     
+                  00003a40    00000060     c67xfastMath.lib : sindp.obj (.data)
+
+.cinit     0    00003aa0    00000034     
+                  00003aa0    0000002c     rts6700.lib : exit.obj (.cinit)
+                  00003acc    00000004     --HOLE-- [fill = 0]
+                  00003ad0    00000004     (.pad.cinit) [fill = 0]
+
+
+GLOBAL SYMBOLS: SORTED ALPHABETICALLY BY Name 
+
+address    name
+--------   ----
+00000000   $bss
+00000000   .bss
+00003a40   .data
+00001e20   .text
+00003220   C$$EXIT
+00000500   _BITREV256
+000025c4   _ComplexFFT
+00000a00   _DATAIMAG
+00000600   _DATAREAL
+00003a40   _HPisdp
+00002754   _InitializeFFT
+00001a00   _TRANSIMAG
+00001600   _TRANSREAL
+00000000   _TWIDDLE256
+00001200   _XDATAIMAG
+00000e00   _XDATAREAL
+00003a40   __STACK_END
+00000800   __STACK_SIZE
+00000001   __TI_args_main
+000030e0   ___TI_cpp_init
+00001e08   ___TI_enable_exit_profile_output
+ffffffff   ___TI_pprof_out_hndl
+ffffffff   ___TI_prof_data_size
+ffffffff   ___TI_prof_data_start
+ffffffff   ___binit__
+00000000   ___bss__
+ffffffff   ___c_args__
+00003aa0   ___cinit__
+00003a40   ___data__
+00003aa0   ___edata__
+00000000   ___end__
+00003240   ___etext__
+ffffffff   ___pinit__
+00001e20   ___text__
+000031e0   __args_main
+00002e40   __auto_init
+00001e00   __cleanup_ptr
+00001e04   __dtors_ptr
+00003240   __stack
+00003220   _abort
+00003160   _c_int00
+00003020   _copy_in
+00001e20   _dfft
+00002f40   _exit
+000024e0   _main
+00002a80   _memcpy
+00002cdc   _sin
+00002cdc   _sindp
+ffffffff   binit
+00003aa0   cinit
+00003aa0   edata
+00000000   end
+00003240   etext
+ffffffff   pinit
+
+
+GLOBAL SYMBOLS: SORTED BY Symbol Address 
+
+address    name
+--------   ----
+00000000   $bss
+00000000   .bss
+00000000   _TWIDDLE256
+00000000   ___bss__
+00000000   ___end__
+00000000   end
+00000001   __TI_args_main
+00000500   _BITREV256
+00000600   _DATAREAL
+00000800   __STACK_SIZE
+00000a00   _DATAIMAG
+00000e00   _XDATAREAL
+00001200   _XDATAIMAG
+00001600   _TRANSREAL
+00001a00   _TRANSIMAG
+00001e00   __cleanup_ptr
+00001e04   __dtors_ptr
+00001e08   ___TI_enable_exit_profile_output
+00001e20   .text
+00001e20   ___text__
+00001e20   _dfft
+000024e0   _main
+000025c4   _ComplexFFT
+00002754   _InitializeFFT
+00002a80   _memcpy
+00002cdc   _sin
+00002cdc   _sindp
+00002e40   __auto_init
+00002f40   _exit
+00003020   _copy_in
+000030e0   ___TI_cpp_init
+00003160   _c_int00
+000031e0   __args_main
+00003220   C$$EXIT
+00003220   _abort
+00003240   ___etext__
+00003240   __stack
+00003240   etext
+00003a40   .data
+00003a40   _HPisdp
+00003a40   __STACK_END
+00003a40   ___data__
+00003aa0   ___cinit__
+00003aa0   ___edata__
+00003aa0   cinit
+00003aa0   edata
+ffffffff   ___TI_pprof_out_hndl
+ffffffff   ___TI_prof_data_size
+ffffffff   ___TI_prof_data_start
+ffffffff   ___binit__
+ffffffff   ___c_args__
+ffffffff   ___pinit__
+ffffffff   binit
+ffffffff   pinit
+
+[54 symbols]

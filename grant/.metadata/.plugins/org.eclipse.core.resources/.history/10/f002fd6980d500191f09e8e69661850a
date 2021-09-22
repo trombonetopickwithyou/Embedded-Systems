@@ -1,0 +1,61 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+CMD_SRCS += \
+../grant/dsk6713/tutorial/dsk6713/volume3/volumecfg.cmd 
+
+S62_SRCS += \
+../grant/dsk6713/tutorial/dsk6713/volume3/volumecfg.s62 
+
+ASM_SRCS += \
+../grant/dsk6713/tutorial/dsk6713/volume3/load.asm 
+
+C_SRCS += \
+../grant/dsk6713/tutorial/dsk6713/volume3/volume.c \
+../grant/dsk6713/tutorial/dsk6713/volume3/volumecfg_c.c 
+
+OBJS += \
+./grant/dsk6713/tutorial/dsk6713/volume3/load.obj \
+./grant/dsk6713/tutorial/dsk6713/volume3/volume.obj \
+./grant/dsk6713/tutorial/dsk6713/volume3/volumecfg.obj \
+./grant/dsk6713/tutorial/dsk6713/volume3/volumecfg_c.obj 
+
+S62_DEPS += \
+./grant/dsk6713/tutorial/dsk6713/volume3/volumecfg.pp 
+
+ASM_DEPS += \
+./grant/dsk6713/tutorial/dsk6713/volume3/load.pp 
+
+C_DEPS += \
+./grant/dsk6713/tutorial/dsk6713/volume3/volume.pp \
+./grant/dsk6713/tutorial/dsk6713/volume3/volumecfg_c.pp 
+
+C_DEPS__QUOTED += \
+"grant\dsk6713\tutorial\dsk6713\volume3\volume.pp" \
+"grant\dsk6713\tutorial\dsk6713\volume3\volumecfg_c.pp" 
+
+OBJS__QUOTED += \
+"grant\dsk6713\tutorial\dsk6713\volume3\load.obj" \
+"grant\dsk6713\tutorial\dsk6713\volume3\volume.obj" \
+"grant\dsk6713\tutorial\dsk6713\volume3\volumecfg.obj" \
+"grant\dsk6713\tutorial\dsk6713\volume3\volumecfg_c.obj" 
+
+S62_DEPS__QUOTED += \
+"grant\dsk6713\tutorial\dsk6713\volume3\volumecfg.pp" 
+
+ASM_DEPS__QUOTED += \
+"grant\dsk6713\tutorial\dsk6713\volume3\load.pp" 
+
+ASM_SRCS__QUOTED += \
+"../grant/dsk6713/tutorial/dsk6713/volume3/load.asm" 
+
+C_SRCS__QUOTED += \
+"../grant/dsk6713/tutorial/dsk6713/volume3/volume.c" \
+"../grant/dsk6713/tutorial/dsk6713/volume3/volumecfg_c.c" 
+
+S62_SRCS__QUOTED += \
+"../grant/dsk6713/tutorial/dsk6713/volume3/volumecfg.s62" 
+
+

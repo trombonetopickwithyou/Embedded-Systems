@@ -1,0 +1,36 @@
+
+**** Build of configuration Debug for project HW8 ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../josh_sem.tcf'
+'Invoking: TConf'
+"C:/ti/bios_5_42_01_09/xdctools/tconf" -b -Dconfig.importPath="C:/ti/bios_5_42_01_09/packages;" "../josh_sem.tcf"
+'Finished building: ../josh_sem.tcf'
+' '
+'Building file: josh_semcfg.s62'
+'Invoking: C6000 Compiler'
+"C:/ti/ccsv6/tools/compiler/c6000_7.4.7/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="C:/ti/ccsv6/tools/compiler/c6000_7.4.7/include" --include_path="D:/Embedded/libraries/dsk6713/include" --include_path="D:/Embedded/libraries/bios/include" --include_path="D:/Embedded/Projects/Homework_8/HW6/actualHomework_6/Debug" --include_path="C:/ti/bios_5_42_01_09/packages/ti/bios/include" --include_path="C:/ti/bios_5_42_01_09/packages/ti/rtdx/include/c6000" --define=c6713 --define=CHIP_6713 --diag_wrap=off --diag_warning=225 --display_error_number --mem_model:data=far --preproc_with_compile --preproc_dependency="josh_semcfg.pp"  "josh_semcfg.s62"
+'Finished building: josh_semcfg.s62'
+' '
+'Building file: josh_semcfg_c.c'
+'Invoking: C6000 Compiler'
+"C:/ti/ccsv6/tools/compiler/c6000_7.4.7/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="C:/ti/ccsv6/tools/compiler/c6000_7.4.7/include" --include_path="D:/Embedded/libraries/dsk6713/include" --include_path="D:/Embedded/libraries/bios/include" --include_path="D:/Embedded/Projects/Homework_8/HW6/actualHomework_6/Debug" --include_path="C:/ti/bios_5_42_01_09/packages/ti/bios/include" --include_path="C:/ti/bios_5_42_01_09/packages/ti/rtdx/include/c6000" --define=c6713 --define=CHIP_6713 --diag_wrap=off --diag_warning=225 --display_error_number --mem_model:data=far --preproc_with_compile --preproc_dependency="josh_semcfg_c.pp"  "josh_semcfg_c.c"
+'Finished building: josh_semcfg_c.c'
+' '
+'Building file: ../main.c'
+'Invoking: C6000 Compiler'
+"C:/ti/ccsv6/tools/compiler/c6000_7.4.7/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="C:/ti/ccsv6/tools/compiler/c6000_7.4.7/include" --include_path="D:/Embedded/libraries/dsk6713/include" --include_path="D:/Embedded/libraries/bios/include" --include_path="D:/Embedded/Projects/Homework_8/HW6/actualHomework_6/Debug" --include_path="C:/ti/bios_5_42_01_09/packages/ti/bios/include" --include_path="C:/ti/bios_5_42_01_09/packages/ti/rtdx/include/c6000" --define=c6713 --define=CHIP_6713 --diag_wrap=off --diag_warning=225 --display_error_number --mem_model:data=far --preproc_with_compile --preproc_dependency="main.pp"  "../main.c"
+"D:/Embedded/libraries/bios/include/csl_stdinc.h", line 47: warning #303-D: typedef name has already been declared (with same type)
+"D:/Embedded/libraries/bios/include/csl_stdinc.h", line 48: warning #303-D: typedef name has already been declared (with same type)
+
+"D:/Embedded/libraries/bios/include/csl_stdinc.h", line 49: warning #303-D: typedef name has already been declared (with same type)
+>> Compilation failure
+"D:/Embedded/libraries/bios/include/csl_stdinc.h", line 51: warning #303-D: typedef name has already been declared (with same type)
+"D:/Embedded/libraries/bios/include/csl_stdinc.h", line 52: warning #303-D: typedef name has already been declared (with same type)
+"D:/Embedded/libraries/bios/include/csl_stdinc.h", line 53: warning #303-D: typedef name has already been declared (with same type)
+"../main.c", line 212: error #20: identifier "vectors" is undefined
+1 error detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target `all' not remade because of errors.
+
+**** Build Finished ****

@@ -1,0 +1,28 @@
+utils.loadPlatform("ti.platforms.dsk6713");
+
+/* The following DSP/BIOS Features are enabled.  */
+//bios.enableRealTimeAnalysis(prog);
+//bios.enableRtdx(prog);
+bios.enableTskManager(prog);
+
+bios.GBL.BOARDNAME = "'C6713 DSK";
+bios.MEM.instance("IRAM").len = 0x00040000;
+bios.HWI.instance("HWI_INT8").fxn = prog.extern("c_int8");
+bios.HWI.instance("HWI_INT8").useDispatcher = 1;
+bios.GBL.ENABLEINST = 0;
+bios.GBL.ENABLEALLTRC = 0;
+bios.MEM.STACKSIZE = 0x0800;
+bios.TSK.create("TSK_ping");
+bios.TSK.create("TSK_pong");
+bios.SEM.create("SEM_qdma");
+bios.SEM.create("SEM_ping");
+bios.SEM.create("SEM_pong");
+bios.SEM.instance("SEM_qdma").count = 1;
+bios.TSK.instance("TSK_ping").fxn = prog.extern("TSK_ping_ftn");
+bios.TSK.instance("TSK_pong").fxn = prog.extern("TSK_pong_ftn");
+bios.TSK.instance("TSK_ping").stackSize = 2048;
+bios.TSK.instance("TSK_pong").stackSize = 2048;
+bios.GBL.INSTRUMENTED = 0;
+// !GRAPHICAL_CONFIG_TOOL_SCRIPT_INSERT_POINT!
+
+prog.gen();

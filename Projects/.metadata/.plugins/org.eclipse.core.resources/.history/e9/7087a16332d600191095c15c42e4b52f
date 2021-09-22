@@ -1,0 +1,295 @@
+/* ECE 5380 Homework 2
+ * Authors: Joshua Williams
+ * 			Connor Collins
+ *
+ * Project Description: This program interfaces with the
+ * Spectrum Digital TMS320C6713 DSK Board and the switches SW1
+ * to control the volume levels on the input audio.
+ */
+
+
+
+//-------------------------------------------------------------------
+#include "dsk6713.h"
+#include "dsk6713_dip.h"
+#include "dsk6713_led.h"
+#include "dsk6713_aic23.h"  	  						//codec-dsk support file
+
+/*
+#include <stdio.h>
+
+#include <csl.h>
+#include <csl_timer.h>
+#include <csl_irq.h>
+*/
+
+//-------------------------------------------------------------------
+//#define TIMER_CNT	20 /*max count value */
+//-------------------------------------------------------------------
+
+/*
+void TimerEventHandler(void);
+extern far void vectors();
+void init(void);
+*/
+
+//-------------------------------------------------------------------
+
+/*
+static TIMER_Handle hTimer1;
+static Uint32 TimerEventId;
+static volatile int cnt = 0;
+*/
+
+//-------------------------------------------------------------------
+
+
+// static Uint32 TimerControl = TIMER_CTL_RMK( /* Timer control register (CTL)*/
+//   TIMER_CTL_INVINP_NO, /* TINP inverter control(INVINP). Only affects operation
+// 					      if CLKSRC =0.
+//                            TIMER_CTL_INVINP_NO  - Uninverted TINP drives timer
+//                            TIMER_CTL_INVINP_YES - inverted TINP drives timer */
+
+//   TIMER_CTL_CLKSRC_CPUOVR4,/* Timer input clock source (CLKSRC)
+// 						   TIMER_CTL_CLKSRC_CPUOVR4 - CPU clock /4           */
+
+//   TIMER_CTL_CP_PULSE, /* Clock/pulse mode(CP)
+// 					       TIMER_CTL_CP_PULSE - Pulse mode.TSTAT is active one
+// 						        CPU clock after the timer reaches the timer
+// 								period.PWID determines when it goes inactive.*/
+
+//   TIMER_CTL_HLD_YES, /* Hold(HLD). Counter may be read or written regardless of
+// 					    HLD value.
+// 						   TIMER_CTL_HLD_YES - Counter is disabled and held in
+// 						        current value.
+// 						   TIMER_CTL_HLD_NO - COunter is allowed to count.   */
+
+//   TIMER_CTL_GO_NO,  Go bit(GO). Resets and starts the timer counter.
+// 				           TIMER_CTL_GO_NO - No effects on the timer.
+// 						   TIMER_CTL_GO_YES - if HLD =1, the counter register
+// 						        is zeroed and begins counting on next clock. 
+//   TIMER_CTL_PWID_ONE, /* Pulse width(PWID). Only used in pulse mode.
+// 					       TIMER_CTL_PWID_ONE - TSTAT goes inactive one timer
+// 						        input clock cycle after the timer counter value
+// 								equals the timer period value.
+//                            TIMER_CTL_PWID_TWO -  TSTAT goes inactive one timer
+// 						        input clock cycle after the timer counter value
+// 								equals the timer period value.               */
+
+//   TIMER_CTL_DATOUT_0, /* Data output (DATOUT).
+// 					       TIMER_CTL_DATOUT_0 - If FUNC  =0,the DATOUT is
+// 						        driven on TOUT.
+//                            TIMER_CTL_DATOUT_1 - If FUNC =1,The DATOUT is driven
+// 						        on TOUT after inversion by INVOUT.           */
+
+//   TIMER_CTL_INVOUT_NO, /* TOUT inverter control (INVOUT)
+// 					       TIMER_CTL_INVOUT_NO - Uninverted TSTAT drives TOUT
+// 						   TIMER_CTL_INVOUT_YES - Inverted TSTAT drives TOUT.*/
+//   TIMER_CTL_FUNC_GPIO /* Function of TOUT pin(FUNC).
+// 					       TIMER_CTL_FUNC_GPIO - TOU is a general purpose
+// 						        output pin
+//                            TIMER_CTL_FUNC_TOUT - TOUT is a timer output pin  */
+
+// );
+
+//-------------------------------------------------------------------
+DSK6713_AIC23_Config config1 = {
+	0x0017 , /* 0 Left line input channel volume */
+	0x0017 , /* 1 Right line input channel volume */
+	0x00F9 , /* 2 Left channel headphone volume */
+	0x00F9 , /* 3 Right channel headphone volume */
+	0x0011 , /* 4 Analog audio path control */
+	0x0000 , /* 5 Digital audio path control */
+	0x0000 , /* 6 Power down control */
+	0x0043 , /* 7 Digital audio interface format */
+	0x0081 , /* 8 Sample rate control (48 kHz) */
+	0x0001 /* 9 Digital interface activation */
+};
+
+DSK6713_AIC23_CodecHandle hCodec;
+
+union {
+	Uint32 uint;
+	short channel[2];
+	} AIC_data;
+
+//---------------------------------------------------------------------------------------------
+
+#define LEFT  1                  //data structure for union of 32-bit data
+#define RIGHT 0                  //into two 16-bit data
+
+//-------------------------------------------------------------------
+
+
+//-------------------------------------------------------------------
+void main(void);
+void output_sample(int out_data);
+Uint32 input_sample(void);
+
+unsigned int buff[16];
+//int j=0;						// universal counter of samples
+
+//-------------------------------------------------------------------
+
+//-------------------------------------------------------------------
+void main(void)
+{
+	volatile char i=0;							// local counter for buffer
+	CSL_init();
+	//init();
+	DSK6713_init();
+	DSK6713_DIP_init(); 	//initialize switches
+
+	//DSK6713_LED_init();		//initialize LEDs
+
+	hCodec = DSK6713_AIC23_openCodec(0, &config1);			// defaults to 16-bit frame.
+	//DSK6713_AIC23_setFreq(hCodec, DSK6713_AIC23_FREQ_44KHZ);
+
+
+//	* (volatile int *) 0x0190000C = 0x000000A0;				// prefer a double 16-bit frame
+//	* (volatile int *) 0x01900010 = 0x000000A0;
+
+	//TIMER_start(hTimer1);
+	
+	for(;;) // ever
+	{
+		
+		if(i==0)
+		{
+			//get the value off the switches 	(maybe try a more memory efficient way to grab these switches?)
+			volatile Uint16 sw_num = 8*DSK6713_DIP_get(3) + 4*DSK6713_DIP_get(2) + 2*DSK6713_DIP_get(1) + DSK6713_DIP_get(0);
+			
+			/* Set the codec output gain */
+			//SCALE DIFFERENTLY, LOGARITHMIC SCALING PERHAPS?
+			if (sw_num == 0)
+				DSK6713_AIC23_mute(hCodec, 1);
+			else
+			{
+				DSK6713_AIC23_mute(hCodec, 0);
+				DSK6713_AIC23_outGain(hCodec, 2*sw_num+90);
+			}
+		}
+		
+
+		//buff[i]= input_sample();
+		//output_sample(buff[i]);
+		i++;
+		//j++;
+		i &= 0xF;
+
+		output_sample(input_sample());
+	} // for(ever)
+
+} // void main(void)
+//-------------------------------------------------------------------
+
+//-------------------------------------------------------------------
+void output_sample(int out_data)    //for out to Left and Right channels
+{
+
+	AIC_data.uint=out_data;          //32-bit data -->data structure
+
+    while(!MCBSP_xrdy(DSK6713_AIC23_DATAHANDLE));//if ready to transmit
+
+    MCBSP_write(DSK6713_AIC23_DATAHANDLE, AIC_data.uint);//write/output data
+
+} // void output_sample(int out_data)
+//-------------------------------------------------------------------
+
+
+//-------------------------------------------------------------------
+Uint32 input_sample(void)                      	  	//for 32-bit input
+{
+	while(!MCBSP_rrdy(DSK6713_AIC23_DATAHANDLE));//if ready to receive
+
+	AIC_data.uint=MCBSP_read(DSK6713_AIC23_DATAHANDLE);//read data
+
+	return(AIC_data.uint);
+} // Uint32 input_sample(void)
+//-------------------------------------------------------------------
+
+// /*---------------------------------------------------------------------------------------------
+//  name:      TimerEventHandler
+
+//  purpose:   Function called from TIMER1 ISR. Just increments the count by
+//   			one each time it enters this function. Exit from the program
+//   			after certain count value is reached.
+
+//  inputs:    void
+
+//  returns:   void */
+// //---------------------------------------------------------------------------------------------
+// void TimerEventHandler(void)
+//  {
+
+
+//   /* process timer event here */
+//   cnt++;
+
+//   /* Exit from the program when certain count is reached */
+//   if (cnt > TIMER_CNT)
+//   {
+//       TIMER_pause(hTimer1);
+//       TIMER_close(hTimer1);
+//   }
+
+// } // TimerEventHandler
+
+// /*---------------------------------------------------------------------------------------------
+//  name:      Interrupt Service Routine c_int14
+
+//  purpose:   ISR to service TIMERINT1.
+//             vecs.asm must be modified to include
+//             c_int14 entry.
+
+//  inputs:    n/a
+
+//  returns:   n/a */
+// //---------------------------------------------------------------------------------------------
+// interrupt void
+// c_int14(void)
+// {
+//     TimerEventHandler();
+//     return;
+// } /* end c_int14 */
+
+
+// //---------------------------------------------------------------------------------------------
+// void init(void)
+// {
+// 	  /* Initialize the chip support library, must when using CSL */
+// 	  CSL_init();
+
+// 	  IRQ_globalDisable();           	    //disable interrupts while setting this timer up
+
+// 	  /* Open TIMER1 device, and reset them to power-on default state */
+// 	  hTimer1 = TIMER_open(TIMER_DEV1, TIMER_OPEN_RESET);
+
+// 	  /* Obtain the event ID for the timer device */
+// 	  TimerEventId = TIMER_getEventId(hTimer1);
+
+// 	  IRQ_setVecs(vectors);     /* point to the IRQ vector table	*/
+
+// 	  /* Map TIMER events to physical interrupt number */
+// 	  IRQ_map(TimerEventId, 14);
+
+// 	  /* Reset the timer events */
+// 	  IRQ_reset(TimerEventId);
+
+// 	  /* Configure the timer devices */
+// 	  TIMER_configArgs(hTimer1,
+// 	    TimerControl, /* use predefined control value  */
+// 	    0x00100000,   /* set period                    */
+// 	    0x00000000    /* start count value at zero     */
+// 	  );
+
+// 	  IRQ_globalEnable();       /* Globally enable interrupts       */
+// 	  IRQ_nmiEnable();          /* Enable NMI interrupt             */
+
+// 	  /* Enable the timer events(events are disabled while resetting) */
+// 	  IRQ_enable(TimerEventId);
+
+// } // void init
+// //---------------------------------------------------------------------------------------------
+
+// //------------------------------------------------------------------

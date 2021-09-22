@@ -1,0 +1,1 @@
+-l"./QDMAcfg.cmd" "./main.obj" "./dspfft.obj" "./QDMAcfg_c.obj" "./QDMAcfg.obj" -l"libc.a" -l"C:\Documents and Settings\One\Desktop\DT Docs\CCS\libraries\cslupdate\lib_3x\csl6713.lib" -l"C:\Documents and Settings\One\Desktop\DT Docs\CCS\libraries\Fastlib\lib\c67xfastMath.lib" 

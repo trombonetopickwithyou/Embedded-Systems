@@ -1,0 +1,69 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Each subdirectory must supply rules for building sources it contributes
+grant/dsk6713/tutorial/dsk6713/datedisplay/anothertestapp.obj: ../grant/dsk6713/tutorial/dsk6713/datedisplay/anothertestapp.c $(GEN_OPTS) $(GEN_HDRS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: C6000 Compiler'
+	"C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/bios/include" --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/dsk6713/include" --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/dsk6713/lib" --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/bios/lib" --define=c6713 --define=CHIP_6713 --display_error_number --diag_warning=225 --diag_wrap=off --mem_model:const=far --mem_model:data=far --preproc_with_compile --preproc_dependency="grant/dsk6713/tutorial/dsk6713/datedisplay/anothertestapp.pp" --obj_directory="grant/dsk6713/tutorial/dsk6713/datedisplay" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+grant/dsk6713/tutorial/dsk6713/datedisplay/averagevalue.obj: ../grant/dsk6713/tutorial/dsk6713/datedisplay/averagevalue.c $(GEN_OPTS) $(GEN_HDRS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: C6000 Compiler'
+	"C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/bios/include" --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/dsk6713/include" --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/dsk6713/lib" --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/bios/lib" --define=c6713 --define=CHIP_6713 --display_error_number --diag_warning=225 --diag_wrap=off --mem_model:const=far --mem_model:data=far --preproc_with_compile --preproc_dependency="grant/dsk6713/tutorial/dsk6713/datedisplay/averagevalue.pp" --obj_directory="grant/dsk6713/tutorial/dsk6713/datedisplay" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+grant/dsk6713/tutorial/dsk6713/datedisplay/maximumvalue.obj: ../grant/dsk6713/tutorial/dsk6713/datedisplay/maximumvalue.c $(GEN_OPTS) $(GEN_HDRS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: C6000 Compiler'
+	"C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/bios/include" --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/dsk6713/include" --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/dsk6713/lib" --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/bios/lib" --define=c6713 --define=CHIP_6713 --display_error_number --diag_warning=225 --diag_wrap=off --mem_model:const=far --mem_model:data=far --preproc_with_compile --preproc_dependency="grant/dsk6713/tutorial/dsk6713/datedisplay/maximumvalue.pp" --obj_directory="grant/dsk6713/tutorial/dsk6713/datedisplay" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+grant/dsk6713/tutorial/dsk6713/datedisplay/minimumvalue.obj: ../grant/dsk6713/tutorial/dsk6713/datedisplay/minimumvalue.c $(GEN_OPTS) $(GEN_HDRS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: C6000 Compiler'
+	"C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/bios/include" --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/dsk6713/include" --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/dsk6713/lib" --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/bios/lib" --define=c6713 --define=CHIP_6713 --display_error_number --diag_warning=225 --diag_wrap=off --mem_model:const=far --mem_model:data=far --preproc_with_compile --preproc_dependency="grant/dsk6713/tutorial/dsk6713/datedisplay/minimumvalue.pp" --obj_directory="grant/dsk6713/tutorial/dsk6713/datedisplay" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+grant/dsk6713/tutorial/dsk6713/datedisplay/testapp.obj: ../grant/dsk6713/tutorial/dsk6713/datedisplay/testapp.c $(GEN_OPTS) $(GEN_HDRS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: C6000 Compiler'
+	"C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/bios/include" --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/dsk6713/include" --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/dsk6713/lib" --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/bios/lib" --define=c6713 --define=CHIP_6713 --display_error_number --diag_warning=225 --diag_wrap=off --mem_model:const=far --mem_model:data=far --preproc_with_compile --preproc_dependency="grant/dsk6713/tutorial/dsk6713/datedisplay/testapp.pp" --obj_directory="grant/dsk6713/tutorial/dsk6713/datedisplay" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+grant/dsk6713/tutorial/dsk6713/datedisplay/testapp0.obj: ../grant/dsk6713/tutorial/dsk6713/datedisplay/testapp0.c $(GEN_OPTS) $(GEN_HDRS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: C6000 Compiler'
+	"C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/bios/include" --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/dsk6713/include" --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/dsk6713/lib" --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/bios/lib" --define=c6713 --define=CHIP_6713 --display_error_number --diag_warning=225 --diag_wrap=off --mem_model:const=far --mem_model:data=far --preproc_with_compile --preproc_dependency="grant/dsk6713/tutorial/dsk6713/datedisplay/testapp0.pp" --obj_directory="grant/dsk6713/tutorial/dsk6713/datedisplay" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+grant/dsk6713/tutorial/dsk6713/datedisplay/testapp1.obj: ../grant/dsk6713/tutorial/dsk6713/datedisplay/testapp1.c $(GEN_OPTS) $(GEN_HDRS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: C6000 Compiler'
+	"C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/bios/include" --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/dsk6713/include" --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/dsk6713/lib" --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/bios/lib" --define=c6713 --define=CHIP_6713 --display_error_number --diag_warning=225 --diag_wrap=off --mem_model:const=far --mem_model:data=far --preproc_with_compile --preproc_dependency="grant/dsk6713/tutorial/dsk6713/datedisplay/testapp1.pp" --obj_directory="grant/dsk6713/tutorial/dsk6713/datedisplay" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+grant/dsk6713/tutorial/dsk6713/datedisplay/usingcodemaestro.obj: ../grant/dsk6713/tutorial/dsk6713/datedisplay/usingcodemaestro.c $(GEN_OPTS) $(GEN_HDRS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: C6000 Compiler'
+	"C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/bios/include" --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/dsk6713/include" --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/dsk6713/lib" --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/bios/lib" --define=c6713 --define=CHIP_6713 --display_error_number --diag_warning=225 --diag_wrap=off --mem_model:const=far --mem_model:data=far --preproc_with_compile --preproc_dependency="grant/dsk6713/tutorial/dsk6713/datedisplay/usingcodemaestro.pp" --obj_directory="grant/dsk6713/tutorial/dsk6713/datedisplay" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+grant/dsk6713/tutorial/dsk6713/datedisplay/usingcolumnediting.obj: ../grant/dsk6713/tutorial/dsk6713/datedisplay/usingcolumnediting.c $(GEN_OPTS) $(GEN_HDRS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: C6000 Compiler'
+	"C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/bios/include" --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/dsk6713/include" --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/dsk6713/lib" --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/bios/lib" --define=c6713 --define=CHIP_6713 --display_error_number --diag_warning=225 --diag_wrap=off --mem_model:const=far --mem_model:data=far --preproc_with_compile --preproc_dependency="grant/dsk6713/tutorial/dsk6713/datedisplay/usingcolumnediting.pp" --obj_directory="grant/dsk6713/tutorial/dsk6713/datedisplay" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+

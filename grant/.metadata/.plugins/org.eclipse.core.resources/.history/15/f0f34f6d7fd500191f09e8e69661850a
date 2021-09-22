@@ -1,0 +1,72 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+CMD_SRCS += \
+../grant/dsk6713/bin/utilities/flashburn/c6000/dsk6713v2/BlinkDSK6713/FlashBlink_ahex.cmd \
+../grant/dsk6713/bin/utilities/flashburn/c6000/dsk6713v2/BlinkDSK6713/lnk.cmd 
+
+OUT_SRCS += \
+../grant/dsk6713/bin/utilities/flashburn/c6000/dsk6713v2/BlinkDSK6713/BlinkDSK6713.out 
+
+ASM_SRCS += \
+../grant/dsk6713/bin/utilities/flashburn/c6000/dsk6713v2/BlinkDSK6713/boot.asm 
+
+C_SRCS += \
+../grant/dsk6713/bin/utilities/flashburn/c6000/dsk6713v2/BlinkDSK6713/blink.c \
+../grant/dsk6713/bin/utilities/flashburn/c6000/dsk6713v2/BlinkDSK6713/cpld.c \
+../grant/dsk6713/bin/utilities/flashburn/c6000/dsk6713v2/BlinkDSK6713/emif.c \
+../grant/dsk6713/bin/utilities/flashburn/c6000/dsk6713v2/BlinkDSK6713/pll.c \
+../grant/dsk6713/bin/utilities/flashburn/c6000/dsk6713v2/BlinkDSK6713/timer.c 
+
+OBJS += \
+./grant/dsk6713/bin/utilities/flashburn/c6000/dsk6713v2/BlinkDSK6713/blink.obj \
+./grant/dsk6713/bin/utilities/flashburn/c6000/dsk6713v2/BlinkDSK6713/boot.obj \
+./grant/dsk6713/bin/utilities/flashburn/c6000/dsk6713v2/BlinkDSK6713/cpld.obj \
+./grant/dsk6713/bin/utilities/flashburn/c6000/dsk6713v2/BlinkDSK6713/emif.obj \
+./grant/dsk6713/bin/utilities/flashburn/c6000/dsk6713v2/BlinkDSK6713/pll.obj \
+./grant/dsk6713/bin/utilities/flashburn/c6000/dsk6713v2/BlinkDSK6713/timer.obj 
+
+ASM_DEPS += \
+./grant/dsk6713/bin/utilities/flashburn/c6000/dsk6713v2/BlinkDSK6713/boot.pp 
+
+C_DEPS += \
+./grant/dsk6713/bin/utilities/flashburn/c6000/dsk6713v2/BlinkDSK6713/blink.pp \
+./grant/dsk6713/bin/utilities/flashburn/c6000/dsk6713v2/BlinkDSK6713/cpld.pp \
+./grant/dsk6713/bin/utilities/flashburn/c6000/dsk6713v2/BlinkDSK6713/emif.pp \
+./grant/dsk6713/bin/utilities/flashburn/c6000/dsk6713v2/BlinkDSK6713/pll.pp \
+./grant/dsk6713/bin/utilities/flashburn/c6000/dsk6713v2/BlinkDSK6713/timer.pp 
+
+C_DEPS__QUOTED += \
+"grant\dsk6713\bin\utilities\flashburn\c6000\dsk6713v2\BlinkDSK6713\blink.pp" \
+"grant\dsk6713\bin\utilities\flashburn\c6000\dsk6713v2\BlinkDSK6713\cpld.pp" \
+"grant\dsk6713\bin\utilities\flashburn\c6000\dsk6713v2\BlinkDSK6713\emif.pp" \
+"grant\dsk6713\bin\utilities\flashburn\c6000\dsk6713v2\BlinkDSK6713\pll.pp" \
+"grant\dsk6713\bin\utilities\flashburn\c6000\dsk6713v2\BlinkDSK6713\timer.pp" 
+
+OBJS__QUOTED += \
+"grant\dsk6713\bin\utilities\flashburn\c6000\dsk6713v2\BlinkDSK6713\blink.obj" \
+"grant\dsk6713\bin\utilities\flashburn\c6000\dsk6713v2\BlinkDSK6713\boot.obj" \
+"grant\dsk6713\bin\utilities\flashburn\c6000\dsk6713v2\BlinkDSK6713\cpld.obj" \
+"grant\dsk6713\bin\utilities\flashburn\c6000\dsk6713v2\BlinkDSK6713\emif.obj" \
+"grant\dsk6713\bin\utilities\flashburn\c6000\dsk6713v2\BlinkDSK6713\pll.obj" \
+"grant\dsk6713\bin\utilities\flashburn\c6000\dsk6713v2\BlinkDSK6713\timer.obj" 
+
+ASM_DEPS__QUOTED += \
+"grant\dsk6713\bin\utilities\flashburn\c6000\dsk6713v2\BlinkDSK6713\boot.pp" 
+
+OUT_SRCS__QUOTED += \
+"../grant/dsk6713/bin/utilities/flashburn/c6000/dsk6713v2/BlinkDSK6713/BlinkDSK6713.out" 
+
+C_SRCS__QUOTED += \
+"../grant/dsk6713/bin/utilities/flashburn/c6000/dsk6713v2/BlinkDSK6713/blink.c" \
+"../grant/dsk6713/bin/utilities/flashburn/c6000/dsk6713v2/BlinkDSK6713/cpld.c" \
+"../grant/dsk6713/bin/utilities/flashburn/c6000/dsk6713v2/BlinkDSK6713/emif.c" \
+"../grant/dsk6713/bin/utilities/flashburn/c6000/dsk6713v2/BlinkDSK6713/pll.c" \
+"../grant/dsk6713/bin/utilities/flashburn/c6000/dsk6713v2/BlinkDSK6713/timer.c" 
+
+ASM_SRCS__QUOTED += \
+"../grant/dsk6713/bin/utilities/flashburn/c6000/dsk6713v2/BlinkDSK6713/boot.asm" 
+
+

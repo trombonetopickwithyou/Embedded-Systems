@@ -1,0 +1,48 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Each subdirectory must supply rules for building sources it contributes
+grant/dsk6713/bin/utilities/flashburn/c6000/dsk6713v2/BlinkDSK6713/blink.obj: ../grant/dsk6713/bin/utilities/flashburn/c6000/dsk6713v2/BlinkDSK6713/blink.c $(GEN_OPTS) $(GEN_HDRS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: C6000 Compiler'
+	"C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/bios/include" --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/dsk6713/include" --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/dsk6713/lib" --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/bios/lib" --define=c6713 --define=CHIP_6713 --display_error_number --diag_warning=225 --diag_wrap=off --mem_model:const=far --mem_model:data=far --preproc_with_compile --preproc_dependency="grant/dsk6713/bin/utilities/flashburn/c6000/dsk6713v2/BlinkDSK6713/blink.pp" --obj_directory="grant/dsk6713/bin/utilities/flashburn/c6000/dsk6713v2/BlinkDSK6713" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+grant/dsk6713/bin/utilities/flashburn/c6000/dsk6713v2/BlinkDSK6713/boot.obj: ../grant/dsk6713/bin/utilities/flashburn/c6000/dsk6713v2/BlinkDSK6713/boot.asm $(GEN_OPTS) $(GEN_HDRS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: C6000 Compiler'
+	"C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/bios/include" --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/dsk6713/include" --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/dsk6713/lib" --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/bios/lib" --define=c6713 --define=CHIP_6713 --display_error_number --diag_warning=225 --diag_wrap=off --mem_model:const=far --mem_model:data=far --preproc_with_compile --preproc_dependency="grant/dsk6713/bin/utilities/flashburn/c6000/dsk6713v2/BlinkDSK6713/boot.pp" --obj_directory="grant/dsk6713/bin/utilities/flashburn/c6000/dsk6713v2/BlinkDSK6713" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+grant/dsk6713/bin/utilities/flashburn/c6000/dsk6713v2/BlinkDSK6713/cpld.obj: ../grant/dsk6713/bin/utilities/flashburn/c6000/dsk6713v2/BlinkDSK6713/cpld.c $(GEN_OPTS) $(GEN_HDRS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: C6000 Compiler'
+	"C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/bios/include" --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/dsk6713/include" --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/dsk6713/lib" --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/bios/lib" --define=c6713 --define=CHIP_6713 --display_error_number --diag_warning=225 --diag_wrap=off --mem_model:const=far --mem_model:data=far --preproc_with_compile --preproc_dependency="grant/dsk6713/bin/utilities/flashburn/c6000/dsk6713v2/BlinkDSK6713/cpld.pp" --obj_directory="grant/dsk6713/bin/utilities/flashburn/c6000/dsk6713v2/BlinkDSK6713" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+grant/dsk6713/bin/utilities/flashburn/c6000/dsk6713v2/BlinkDSK6713/emif.obj: ../grant/dsk6713/bin/utilities/flashburn/c6000/dsk6713v2/BlinkDSK6713/emif.c $(GEN_OPTS) $(GEN_HDRS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: C6000 Compiler'
+	"C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/bios/include" --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/dsk6713/include" --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/dsk6713/lib" --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/bios/lib" --define=c6713 --define=CHIP_6713 --display_error_number --diag_warning=225 --diag_wrap=off --mem_model:const=far --mem_model:data=far --preproc_with_compile --preproc_dependency="grant/dsk6713/bin/utilities/flashburn/c6000/dsk6713v2/BlinkDSK6713/emif.pp" --obj_directory="grant/dsk6713/bin/utilities/flashburn/c6000/dsk6713v2/BlinkDSK6713" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+grant/dsk6713/bin/utilities/flashburn/c6000/dsk6713v2/BlinkDSK6713/pll.obj: ../grant/dsk6713/bin/utilities/flashburn/c6000/dsk6713v2/BlinkDSK6713/pll.c $(GEN_OPTS) $(GEN_HDRS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: C6000 Compiler'
+	"C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/bios/include" --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/dsk6713/include" --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/dsk6713/lib" --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/bios/lib" --define=c6713 --define=CHIP_6713 --display_error_number --diag_warning=225 --diag_wrap=off --mem_model:const=far --mem_model:data=far --preproc_with_compile --preproc_dependency="grant/dsk6713/bin/utilities/flashburn/c6000/dsk6713v2/BlinkDSK6713/pll.pp" --obj_directory="grant/dsk6713/bin/utilities/flashburn/c6000/dsk6713v2/BlinkDSK6713" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+grant/dsk6713/bin/utilities/flashburn/c6000/dsk6713v2/BlinkDSK6713/timer.obj: ../grant/dsk6713/bin/utilities/flashburn/c6000/dsk6713v2/BlinkDSK6713/timer.c $(GEN_OPTS) $(GEN_HDRS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: C6000 Compiler'
+	"C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/bios/include" --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/dsk6713/include" --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/dsk6713/lib" --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/bios/lib" --define=c6713 --define=CHIP_6713 --display_error_number --diag_warning=225 --diag_wrap=off --mem_model:const=far --mem_model:data=far --preproc_with_compile --preproc_dependency="grant/dsk6713/bin/utilities/flashburn/c6000/dsk6713v2/BlinkDSK6713/timer.pp" --obj_directory="grant/dsk6713/bin/utilities/flashburn/c6000/dsk6713v2/BlinkDSK6713" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+

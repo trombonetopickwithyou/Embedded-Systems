@@ -1,0 +1,21 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+OUT_SRCS += \
+../grant/test\ workspace\ v6\ 6713\ MAIN/210\ optimizer\ and\ debugging/Debug/210\ optimizer\ and\ debugging.out 
+
+OBJ_SRCS += \
+../grant/test\ workspace\ v6\ 6713\ MAIN/210\ optimizer\ and\ debugging/Debug/main.obj 
+
+OPT_SRCS += \
+../grant/test\ workspace\ v6\ 6713\ MAIN/210\ optimizer\ and\ debugging/Debug/ccsObjs.opt 
+
+OUT_SRCS__QUOTED += \
+"../grant/test workspace v6 6713 MAIN/210 optimizer and debugging/Debug/210 optimizer and debugging.out" 
+
+OPT_SRCS__QUOTED += \
+"../grant/test workspace v6 6713 MAIN/210 optimizer and debugging/Debug/ccsObjs.opt" 
+
+

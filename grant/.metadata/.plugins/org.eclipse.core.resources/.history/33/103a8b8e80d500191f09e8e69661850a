@@ -1,0 +1,47 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+CMD_SRCS += \
+../grant/dsk6713/examples/dsk6713/bios/slice/slicecfg.cmd 
+
+S62_SRCS += \
+../grant/dsk6713/examples/dsk6713/bios/slice/slicecfg.s62 
+
+C_SRCS += \
+../grant/dsk6713/examples/dsk6713/bios/slice/slice.c \
+../grant/dsk6713/examples/dsk6713/bios/slice/slicecfg_c.c 
+
+OBJS += \
+./grant/dsk6713/examples/dsk6713/bios/slice/slice.obj \
+./grant/dsk6713/examples/dsk6713/bios/slice/slicecfg.obj \
+./grant/dsk6713/examples/dsk6713/bios/slice/slicecfg_c.obj 
+
+S62_DEPS += \
+./grant/dsk6713/examples/dsk6713/bios/slice/slicecfg.pp 
+
+C_DEPS += \
+./grant/dsk6713/examples/dsk6713/bios/slice/slice.pp \
+./grant/dsk6713/examples/dsk6713/bios/slice/slicecfg_c.pp 
+
+C_DEPS__QUOTED += \
+"grant\dsk6713\examples\dsk6713\bios\slice\slice.pp" \
+"grant\dsk6713\examples\dsk6713\bios\slice\slicecfg_c.pp" 
+
+OBJS__QUOTED += \
+"grant\dsk6713\examples\dsk6713\bios\slice\slice.obj" \
+"grant\dsk6713\examples\dsk6713\bios\slice\slicecfg.obj" \
+"grant\dsk6713\examples\dsk6713\bios\slice\slicecfg_c.obj" 
+
+S62_DEPS__QUOTED += \
+"grant\dsk6713\examples\dsk6713\bios\slice\slicecfg.pp" 
+
+C_SRCS__QUOTED += \
+"../grant/dsk6713/examples/dsk6713/bios/slice/slice.c" \
+"../grant/dsk6713/examples/dsk6713/bios/slice/slicecfg_c.c" 
+
+S62_SRCS__QUOTED += \
+"../grant/dsk6713/examples/dsk6713/bios/slice/slicecfg.s62" 
+
+

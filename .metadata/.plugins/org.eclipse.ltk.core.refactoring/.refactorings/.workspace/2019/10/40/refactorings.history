@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;150 fastlib update&apos;" deleteContents="true" description="Delete resource &apos;150 fastlib update&apos;" element1="/150 fastlib update" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1570130962330"/>&#x0A;<refactoring comment="Delete resource &apos;180 fixed point math&apos;" deleteContents="true" description="Delete resource &apos;180 fixed point math&apos;" element1="/180 fixed point math" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1570131781653"/>
+</session>

@@ -1,0 +1,831 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+SHELL = cmd.exe
+
+CG_TOOL_ROOT := C:/ti2/ccsv6/tools/compiler/c6000_7.4.7
+
+GEN_OPTS__FLAG := 
+GEN_CMDS__FLAG := 
+
+ORDERED_OBJS += \
+"./main.obj" \
+"./grant/test workspace v6 6713 MAIN/260 fft integer/dspfft.obj" \
+"./grant/test workspace v6 6713 MAIN/260 fft integer/main.obj" \
+"../grant/test workspace v6 6713 MAIN/260 fft integer/Debug/dspfft.obj" \
+"../grant/test workspace v6 6713 MAIN/260 fft integer/Debug/main.obj" \
+"./grant/test workspace v6 6713 MAIN/250 fft integer original/dspfft.obj" \
+"./grant/test workspace v6 6713 MAIN/250 fft integer original/main.obj" \
+"../grant/test workspace v6 6713 MAIN/250 fft integer original/Debug/dspfft.obj" \
+"../grant/test workspace v6 6713 MAIN/250 fft integer original/Debug/main.obj" \
+"./grant/test workspace v6 6713 MAIN/240 rounding/main.obj" \
+"../grant/test workspace v6 6713 MAIN/240 rounding/Debug/main.obj" \
+"./grant/test workspace v6 6713 MAIN/230 qsort/main.obj" \
+"../grant/test workspace v6 6713 MAIN/230 qsort/Debug/main.obj" \
+"./grant/test workspace v6 6713 MAIN/220 BSL AUDIO EDMA triple optimized/edma.obj" \
+"./grant/test workspace v6 6713 MAIN/220 BSL AUDIO EDMA triple optimized/vectors_intr.obj" \
+"../grant/test workspace v6 6713 MAIN/220 BSL AUDIO EDMA triple optimized/Debug/edma.obj" \
+"../grant/test workspace v6 6713 MAIN/220 BSL AUDIO EDMA triple optimized/Debug/vectors_intr.obj" \
+"./grant/test workspace v6 6713 MAIN/210 optimizer and debugging/main.obj" \
+"../grant/test workspace v6 6713 MAIN/210 optimizer and debugging/Debug/main.obj" \
+"./grant/test workspace v6 6713 MAIN/200 2D array into function/main.obj" \
+"../grant/test workspace v6 6713 MAIN/200 2D array into function/Debug/main.obj" \
+"./grant/test workspace v6 6713 MAIN/190 DSP library and QDMA/main.obj" \
+"./grant/test workspace v6 6713 MAIN/190 DSP library and QDMA/vectors_intr.obj" \
+"../grant/test workspace v6 6713 MAIN/190 DSP library and QDMA/Debug/main.obj" \
+"../grant/test workspace v6 6713 MAIN/190 DSP library and QDMA/Debug/vectors_intr.obj" \
+"./grant/test workspace v6 6713 MAIN/180 fixed point math/lm.obj" \
+"../grant/test workspace v6 6713 MAIN/180 fixed point math/Debug/lm.obj" \
+"./grant/test workspace v6 6713 MAIN/170 fixed point math/fpmath.obj" \
+"../grant/test workspace v6 6713 MAIN/170 fixed point math/Debug/fpmath.obj" \
+"./grant/test workspace v6 6713 MAIN/160 saturated add/sadd.obj" \
+"../grant/test workspace v6 6713 MAIN/160 saturated add/Debug/sadd.obj" \
+"./grant/test workspace v6 6713 MAIN/150 fastlib update/fastlib.obj" \
+"../grant/test workspace v6 6713 MAIN/150 fastlib update/Debug/fastlib.obj" \
+"./grant/test workspace v6 6713 MAIN/149 fastlib old v/fastlib.obj" \
+"../grant/test workspace v6 6713 MAIN/149 fastlib old v/Debug/fastlib.obj" \
+"./grant/test workspace v6 6713 MAIN/140 shifting/main.obj" \
+"../grant/test workspace v6 6713 MAIN/140 shifting/Debug/main.obj" \
+"./grant/test workspace v6 6713 MAIN/130 BSL AUDIO EDMA triple/edma.obj" \
+"./grant/test workspace v6 6713 MAIN/130 BSL AUDIO EDMA triple/vectors_intr.obj" \
+"../grant/test workspace v6 6713 MAIN/130 BSL AUDIO EDMA triple/Debug/edma.obj" \
+"../grant/test workspace v6 6713 MAIN/130 BSL AUDIO EDMA triple/Debug/vectors_intr.obj" \
+"./grant/test workspace v6 6713 MAIN/120 BSL AUDIO EDMA/edma.obj" \
+"./grant/test workspace v6 6713 MAIN/120 BSL AUDIO EDMA/vectors_intr.obj" \
+"../grant/test workspace v6 6713 MAIN/120 BSL AUDIO EDMA/Debug/edma.obj" \
+"../grant/test workspace v6 6713 MAIN/120 BSL AUDIO EDMA/Debug/vectors_intr.obj" \
+"./grant/test workspace v6 6713 MAIN/110 BSL AUDIO INT/audio.9.19.obj" \
+"./grant/test workspace v6 6713 MAIN/110 BSL AUDIO INT/vectors_intr.obj" \
+"../grant/test workspace v6 6713 MAIN/110 BSL AUDIO INT/Debug/audio.9.19.obj" \
+"../grant/test workspace v6 6713 MAIN/110 BSL AUDIO INT/Debug/vectors_intr.obj" \
+"./grant/test workspace v6 6713 MAIN/100 BSL AUDIO/audio.obj" \
+"./grant/test workspace v6 6713 MAIN/100 BSL AUDIO/piano.obj" \
+"../grant/test workspace v6 6713 MAIN/100 BSL AUDIO/Debug/audio.obj" \
+"../grant/test workspace v6 6713 MAIN/100 BSL AUDIO/Debug/piano.obj" \
+"./grant/test workspace v6 6713 MAIN/089 BSL AUDIO polled output only/audio.obj" \
+"./grant/test workspace v6 6713 MAIN/089 BSL AUDIO polled output only/piano.obj" \
+"../grant/test workspace v6 6713 MAIN/089 BSL AUDIO polled output only/Debug/Vectors_poll.obj" \
+"./grant/test workspace v6 6713 MAIN/080 AUDIO register reads/main.obj" \
+"../grant/test workspace v6 6713 MAIN/080 AUDIO register reads/Debug/main.obj" \
+"./grant/test workspace v6 6713 MAIN/070 AUDIO/main.obj" \
+"../grant/test workspace v6 6713 MAIN/070 AUDIO/Debug/main.obj" \
+"./grant/test workspace v6 6713 MAIN/060 CSL BSL XINT/Vectors_intr4567.obj" \
+"./grant/test workspace v6 6713 MAIN/060 CSL BSL XINT/inter.obj" \
+"../grant/test workspace v6 6713 MAIN/060 CSL BSL XINT/Debug/Vectors_intr4567.obj" \
+"../grant/test workspace v6 6713 MAIN/060 CSL BSL XINT/Debug/inter.obj" \
+"./grant/test workspace v6 6713 MAIN/050 CSL TIMER_INT/main.obj" \
+"./grant/test workspace v6 6713 MAIN/050 CSL TIMER_INT/vecs_timer1.obj" \
+"../grant/test workspace v6 6713 MAIN/050 CSL TIMER_INT/Debug/main.obj" \
+"../grant/test workspace v6 6713 MAIN/050 CSL TIMER_INT/Debug/vecs_timer1.obj" \
+"./grant/test workspace v6 6713 MAIN/040 DIP_SW and LED/main.obj" \
+"../grant/test workspace v6 6713 MAIN/040 DIP_SW and LED/Debug/main.obj" \
+"./grant/test workspace v6 6713 MAIN/030 BSL/main.obj" \
+"../grant/test workspace v6 6713 MAIN/030 BSL/Debug/main.obj" \
+"./grant/test workspace v6 6713 MAIN/029 BSL/main.obj" \
+"./grant/test workspace v6 6713 MAIN/020 circular buffer/main.obj" \
+"../grant/test workspace v6 6713 MAIN/020 circular buffer/Debug/main.obj" \
+"./grant/test workspace v6 6713 MAIN/010 hello/main.obj" \
+"../grant/test workspace v6 6713 MAIN/010 hello/Debug/main.obj" \
+"./grant/test workspace v6 6713 MAIN/002 start/main.obj" \
+"./grant/test workspace v6 6713 MAIN/001 starting up/main.obj" \
+"../grant/test workspace v6 6713 MAIN/001 starting up/Debug/main.obj" \
+"./grant/dsk6713/tutorial/dsk6713/volume4/load.obj" \
+"./grant/dsk6713/tutorial/dsk6713/volume4/volume.obj" \
+"./grant/dsk6713/tutorial/dsk6713/volume4/volumecfg.obj" \
+"./grant/dsk6713/tutorial/dsk6713/volume4/volumecfg_c.obj" \
+"./grant/dsk6713/tutorial/dsk6713/volume3/load.obj" \
+"./grant/dsk6713/tutorial/dsk6713/volume3/volume.obj" \
+"./grant/dsk6713/tutorial/dsk6713/volume3/volumecfg.obj" \
+"./grant/dsk6713/tutorial/dsk6713/volume3/volumecfg_c.obj" \
+"./grant/dsk6713/tutorial/dsk6713/volume2/load.obj" \
+"./grant/dsk6713/tutorial/dsk6713/volume2/volume.obj" \
+"./grant/dsk6713/tutorial/dsk6713/volume2/volumecfg.obj" \
+"./grant/dsk6713/tutorial/dsk6713/volume2/volumecfg_c.obj" \
+"./grant/dsk6713/tutorial/dsk6713/volume1/load.obj" \
+"./grant/dsk6713/tutorial/dsk6713/volume1/vectors.obj" \
+"./grant/dsk6713/tutorial/dsk6713/volume1/volume.obj" \
+"./grant/dsk6713/tutorial/dsk6713/tsktest/tsktest.obj" \
+"./grant/dsk6713/tutorial/dsk6713/tsktest/tsktestcfg.obj" \
+"./grant/dsk6713/tutorial/dsk6713/tsktest/tsktestcfg_c.obj" \
+"./grant/dsk6713/tutorial/dsk6713/siotest/dgn_print.obj" \
+"./grant/dsk6713/tutorial/dsk6713/siotest/siotest1.obj" \
+"./grant/dsk6713/tutorial/dsk6713/siotest/siotest1cfg.obj" \
+"./grant/dsk6713/tutorial/dsk6713/siotest/siotest1cfg_c.obj" \
+"./grant/dsk6713/tutorial/dsk6713/siotest/siotest2.obj" \
+"./grant/dsk6713/tutorial/dsk6713/siotest/siotest2cfg.obj" \
+"./grant/dsk6713/tutorial/dsk6713/siotest/siotest2cfg_c.obj" \
+"./grant/dsk6713/tutorial/dsk6713/siotest/siotest3.obj" \
+"./grant/dsk6713/tutorial/dsk6713/siotest/siotest3cfg.obj" \
+"./grant/dsk6713/tutorial/dsk6713/siotest/siotest3cfg_c.obj" \
+"./grant/dsk6713/tutorial/dsk6713/siotest/siotest4.obj" \
+"./grant/dsk6713/tutorial/dsk6713/siotest/siotest4cfg.obj" \
+"./grant/dsk6713/tutorial/dsk6713/siotest/siotest4cfg_c.obj" \
+"./grant/dsk6713/tutorial/dsk6713/siotest/siotest5.obj" \
+"./grant/dsk6713/tutorial/dsk6713/siotest/siotest5cfg.obj" \
+"./grant/dsk6713/tutorial/dsk6713/siotest/siotest5cfg_c.obj" \
+"./grant/dsk6713/tutorial/dsk6713/sinewave/sine.obj" \
+"./grant/dsk6713/tutorial/dsk6713/semtest/semtest.obj" \
+"./grant/dsk6713/tutorial/dsk6713/semtest/semtestcfg.obj" \
+"./grant/dsk6713/tutorial/dsk6713/semtest/semtestcfg_c.obj" \
+"./grant/dsk6713/tutorial/dsk6713/mutex/mutex.obj" \
+"./grant/dsk6713/tutorial/dsk6713/mutex/mutexcfg.obj" \
+"./grant/dsk6713/tutorial/dsk6713/mutex/mutexcfg_c.obj" \
+"./grant/dsk6713/tutorial/dsk6713/modem/modemtx.obj" \
+"./grant/dsk6713/tutorial/dsk6713/modem/razed32.obj" \
+"./grant/dsk6713/tutorial/dsk6713/modem/sinetab.obj" \
+"./grant/dsk6713/tutorial/dsk6713/memtest/memtest.obj" \
+"./grant/dsk6713/tutorial/dsk6713/memtest/memtestcfg.obj" \
+"./grant/dsk6713/tutorial/dsk6713/memtest/memtestcfg_c.obj" \
+"./grant/dsk6713/tutorial/dsk6713/mbxtest/mbxtest.obj" \
+"./grant/dsk6713/tutorial/dsk6713/mbxtest/mbxtestcfg.obj" \
+"./grant/dsk6713/tutorial/dsk6713/mbxtest/mbxtestcfg_c.obj" \
+"./grant/dsk6713/tutorial/dsk6713/maxminmath/anothertestapp.obj" \
+"./grant/dsk6713/tutorial/dsk6713/maxminmath/averagevalue.obj" \
+"./grant/dsk6713/tutorial/dsk6713/maxminmath/maximumvalue.obj" \
+"./grant/dsk6713/tutorial/dsk6713/maxminmath/minimumvalue.obj" \
+"./grant/dsk6713/tutorial/dsk6713/maxminmath/testapp.obj" \
+"./grant/dsk6713/tutorial/dsk6713/maxminmath/testapp0.obj" \
+"./grant/dsk6713/tutorial/dsk6713/maxminmath/testapp1.obj" \
+"./grant/dsk6713/tutorial/dsk6713/hostio2/hostio.obj" \
+"./grant/dsk6713/tutorial/dsk6713/hostio2/hostiocfg.obj" \
+"./grant/dsk6713/tutorial/dsk6713/hostio2/hostiocfg_c.obj" \
+"./grant/dsk6713/tutorial/dsk6713/hostio1/hostio.obj" \
+"./grant/dsk6713/tutorial/dsk6713/hostio1/hostiocfg.obj" \
+"./grant/dsk6713/tutorial/dsk6713/hostio1/hostiocfg_c.obj" \
+"./grant/dsk6713/tutorial/dsk6713/hello2/hello.obj" \
+"./grant/dsk6713/tutorial/dsk6713/hello2/hellocfg.obj" \
+"./grant/dsk6713/tutorial/dsk6713/hello2/hellocfg_c.obj" \
+"./grant/dsk6713/tutorial/dsk6713/hello1/hello.obj" \
+"./grant/dsk6713/tutorial/dsk6713/hello1/vectors.obj" \
+"./grant/dsk6713/tutorial/dsk6713/gelsolid/multidspwelcome.obj" \
+"./grant/dsk6713/tutorial/dsk6713/gelsolid/welcometodsp.obj" \
+"./grant/dsk6713/tutorial/dsk6713/echo/echo.obj" \
+"./grant/dsk6713/tutorial/dsk6713/echo/echo_asm.obj" \
+"./grant/dsk6713/tutorial/dsk6713/echo/echocfg.obj" \
+"./grant/dsk6713/tutorial/dsk6713/echo/echocfg_c.obj" \
+"./grant/dsk6713/tutorial/dsk6713/datedisplay/anothertestapp.obj" \
+"./grant/dsk6713/tutorial/dsk6713/datedisplay/averagevalue.obj" \
+"./grant/dsk6713/tutorial/dsk6713/datedisplay/maximumvalue.obj" \
+"./grant/dsk6713/tutorial/dsk6713/datedisplay/minimumvalue.obj" \
+"./grant/dsk6713/tutorial/dsk6713/datedisplay/testapp.obj" \
+"./grant/dsk6713/tutorial/dsk6713/datedisplay/testapp0.obj" \
+"./grant/dsk6713/tutorial/dsk6713/datedisplay/testapp1.obj" \
+"./grant/dsk6713/tutorial/dsk6713/datedisplay/usingcodemaestro.obj" \
+"./grant/dsk6713/tutorial/dsk6713/datedisplay/usingcolumnediting.obj" \
+"./grant/dsk6713/lib/dsk6713bsl/dsk6713bsl/dsk6713.obj" \
+"./grant/dsk6713/lib/dsk6713bsl/dsk6713bsl/dsk6713_aic23_closecodec.obj" \
+"./grant/dsk6713/lib/dsk6713bsl/dsk6713bsl/dsk6713_aic23_loopback.obj" \
+"./grant/dsk6713/lib/dsk6713bsl/dsk6713bsl/dsk6713_aic23_mute.obj" \
+"./grant/dsk6713/lib/dsk6713bsl/dsk6713bsl/dsk6713_aic23_opencodec.obj" \
+"./grant/dsk6713/lib/dsk6713bsl/dsk6713bsl/dsk6713_aic23_outgain.obj" \
+"./grant/dsk6713/lib/dsk6713bsl/dsk6713bsl/dsk6713_aic23_powerdown.obj" \
+"./grant/dsk6713/lib/dsk6713bsl/dsk6713bsl/dsk6713_aic23_read.obj" \
+"./grant/dsk6713/lib/dsk6713bsl/dsk6713bsl/dsk6713_aic23_registers.obj" \
+"./grant/dsk6713/lib/dsk6713bsl/dsk6713bsl/dsk6713_aic23_setfreq.obj" \
+"./grant/dsk6713/lib/dsk6713bsl/dsk6713bsl/dsk6713_aic23_write.obj" \
+"./grant/dsk6713/lib/dsk6713bsl/dsk6713bsl/dsk6713_dip.obj" \
+"./grant/dsk6713/lib/dsk6713bsl/dsk6713bsl/dsk6713_flash_checksum.obj" \
+"./grant/dsk6713/lib/dsk6713bsl/dsk6713bsl/dsk6713_flash_erase.obj" \
+"./grant/dsk6713/lib/dsk6713bsl/dsk6713bsl/dsk6713_flash_read.obj" \
+"./grant/dsk6713/lib/dsk6713bsl/dsk6713bsl/dsk6713_flash_write.obj" \
+"./grant/dsk6713/lib/dsk6713bsl/dsk6713bsl/dsk6713_led.obj" \
+"./grant/dsk6713/examples/dsk6713/rtdx/t2h/t2h.obj" \
+"./grant/dsk6713/examples/dsk6713/rtdx/shared/intvecs.obj" \
+"./grant/dsk6713/examples/dsk6713/rtdx/h2t/h2t.obj" \
+"./grant/dsk6713/examples/dsk6713/bsl/tone/tone.obj" \
+"./grant/dsk6713/examples/dsk6713/bsl/tone/tonecfg.obj" \
+"./grant/dsk6713/examples/dsk6713/bsl/tone/tonecfg_c.obj" \
+"./grant/dsk6713/examples/dsk6713/bsl/post/boot.obj" \
+"./grant/dsk6713/examples/dsk6713/bsl/post/post.obj" \
+"./grant/dsk6713/examples/dsk6713/bsl/post/postcfg.obj" \
+"./grant/dsk6713/examples/dsk6713/bsl/post/postcfg_c.obj" \
+"./grant/dsk6713/examples/dsk6713/bsl/ledprd/ledprd.obj" \
+"./grant/dsk6713/examples/dsk6713/bsl/ledprd/ledprdcfg.obj" \
+"./grant/dsk6713/examples/dsk6713/bsl/ledprd/ledprdcfg_c.obj" \
+"./grant/dsk6713/examples/dsk6713/bsl/led/led.obj" \
+"./grant/dsk6713/examples/dsk6713/bsl/led/ledcfg.obj" \
+"./grant/dsk6713/examples/dsk6713/bsl/led/ledcfg_c.obj" \
+"./grant/dsk6713/examples/dsk6713/bsl/dsk_app/aic23.obj" \
+"./grant/dsk6713/examples/dsk6713/bsl/dsk_app/dsk_app.obj" \
+"./grant/dsk6713/examples/dsk6713/bsl/dsk_app/dsk_appcfg.obj" \
+"./grant/dsk6713/examples/dsk6713/bsl/dsk_app/dsk_appcfg_c.obj" \
+"./grant/dsk6713/examples/dsk6713/bios/switest/switest.obj" \
+"./grant/dsk6713/examples/dsk6713/bios/switest/switestcfg.obj" \
+"./grant/dsk6713/examples/dsk6713/bios/switest/switestcfg_c.obj" \
+"./grant/dsk6713/examples/dsk6713/bios/slice/slice.obj" \
+"./grant/dsk6713/examples/dsk6713/bios/slice/slicecfg.obj" \
+"./grant/dsk6713/examples/dsk6713/bios/slice/slicecfg_c.obj" \
+"./grant/dsk6713/examples/dsk6713/bios/quetest/quetest.obj" \
+"./grant/dsk6713/examples/dsk6713/bios/quetest/quetest1.obj" \
+"./grant/dsk6713/examples/dsk6713/bios/quetest/quetest1cfg.obj" \
+"./grant/dsk6713/examples/dsk6713/bios/quetest/quetest1cfg_c.obj" \
+"./grant/dsk6713/examples/dsk6713/bios/quetest/quetestcfg.obj" \
+"./grant/dsk6713/examples/dsk6713/bios/quetest/quetestcfg_c.obj" \
+"./grant/dsk6713/examples/dsk6713/bios/lattest/lattest.obj" \
+"./grant/dsk6713/examples/dsk6713/bios/lattest/lattestcfg.obj" \
+"./grant/dsk6713/examples/dsk6713/bios/lattest/lattestcfg_c.obj" \
+"./grant/dsk6713/examples/dsk6713/bios/copy/copy.obj" \
+"./grant/dsk6713/examples/dsk6713/bios/copy/copycfg.obj" \
+"./grant/dsk6713/examples/dsk6713/bios/copy/copycfg_c.obj" \
+"./grant/dsk6713/examples/dsk6713/bios/clktest/clktest.obj" \
+"./grant/dsk6713/examples/dsk6713/bios/clktest/clktestcfg.obj" \
+"./grant/dsk6713/examples/dsk6713/bios/clktest/clktestcfg_c.obj" \
+"./grant/dsk6713/examples/dsk6713/bios/bigTime/bigTime.obj" \
+"./grant/dsk6713/examples/dsk6713/bios/bigTime/bigTimecfg.obj" \
+"./grant/dsk6713/examples/dsk6713/bios/bigTime/bigTimecfg_c.obj" \
+"./grant/dsk6713/examples/dsk6713/bios/audio/dsk6713_codec_devParams.obj" \
+"./grant/dsk6713/examples/dsk6713/bios/audio/pip_audio.obj" \
+"./grant/dsk6713/examples/dsk6713/bios/audio/pip_audiocfg.obj" \
+"./grant/dsk6713/examples/dsk6713/bios/audio/pip_audiocfg_c.obj" \
+"./grant/dsk6713/examples/dsk6713/bios/audio/swi_audio.obj" \
+"./grant/dsk6713/examples/dsk6713/bios/audio/swi_audiocfg.obj" \
+"./grant/dsk6713/examples/dsk6713/bios/audio/swi_audiocfg_c.obj" \
+"./grant/dsk6713/examples/dsk6713/bios/audio/tsk_audio.obj" \
+"./grant/dsk6713/examples/dsk6713/bios/audio/tsk_audiocfg.obj" \
+"./grant/dsk6713/examples/dsk6713/bios/audio/tsk_audiocfg_c.obj" \
+"./grant/dsk6713/bin/utilities/flashburn/c6000/dsk6713v2/FBTC6713/FBCmd.obj" \
+"./grant/dsk6713/bin/utilities/flashburn/c6000/dsk6713v2/FBTC6713/FBTC6713.obj" \
+"./grant/dsk6713/bin/utilities/flashburn/c6000/dsk6713v2/FBTC6713/FBurnCmd.obj" \
+"./grant/dsk6713/bin/utilities/flashburn/c6000/dsk6713v2/BlinkDSK6713/blink.obj" \
+"./grant/dsk6713/bin/utilities/flashburn/c6000/dsk6713v2/BlinkDSK6713/boot.obj" \
+"./grant/dsk6713/bin/utilities/flashburn/c6000/dsk6713v2/BlinkDSK6713/cpld.obj" \
+"./grant/dsk6713/bin/utilities/flashburn/c6000/dsk6713v2/BlinkDSK6713/emif.obj" \
+"./grant/dsk6713/bin/utilities/flashburn/c6000/dsk6713v2/BlinkDSK6713/pll.obj" \
+"./grant/dsk6713/bin/utilities/flashburn/c6000/dsk6713v2/BlinkDSK6713/timer.obj" \
+"../C6713.cmd" \
+"../grant/test workspace v6 6713 MAIN/260 fft integer/C6713.cmd" \
+"../grant/test workspace v6 6713 MAIN/250 fft integer original/C6713.cmd" \
+"../grant/test workspace v6 6713 MAIN/240 rounding/C6713.cmd" \
+"../grant/test workspace v6 6713 MAIN/230 qsort/C6713.cmd" \
+"../grant/test workspace v6 6713 MAIN/220 BSL AUDIO EDMA triple optimized/C6713dsk_flash.cmd" \
+"../grant/test workspace v6 6713 MAIN/210 optimizer and debugging/C6713.cmd" \
+"../grant/test workspace v6 6713 MAIN/200 2D array into function/C6713.cmd" \
+"../grant/test workspace v6 6713 MAIN/190 DSP library and QDMA/C6713.cmd" \
+"../grant/test workspace v6 6713 MAIN/180 fixed point math/C6713.cmd" \
+"../grant/test workspace v6 6713 MAIN/170 fixed point math/C6713.cmd" \
+"../grant/test workspace v6 6713 MAIN/160 saturated add/C6713.cmd" \
+"../grant/test workspace v6 6713 MAIN/150 fastlib update/C6713.cmd" \
+"../grant/test workspace v6 6713 MAIN/149 fastlib old v/C6713.cmd" \
+"../grant/test workspace v6 6713 MAIN/140 shifting/C6713.cmd" \
+"../grant/test workspace v6 6713 MAIN/130 BSL AUDIO EDMA triple/C6713dsk_flash.cmd" \
+"../grant/test workspace v6 6713 MAIN/120 BSL AUDIO EDMA/C6713dsk_flash.cmd" \
+"../grant/test workspace v6 6713 MAIN/110 BSL AUDIO INT/C6713dsk_flash.cmd" \
+"../grant/test workspace v6 6713 MAIN/100 BSL AUDIO/C6713dsk.cmd" \
+"../grant/test workspace v6 6713 MAIN/089 BSL AUDIO polled output only/C6713dsk.cmd" \
+"../grant/test workspace v6 6713 MAIN/080 AUDIO register reads/C6713.cmd" \
+"../grant/test workspace v6 6713 MAIN/070 AUDIO/C6713.cmd" \
+"../grant/test workspace v6 6713 MAIN/060 CSL BSL XINT/C6713dsk_flash.cmd" \
+"../grant/test workspace v6 6713 MAIN/050 CSL TIMER_INT/C6713.cmd" \
+"../grant/test workspace v6 6713 MAIN/040 DIP_SW and LED/C6713.cmd" \
+"../grant/test workspace v6 6713 MAIN/030 BSL/C6713.cmd" \
+"../grant/test workspace v6 6713 MAIN/029 BSL/C6713.cmd" \
+"../grant/test workspace v6 6713 MAIN/020 circular buffer/C6713.cmd" \
+"../grant/test workspace v6 6713 MAIN/010 hello/C6713.cmd" \
+"../grant/test workspace v6 6713 MAIN/002 start/C6713.cmd" \
+"../grant/test workspace v6 6713 MAIN/001 starting up/C6713.cmd" \
+"../grant/dsk6713/tutorial/dsk6713/volume4/volumecfg.cmd" \
+"../grant/dsk6713/tutorial/dsk6713/volume3/volumecfg.cmd" \
+"../grant/dsk6713/tutorial/dsk6713/volume2/volumecfg.cmd" \
+"../grant/dsk6713/tutorial/dsk6713/volume1/volume.cmd" \
+"../grant/dsk6713/tutorial/dsk6713/tsktest/tsktestcfg.cmd" \
+"../grant/dsk6713/tutorial/dsk6713/siotest/siotest1cfg.cmd" \
+"../grant/dsk6713/tutorial/dsk6713/siotest/siotest2cfg.cmd" \
+"../grant/dsk6713/tutorial/dsk6713/siotest/siotest3cfg.cmd" \
+"../grant/dsk6713/tutorial/dsk6713/siotest/siotest4cfg.cmd" \
+"../grant/dsk6713/tutorial/dsk6713/siotest/siotest5cfg.cmd" \
+"../grant/dsk6713/tutorial/dsk6713/sinewave/sinewave.cmd" \
+"../grant/dsk6713/tutorial/dsk6713/semtest/semtestcfg.cmd" \
+"../grant/dsk6713/tutorial/dsk6713/mutex/mutexcfg.cmd" \
+"../grant/dsk6713/tutorial/dsk6713/modem/modem.cmd" \
+"../grant/dsk6713/tutorial/dsk6713/memtest/memtestcfg.cmd" \
+"../grant/dsk6713/tutorial/dsk6713/mbxtest/mbxtestcfg.cmd" \
+"../grant/dsk6713/tutorial/dsk6713/maxminmath/mainapplication.cmd" \
+"../grant/dsk6713/tutorial/dsk6713/maxminmath/maxminlibrary.cmd" \
+"../grant/dsk6713/tutorial/dsk6713/hostio2/hostiocfg.cmd" \
+"../grant/dsk6713/tutorial/dsk6713/hostio1/hostiocfg.cmd" \
+"../grant/dsk6713/tutorial/dsk6713/hello2/hellocfg.cmd" \
+"../grant/dsk6713/tutorial/dsk6713/hello1/hello.cmd" \
+"../grant/dsk6713/tutorial/dsk6713/gelsolid/gelsolid.cmd" \
+"../grant/dsk6713/tutorial/dsk6713/gelsolid/hellodsp.cmd" \
+"../grant/dsk6713/tutorial/dsk6713/echo/echocfg.cmd" \
+"../grant/dsk6713/tutorial/dsk6713/datedisplay/mainapplication.cmd" \
+"../grant/dsk6713/lib/dsk6713bsl.lib" \
+"../grant/dsk6713/lib/dsk6713bsl/dsk6713bsl/Debug/dsk6713bsl.lib" \
+"../grant/dsk6713/examples/dsk6713/rtdx/shared/c6713dsk.cmd" \
+"../grant/dsk6713/examples/dsk6713/bsl/tone/tonecfg.cmd" \
+"../grant/dsk6713/examples/dsk6713/bsl/post/post_hex.cmd" \
+"../grant/dsk6713/examples/dsk6713/bsl/post/postcfg.cmd" \
+"../grant/dsk6713/examples/dsk6713/bsl/post/userlinker.cmd" \
+"../grant/dsk6713/examples/dsk6713/bsl/ledprd/ledprdcfg.cmd" \
+"../grant/dsk6713/examples/dsk6713/bsl/led/ledcfg.cmd" \
+"../grant/dsk6713/examples/dsk6713/bsl/dsk_app/dsk_appcfg.cmd" \
+"../grant/dsk6713/examples/dsk6713/bios/switest/switestcfg.cmd" \
+"../grant/dsk6713/examples/dsk6713/bios/slice/slicecfg.cmd" \
+"../grant/dsk6713/examples/dsk6713/bios/quetest/quetest1cfg.cmd" \
+"../grant/dsk6713/examples/dsk6713/bios/quetest/quetestcfg.cmd" \
+"../grant/dsk6713/examples/dsk6713/bios/lattest/lattestcfg.cmd" \
+"../grant/dsk6713/examples/dsk6713/bios/copy/copycfg.cmd" \
+"../grant/dsk6713/examples/dsk6713/bios/clktest/clktestcfg.cmd" \
+"../grant/dsk6713/examples/dsk6713/bios/bigTime/bigTimecfg.cmd" \
+"../grant/dsk6713/examples/dsk6713/bios/audio/pip_audio.cmd" \
+"../grant/dsk6713/examples/dsk6713/bios/audio/pip_audiocfg.cmd" \
+"../grant/dsk6713/examples/dsk6713/bios/audio/swi_audio.cmd" \
+"../grant/dsk6713/examples/dsk6713/bios/audio/swi_audiocfg.cmd" \
+"../grant/dsk6713/examples/dsk6713/bios/audio/tsk_audio.cmd" \
+"../grant/dsk6713/examples/dsk6713/bios/audio/tsk_audiocfg.cmd" \
+"../grant/dsk6713/c6000/dsk6713/lib/dsk6713bsl.lib" \
+"../grant/dsk6713/c6000/bios/lib/csl6201.lib" \
+"../grant/dsk6713/c6000/bios/lib/csl6201e.lib" \
+"../grant/dsk6713/c6000/bios/lib/csl6202.lib" \
+"../grant/dsk6713/c6000/bios/lib/csl6202e.lib" \
+"../grant/dsk6713/c6000/bios/lib/csl6203.lib" \
+"../grant/dsk6713/c6000/bios/lib/csl6203e.lib" \
+"../grant/dsk6713/c6000/bios/lib/csl6204.lib" \
+"../grant/dsk6713/c6000/bios/lib/csl6204e.lib" \
+"../grant/dsk6713/c6000/bios/lib/csl6205.lib" \
+"../grant/dsk6713/c6000/bios/lib/csl6205e.lib" \
+"../grant/dsk6713/c6000/bios/lib/csl6211.lib" \
+"../grant/dsk6713/c6000/bios/lib/csl6211e.lib" \
+"../grant/dsk6713/c6000/bios/lib/csl6410.lib" \
+"../grant/dsk6713/c6000/bios/lib/csl6410e.lib" \
+"../grant/dsk6713/c6000/bios/lib/csl6411.lib" \
+"../grant/dsk6713/c6000/bios/lib/csl6411e.lib" \
+"../grant/dsk6713/c6000/bios/lib/csl6412.lib" \
+"../grant/dsk6713/c6000/bios/lib/csl6412e.lib" \
+"../grant/dsk6713/c6000/bios/lib/csl6413.lib" \
+"../grant/dsk6713/c6000/bios/lib/csl6413e.lib" \
+"../grant/dsk6713/c6000/bios/lib/csl6414.lib" \
+"../grant/dsk6713/c6000/bios/lib/csl6414e.lib" \
+"../grant/dsk6713/c6000/bios/lib/csl6415.lib" \
+"../grant/dsk6713/c6000/bios/lib/csl6415e.lib" \
+"../grant/dsk6713/c6000/bios/lib/csl6416.lib" \
+"../grant/dsk6713/c6000/bios/lib/csl6416e.lib" \
+"../grant/dsk6713/c6000/bios/lib/csl6418.lib" \
+"../grant/dsk6713/c6000/bios/lib/csl6418e.lib" \
+"../grant/dsk6713/c6000/bios/lib/csl6701.lib" \
+"../grant/dsk6713/c6000/bios/lib/csl6701e.lib" \
+"../grant/dsk6713/c6000/bios/lib/csl6711.lib" \
+"../grant/dsk6713/c6000/bios/lib/csl6711C.lib" \
+"../grant/dsk6713/c6000/bios/lib/csl6711Ce.lib" \
+"../grant/dsk6713/c6000/bios/lib/csl6711e.lib" \
+"../grant/dsk6713/c6000/bios/lib/csl6712.lib" \
+"../grant/dsk6713/c6000/bios/lib/csl6712C.lib" \
+"../grant/dsk6713/c6000/bios/lib/csl6712Ce.lib" \
+"../grant/dsk6713/c6000/bios/lib/csl6712e.lib" \
+"../grant/dsk6713/c6000/bios/lib/csl6713.lib" \
+"../grant/dsk6713/c6000/bios/lib/csl6713e.lib" \
+"../grant/dsk6713/c6000/bios/lib/cslDA610.lib" \
+"../grant/dsk6713/c6000/bios/lib/cslDA610e.lib" \
+"../grant/dsk6713/c6000/bios/lib/cslDM640.lib" \
+"../grant/dsk6713/c6000/bios/lib/cslDM640e.lib" \
+"../grant/dsk6713/c6000/bios/lib/cslDM641.lib" \
+"../grant/dsk6713/c6000/bios/lib/cslDM641e.lib" \
+"../grant/dsk6713/c6000/bios/lib/cslDM642.lib" \
+"../grant/dsk6713/c6000/bios/lib/cslDM642e.lib" \
+"../grant/dsk6713/bin/utilities/flashburn/c6000/dsk6713v2/FBTC6713/Link.cmd" \
+"../grant/dsk6713/bin/utilities/flashburn/c6000/dsk6713v2/BlinkDSK6713/FlashBlink_ahex.cmd" \
+"../grant/dsk6713/bin/utilities/flashburn/c6000/dsk6713v2/BlinkDSK6713/lnk.cmd" \
+$(GEN_CMDS__FLAG) \
+-l"libc.a" \
+-l"C:\Documents and Settings\One\Desktop\DT Docs\CCS\libraries\cslupdate\lib_3x\csl6713.lib" \
+-l"C:\Documents and Settings\One\Desktop\DT Docs\CCS\libraries\dsk6713\lib\dsk6713bsl.lib" \
+
+-include ../makefile.init
+
+RM := DEL /F
+RMDIR := RMDIR /S/Q
+
+# All of the sources participating in the build are defined here
+-include sources.mk
+-include subdir_vars.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/260\ fft\ integer/subdir_vars.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/260\ fft\ integer/Debug/subdir_vars.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/250\ fft\ integer\ original/subdir_vars.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/250\ fft\ integer\ original/Debug/subdir_vars.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/240\ rounding/subdir_vars.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/240\ rounding/Debug/subdir_vars.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/230\ qsort/subdir_vars.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/230\ qsort/Debug/subdir_vars.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/220\ BSL\ AUDIO\ EDMA\ triple\ optimized/subdir_vars.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/220\ BSL\ AUDIO\ EDMA\ triple\ optimized/Debug/subdir_vars.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/210\ optimizer\ and\ debugging/subdir_vars.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/210\ optimizer\ and\ debugging/Debug/subdir_vars.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/200\ 2D\ array\ into\ function/subdir_vars.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/200\ 2D\ array\ into\ function/Debug/subdir_vars.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/190\ DSP\ library\ and\ QDMA/subdir_vars.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/190\ DSP\ library\ and\ QDMA/Debug/subdir_vars.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/180\ fixed\ point\ math/subdir_vars.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/180\ fixed\ point\ math/Debug/subdir_vars.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/170\ fixed\ point\ math/subdir_vars.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/170\ fixed\ point\ math/Debug/subdir_vars.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/160\ saturated\ add/subdir_vars.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/160\ saturated\ add/Debug/subdir_vars.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/150\ fastlib\ update/subdir_vars.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/150\ fastlib\ update/Debug/subdir_vars.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/149\ fastlib\ old\ v/subdir_vars.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/149\ fastlib\ old\ v/Debug/subdir_vars.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/140\ shifting/subdir_vars.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/140\ shifting/Debug/subdir_vars.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/130\ BSL\ AUDIO\ EDMA\ triple/subdir_vars.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/130\ BSL\ AUDIO\ EDMA\ triple/Debug/subdir_vars.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/120\ BSL\ AUDIO\ EDMA/subdir_vars.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/120\ BSL\ AUDIO\ EDMA/Debug/subdir_vars.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/110\ BSL\ AUDIO\ INT/subdir_vars.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/110\ BSL\ AUDIO\ INT/Debug/subdir_vars.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/100\ BSL\ AUDIO/subdir_vars.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/100\ BSL\ AUDIO/Debug/subdir_vars.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/089\ BSL\ AUDIO\ polled\ output\ only/subdir_vars.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/089\ BSL\ AUDIO\ polled\ output\ only/Debug/subdir_vars.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/080\ AUDIO\ register\ reads/subdir_vars.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/080\ AUDIO\ register\ reads/Debug/subdir_vars.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/070\ AUDIO/subdir_vars.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/070\ AUDIO/Debug/subdir_vars.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/060\ CSL\ BSL\ XINT/subdir_vars.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/060\ CSL\ BSL\ XINT/Debug/subdir_vars.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/050\ CSL\ TIMER_INT/subdir_vars.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/050\ CSL\ TIMER_INT/Debug/subdir_vars.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/040\ DIP_SW\ and\ LED/subdir_vars.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/040\ DIP_SW\ and\ LED/Debug/subdir_vars.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/030\ BSL/subdir_vars.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/030\ BSL/Debug/subdir_vars.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/029\ BSL/subdir_vars.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/029\ BSL/Debug/subdir_vars.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/020\ circular\ buffer/subdir_vars.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/020\ circular\ buffer/Debug/subdir_vars.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/010\ hello/subdir_vars.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/010\ hello/Debug/subdir_vars.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/002\ start/subdir_vars.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/002\ start/Debug/subdir_vars.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/001\ starting\ up/subdir_vars.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/001\ starting\ up/Debug/subdir_vars.mk
+-include grant/dsk6713/tutorial/dsk6713/volume4/subdir_vars.mk
+-include grant/dsk6713/tutorial/dsk6713/volume4/Debug/subdir_vars.mk
+-include grant/dsk6713/tutorial/dsk6713/volume3/subdir_vars.mk
+-include grant/dsk6713/tutorial/dsk6713/volume3/Debug/subdir_vars.mk
+-include grant/dsk6713/tutorial/dsk6713/volume2/subdir_vars.mk
+-include grant/dsk6713/tutorial/dsk6713/volume2/Debug/subdir_vars.mk
+-include grant/dsk6713/tutorial/dsk6713/volume1/subdir_vars.mk
+-include grant/dsk6713/tutorial/dsk6713/volume1/Debug/subdir_vars.mk
+-include grant/dsk6713/tutorial/dsk6713/tsktest/subdir_vars.mk
+-include grant/dsk6713/tutorial/dsk6713/tsktest/Debug/subdir_vars.mk
+-include grant/dsk6713/tutorial/dsk6713/siotest/subdir_vars.mk
+-include grant/dsk6713/tutorial/dsk6713/siotest/Debug/subdir_vars.mk
+-include grant/dsk6713/tutorial/dsk6713/sinewave/subdir_vars.mk
+-include grant/dsk6713/tutorial/dsk6713/semtest/subdir_vars.mk
+-include grant/dsk6713/tutorial/dsk6713/semtest/Debug/subdir_vars.mk
+-include grant/dsk6713/tutorial/dsk6713/mutex/subdir_vars.mk
+-include grant/dsk6713/tutorial/dsk6713/mutex/Debug/subdir_vars.mk
+-include grant/dsk6713/tutorial/dsk6713/modem/subdir_vars.mk
+-include grant/dsk6713/tutorial/dsk6713/memtest/subdir_vars.mk
+-include grant/dsk6713/tutorial/dsk6713/memtest/Debug/subdir_vars.mk
+-include grant/dsk6713/tutorial/dsk6713/mbxtest/subdir_vars.mk
+-include grant/dsk6713/tutorial/dsk6713/mbxtest/Debug/subdir_vars.mk
+-include grant/dsk6713/tutorial/dsk6713/maxminmath/subdir_vars.mk
+-include grant/dsk6713/tutorial/dsk6713/hostio2/subdir_vars.mk
+-include grant/dsk6713/tutorial/dsk6713/hostio2/Debug/subdir_vars.mk
+-include grant/dsk6713/tutorial/dsk6713/hostio1/subdir_vars.mk
+-include grant/dsk6713/tutorial/dsk6713/hostio1/Debug/subdir_vars.mk
+-include grant/dsk6713/tutorial/dsk6713/hello2/subdir_vars.mk
+-include grant/dsk6713/tutorial/dsk6713/hello2/Debug/subdir_vars.mk
+-include grant/dsk6713/tutorial/dsk6713/hello1/subdir_vars.mk
+-include grant/dsk6713/tutorial/dsk6713/hello1/Debug/subdir_vars.mk
+-include grant/dsk6713/tutorial/dsk6713/gelsolid/subdir_vars.mk
+-include grant/dsk6713/tutorial/dsk6713/echo/subdir_vars.mk
+-include grant/dsk6713/tutorial/dsk6713/echo/Debug/subdir_vars.mk
+-include grant/dsk6713/tutorial/dsk6713/datedisplay/subdir_vars.mk
+-include grant/dsk6713/lib/subdir_vars.mk
+-include grant/dsk6713/lib/dsk6713bsl/dsk6713bsl/subdir_vars.mk
+-include grant/dsk6713/lib/dsk6713bsl/dsk6713bsl/Debug/subdir_vars.mk
+-include grant/dsk6713/examples/dsk6713/rtdx/t2h/subdir_vars.mk
+-include grant/dsk6713/examples/dsk6713/rtdx/shared/subdir_vars.mk
+-include grant/dsk6713/examples/dsk6713/rtdx/h2t/subdir_vars.mk
+-include grant/dsk6713/examples/dsk6713/bsl/tone/subdir_vars.mk
+-include grant/dsk6713/examples/dsk6713/bsl/tone/Debug/subdir_vars.mk
+-include grant/dsk6713/examples/dsk6713/bsl/post/subdir_vars.mk
+-include grant/dsk6713/examples/dsk6713/bsl/post/Debug/subdir_vars.mk
+-include grant/dsk6713/examples/dsk6713/bsl/ledprd/subdir_vars.mk
+-include grant/dsk6713/examples/dsk6713/bsl/ledprd/Debug/subdir_vars.mk
+-include grant/dsk6713/examples/dsk6713/bsl/led/subdir_vars.mk
+-include grant/dsk6713/examples/dsk6713/bsl/led/Debug/subdir_vars.mk
+-include grant/dsk6713/examples/dsk6713/bsl/dsk_app/subdir_vars.mk
+-include grant/dsk6713/examples/dsk6713/bsl/dsk_app/Debug/subdir_vars.mk
+-include grant/dsk6713/examples/dsk6713/bios/switest/subdir_vars.mk
+-include grant/dsk6713/examples/dsk6713/bios/switest/Debug/subdir_vars.mk
+-include grant/dsk6713/examples/dsk6713/bios/slice/subdir_vars.mk
+-include grant/dsk6713/examples/dsk6713/bios/slice/Debug/subdir_vars.mk
+-include grant/dsk6713/examples/dsk6713/bios/quetest/subdir_vars.mk
+-include grant/dsk6713/examples/dsk6713/bios/quetest/Debug/subdir_vars.mk
+-include grant/dsk6713/examples/dsk6713/bios/lattest/subdir_vars.mk
+-include grant/dsk6713/examples/dsk6713/bios/lattest/Debug/subdir_vars.mk
+-include grant/dsk6713/examples/dsk6713/bios/copy/subdir_vars.mk
+-include grant/dsk6713/examples/dsk6713/bios/copy/Debug/subdir_vars.mk
+-include grant/dsk6713/examples/dsk6713/bios/clktest/subdir_vars.mk
+-include grant/dsk6713/examples/dsk6713/bios/clktest/Debug/subdir_vars.mk
+-include grant/dsk6713/examples/dsk6713/bios/bigTime/subdir_vars.mk
+-include grant/dsk6713/examples/dsk6713/bios/bigTime/Debug/subdir_vars.mk
+-include grant/dsk6713/examples/dsk6713/bios/audio/subdir_vars.mk
+-include grant/dsk6713/examples/dsk6713/bios/audio/Debug/subdir_vars.mk
+-include grant/dsk6713/drivers/subdir_vars.mk
+-include grant/dsk6713/c6000/dsk6713/lib/subdir_vars.mk
+-include grant/dsk6713/c6000/bios/lib/subdir_vars.mk
+-include grant/dsk6713/bin/utilities/flashburn/c6000/dsk6713v2/subdir_vars.mk
+-include grant/dsk6713/bin/utilities/flashburn/c6000/dsk6713v2/FBTC6713/subdir_vars.mk
+-include grant/dsk6713/bin/utilities/flashburn/c6000/dsk6713v2/BlinkDSK6713/subdir_vars.mk
+-include subdir_rules.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/260\ fft\ integer/subdir_rules.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/260\ fft\ integer/Debug/subdir_rules.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/250\ fft\ integer\ original/subdir_rules.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/250\ fft\ integer\ original/Debug/subdir_rules.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/240\ rounding/subdir_rules.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/240\ rounding/Debug/subdir_rules.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/230\ qsort/subdir_rules.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/230\ qsort/Debug/subdir_rules.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/220\ BSL\ AUDIO\ EDMA\ triple\ optimized/subdir_rules.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/220\ BSL\ AUDIO\ EDMA\ triple\ optimized/Debug/subdir_rules.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/210\ optimizer\ and\ debugging/subdir_rules.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/210\ optimizer\ and\ debugging/Debug/subdir_rules.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/200\ 2D\ array\ into\ function/subdir_rules.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/200\ 2D\ array\ into\ function/Debug/subdir_rules.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/190\ DSP\ library\ and\ QDMA/subdir_rules.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/190\ DSP\ library\ and\ QDMA/Debug/subdir_rules.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/180\ fixed\ point\ math/subdir_rules.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/180\ fixed\ point\ math/Debug/subdir_rules.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/170\ fixed\ point\ math/subdir_rules.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/170\ fixed\ point\ math/Debug/subdir_rules.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/160\ saturated\ add/subdir_rules.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/160\ saturated\ add/Debug/subdir_rules.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/150\ fastlib\ update/subdir_rules.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/150\ fastlib\ update/Debug/subdir_rules.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/149\ fastlib\ old\ v/subdir_rules.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/149\ fastlib\ old\ v/Debug/subdir_rules.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/140\ shifting/subdir_rules.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/140\ shifting/Debug/subdir_rules.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/130\ BSL\ AUDIO\ EDMA\ triple/subdir_rules.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/130\ BSL\ AUDIO\ EDMA\ triple/Debug/subdir_rules.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/120\ BSL\ AUDIO\ EDMA/subdir_rules.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/120\ BSL\ AUDIO\ EDMA/Debug/subdir_rules.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/110\ BSL\ AUDIO\ INT/subdir_rules.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/110\ BSL\ AUDIO\ INT/Debug/subdir_rules.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/100\ BSL\ AUDIO/subdir_rules.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/100\ BSL\ AUDIO/Debug/subdir_rules.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/089\ BSL\ AUDIO\ polled\ output\ only/subdir_rules.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/089\ BSL\ AUDIO\ polled\ output\ only/Debug/subdir_rules.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/080\ AUDIO\ register\ reads/subdir_rules.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/080\ AUDIO\ register\ reads/Debug/subdir_rules.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/070\ AUDIO/subdir_rules.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/070\ AUDIO/Debug/subdir_rules.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/060\ CSL\ BSL\ XINT/subdir_rules.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/060\ CSL\ BSL\ XINT/Debug/subdir_rules.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/050\ CSL\ TIMER_INT/subdir_rules.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/050\ CSL\ TIMER_INT/Debug/subdir_rules.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/040\ DIP_SW\ and\ LED/subdir_rules.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/040\ DIP_SW\ and\ LED/Debug/subdir_rules.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/030\ BSL/subdir_rules.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/030\ BSL/Debug/subdir_rules.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/029\ BSL/subdir_rules.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/029\ BSL/Debug/subdir_rules.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/020\ circular\ buffer/subdir_rules.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/020\ circular\ buffer/Debug/subdir_rules.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/010\ hello/subdir_rules.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/010\ hello/Debug/subdir_rules.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/002\ start/subdir_rules.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/002\ start/Debug/subdir_rules.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/001\ starting\ up/subdir_rules.mk
+-include grant/test\ workspace\ v6\ 6713\ MAIN/001\ starting\ up/Debug/subdir_rules.mk
+-include grant/dsk6713/tutorial/dsk6713/volume4/subdir_rules.mk
+-include grant/dsk6713/tutorial/dsk6713/volume4/Debug/subdir_rules.mk
+-include grant/dsk6713/tutorial/dsk6713/volume3/subdir_rules.mk
+-include grant/dsk6713/tutorial/dsk6713/volume3/Debug/subdir_rules.mk
+-include grant/dsk6713/tutorial/dsk6713/volume2/subdir_rules.mk
+-include grant/dsk6713/tutorial/dsk6713/volume2/Debug/subdir_rules.mk
+-include grant/dsk6713/tutorial/dsk6713/volume1/subdir_rules.mk
+-include grant/dsk6713/tutorial/dsk6713/volume1/Debug/subdir_rules.mk
+-include grant/dsk6713/tutorial/dsk6713/tsktest/subdir_rules.mk
+-include grant/dsk6713/tutorial/dsk6713/tsktest/Debug/subdir_rules.mk
+-include grant/dsk6713/tutorial/dsk6713/siotest/subdir_rules.mk
+-include grant/dsk6713/tutorial/dsk6713/siotest/Debug/subdir_rules.mk
+-include grant/dsk6713/tutorial/dsk6713/sinewave/subdir_rules.mk
+-include grant/dsk6713/tutorial/dsk6713/semtest/subdir_rules.mk
+-include grant/dsk6713/tutorial/dsk6713/semtest/Debug/subdir_rules.mk
+-include grant/dsk6713/tutorial/dsk6713/mutex/subdir_rules.mk
+-include grant/dsk6713/tutorial/dsk6713/mutex/Debug/subdir_rules.mk
+-include grant/dsk6713/tutorial/dsk6713/modem/subdir_rules.mk
+-include grant/dsk6713/tutorial/dsk6713/memtest/subdir_rules.mk
+-include grant/dsk6713/tutorial/dsk6713/memtest/Debug/subdir_rules.mk
+-include grant/dsk6713/tutorial/dsk6713/mbxtest/subdir_rules.mk
+-include grant/dsk6713/tutorial/dsk6713/mbxtest/Debug/subdir_rules.mk
+-include grant/dsk6713/tutorial/dsk6713/maxminmath/subdir_rules.mk
+-include grant/dsk6713/tutorial/dsk6713/hostio2/subdir_rules.mk
+-include grant/dsk6713/tutorial/dsk6713/hostio2/Debug/subdir_rules.mk
+-include grant/dsk6713/tutorial/dsk6713/hostio1/subdir_rules.mk
+-include grant/dsk6713/tutorial/dsk6713/hostio1/Debug/subdir_rules.mk
+-include grant/dsk6713/tutorial/dsk6713/hello2/subdir_rules.mk
+-include grant/dsk6713/tutorial/dsk6713/hello2/Debug/subdir_rules.mk
+-include grant/dsk6713/tutorial/dsk6713/hello1/subdir_rules.mk
+-include grant/dsk6713/tutorial/dsk6713/hello1/Debug/subdir_rules.mk
+-include grant/dsk6713/tutorial/dsk6713/gelsolid/subdir_rules.mk
+-include grant/dsk6713/tutorial/dsk6713/echo/subdir_rules.mk
+-include grant/dsk6713/tutorial/dsk6713/echo/Debug/subdir_rules.mk
+-include grant/dsk6713/tutorial/dsk6713/datedisplay/subdir_rules.mk
+-include grant/dsk6713/lib/subdir_rules.mk
+-include grant/dsk6713/lib/dsk6713bsl/dsk6713bsl/subdir_rules.mk
+-include grant/dsk6713/lib/dsk6713bsl/dsk6713bsl/Debug/subdir_rules.mk
+-include grant/dsk6713/examples/dsk6713/rtdx/t2h/subdir_rules.mk
+-include grant/dsk6713/examples/dsk6713/rtdx/shared/subdir_rules.mk
+-include grant/dsk6713/examples/dsk6713/rtdx/h2t/subdir_rules.mk
+-include grant/dsk6713/examples/dsk6713/bsl/tone/subdir_rules.mk
+-include grant/dsk6713/examples/dsk6713/bsl/tone/Debug/subdir_rules.mk
+-include grant/dsk6713/examples/dsk6713/bsl/post/subdir_rules.mk
+-include grant/dsk6713/examples/dsk6713/bsl/post/Debug/subdir_rules.mk
+-include grant/dsk6713/examples/dsk6713/bsl/ledprd/subdir_rules.mk
+-include grant/dsk6713/examples/dsk6713/bsl/ledprd/Debug/subdir_rules.mk
+-include grant/dsk6713/examples/dsk6713/bsl/led/subdir_rules.mk
+-include grant/dsk6713/examples/dsk6713/bsl/led/Debug/subdir_rules.mk
+-include grant/dsk6713/examples/dsk6713/bsl/dsk_app/subdir_rules.mk
+-include grant/dsk6713/examples/dsk6713/bsl/dsk_app/Debug/subdir_rules.mk
+-include grant/dsk6713/examples/dsk6713/bios/switest/subdir_rules.mk
+-include grant/dsk6713/examples/dsk6713/bios/switest/Debug/subdir_rules.mk
+-include grant/dsk6713/examples/dsk6713/bios/slice/subdir_rules.mk
+-include grant/dsk6713/examples/dsk6713/bios/slice/Debug/subdir_rules.mk
+-include grant/dsk6713/examples/dsk6713/bios/quetest/subdir_rules.mk
+-include grant/dsk6713/examples/dsk6713/bios/quetest/Debug/subdir_rules.mk
+-include grant/dsk6713/examples/dsk6713/bios/lattest/subdir_rules.mk
+-include grant/dsk6713/examples/dsk6713/bios/lattest/Debug/subdir_rules.mk
+-include grant/dsk6713/examples/dsk6713/bios/copy/subdir_rules.mk
+-include grant/dsk6713/examples/dsk6713/bios/copy/Debug/subdir_rules.mk
+-include grant/dsk6713/examples/dsk6713/bios/clktest/subdir_rules.mk
+-include grant/dsk6713/examples/dsk6713/bios/clktest/Debug/subdir_rules.mk
+-include grant/dsk6713/examples/dsk6713/bios/bigTime/subdir_rules.mk
+-include grant/dsk6713/examples/dsk6713/bios/bigTime/Debug/subdir_rules.mk
+-include grant/dsk6713/examples/dsk6713/bios/audio/subdir_rules.mk
+-include grant/dsk6713/examples/dsk6713/bios/audio/Debug/subdir_rules.mk
+-include grant/dsk6713/drivers/subdir_rules.mk
+-include grant/dsk6713/c6000/dsk6713/lib/subdir_rules.mk
+-include grant/dsk6713/c6000/bios/lib/subdir_rules.mk
+-include grant/dsk6713/bin/utilities/flashburn/c6000/dsk6713v2/subdir_rules.mk
+-include grant/dsk6713/bin/utilities/flashburn/c6000/dsk6713v2/FBTC6713/subdir_rules.mk
+-include grant/dsk6713/bin/utilities/flashburn/c6000/dsk6713v2/BlinkDSK6713/subdir_rules.mk
+-include objects.mk
+
+ifneq ($(MAKECMDGOALS),clean)
+ifneq ($(strip $(S_DEPS)),)
+-include $(S_DEPS)
+endif
+ifneq ($(strip $(S_UPPER_DEPS)),)
+-include $(S_UPPER_DEPS)
+endif
+ifneq ($(strip $(S62_DEPS)),)
+-include $(S62_DEPS)
+endif
+ifneq ($(strip $(C64_DEPS)),)
+-include $(C64_DEPS)
+endif
+ifneq ($(strip $(ASM_DEPS)),)
+-include $(ASM_DEPS)
+endif
+ifneq ($(strip $(CC_DEPS)),)
+-include $(CC_DEPS)
+endif
+ifneq ($(strip $(S55_DEPS)),)
+-include $(S55_DEPS)
+endif
+ifneq ($(strip $(C67_DEPS)),)
+-include $(C67_DEPS)
+endif
+ifneq ($(strip $(CLA_DEPS)),)
+-include $(CLA_DEPS)
+endif
+ifneq ($(strip $(C??_DEPS)),)
+-include $(C??_DEPS)
+endif
+ifneq ($(strip $(CPP_DEPS)),)
+-include $(CPP_DEPS)
+endif
+ifneq ($(strip $(S??_DEPS)),)
+-include $(S??_DEPS)
+endif
+ifneq ($(strip $(C_DEPS)),)
+-include $(C_DEPS)
+endif
+ifneq ($(strip $(C62_DEPS)),)
+-include $(C62_DEPS)
+endif
+ifneq ($(strip $(CXX_DEPS)),)
+-include $(CXX_DEPS)
+endif
+ifneq ($(strip $(C++_DEPS)),)
+-include $(C++_DEPS)
+endif
+ifneq ($(strip $(ASM_UPPER_DEPS)),)
+-include $(ASM_UPPER_DEPS)
+endif
+ifneq ($(strip $(K_DEPS)),)
+-include $(K_DEPS)
+endif
+ifneq ($(strip $(C43_DEPS)),)
+-include $(C43_DEPS)
+endif
+ifneq ($(strip $(INO_DEPS)),)
+-include $(INO_DEPS)
+endif
+ifneq ($(strip $(S67_DEPS)),)
+-include $(S67_DEPS)
+endif
+ifneq ($(strip $(SA_DEPS)),)
+-include $(SA_DEPS)
+endif
+ifneq ($(strip $(S43_DEPS)),)
+-include $(S43_DEPS)
+endif
+ifneq ($(strip $(OPT_DEPS)),)
+-include $(OPT_DEPS)
+endif
+ifneq ($(strip $(PDE_DEPS)),)
+-include $(PDE_DEPS)
+endif
+ifneq ($(strip $(S64_DEPS)),)
+-include $(S64_DEPS)
+endif
+ifneq ($(strip $(C_UPPER_DEPS)),)
+-include $(C_UPPER_DEPS)
+endif
+ifneq ($(strip $(C55_DEPS)),)
+-include $(C55_DEPS)
+endif
+endif
+
+-include ../makefile.defs
+
+# Add inputs and outputs from these tool invocations to the build variables 
+EXE_OUTPUTS += \
+070\ AUDIO.out \
+
+EXE_OUTPUTS__QUOTED += \
+"070 AUDIO.out" \
+
+BIN_OUTPUTS += \
+070\ AUDIO.hex \
+
+BIN_OUTPUTS__QUOTED += \
+"070 AUDIO.hex" \
+
+
+# All Target
+all: 070\ AUDIO.out
+
+# Tool invocations
+070\ AUDIO.out: $(OBJS) $(CMD_SRCS) $(LIB_SRCS) $(GEN_CMDS)
+	@echo 'Building target: $@'
+	@echo 'Invoking: C6000 Linker'
+	@echo 'Flags: -mv6700 --abi=coffabi -g --define=c6713 --define=CHIP_6713 --display_error_number --diag_warning=225 --diag_wrap=off --mem_model:const=far --mem_model:data=far -z --stack_size=0x800 -m"070 AUDIO.map" --heap_size=0x800 -i"C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/lib" -i"C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/include" --reread_libs --verbose_diagnostics --warn_sections --display_error_number --issue_remarks --diag_wrap=off --xml_link_info="070 AUDIO_linkInfo.xml" --rom_model'
+	$(shell echo -mv6700 --abi=coffabi -g --define=c6713 --define=CHIP_6713 --display_error_number --diag_warning=225 --diag_wrap=off --mem_model:const=far --mem_model:data=far -z --stack_size=0x800 -m"070 AUDIO.map" --heap_size=0x800 -i"C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/lib" -i"C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/include" --reread_libs --verbose_diagnostics --warn_sections --display_error_number --issue_remarks --diag_wrap=off --xml_link_info="070 AUDIO_linkInfo.xml" --rom_model > "ccsLinker.opt")
+	$(shell type "ccsObjs.opt" >> "ccsLinker.opt")
+	"C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/bin/cl6x" -@"ccsLinker.opt" -o "070 AUDIO.out"
+	@echo 'Finished building target: $@'
+	@echo ' '
+
+070\ AUDIO.hex: $(EXE_OUTPUTS)
+	@echo 'Invoking: C6000 Hex Utility'
+	"C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/bin/hex6x"  -o "070 AUDIO.hex" $(EXE_OUTPUTS__QUOTED)
+	@echo 'Finished building: $@'
+	@echo ' '
+
+# Other Targets
+clean:
+	-$(RM) $(EXE_OUTPUTS__QUOTED)$(BIN_OUTPUTS__QUOTED)
+	-$(RM) "grant\dsk6713\examples\dsk6713\bios\bigTime\bigTime.pp" 
+	-$(RM) "grant\dsk6713\tutorial\dsk6713\echo\echo_asm.pp" "grant\dsk6713\examples\dsk6713\bios\audio\pip_audiocfg.pp" 
+	-$(RM) "main.pp" "grant\test workspace v6 6713 MAIN\260 fft integer\main.pp" "grant\test workspace v6 6713 MAIN\250 fft integer original\main.pp" "grant\test workspace v6 6713 MAIN\240 rounding\main.pp" "grant\test workspace v6 6713 MAIN\230 qsort\main.pp" "grant\test workspace v6 6713 MAIN\220 BSL AUDIO EDMA triple optimized\edma.pp" "grant\test workspace v6 6713 MAIN\210 optimizer and debugging\main.pp" "grant\test workspace v6 6713 MAIN\200 2D array into function\main.pp" "grant\test workspace v6 6713 MAIN\190 DSP library and QDMA\main.pp" "grant\test workspace v6 6713 MAIN\180 fixed point math\lm.pp" "grant\test workspace v6 6713 MAIN\170 fixed point math\fpmath.pp" "grant\test workspace v6 6713 MAIN\160 saturated add\sadd.pp" "grant\test workspace v6 6713 MAIN\150 fastlib update\fastlib.pp" "grant\test workspace v6 6713 MAIN\149 fastlib old v\fastlib.pp" "grant\test workspace v6 6713 MAIN\140 shifting\main.pp" "grant\test workspace v6 6713 MAIN\130 BSL AUDIO EDMA triple\edma.pp" "grant\test workspace v6 6713 MAIN\120 BSL AUDIO EDMA\edma.pp" 
+	-$(RM) "grant\test workspace v6 6713 MAIN\110 BSL AUDIO INT\audio.9.19.pp" "grant\test workspace v6 6713 MAIN\100 BSL AUDIO\audio.pp" "grant\test workspace v6 6713 MAIN\100 BSL AUDIO\piano.pp" "grant\test workspace v6 6713 MAIN\089 BSL AUDIO polled output only\audio.pp" "grant\test workspace v6 6713 MAIN\089 BSL AUDIO polled output only\piano.pp" "grant\test workspace v6 6713 MAIN\080 AUDIO register reads\main.pp" "grant\test workspace v6 6713 MAIN\070 AUDIO\main.pp" "grant\test workspace v6 6713 MAIN\060 CSL BSL XINT\inter.pp" "grant\test workspace v6 6713 MAIN\050 CSL TIMER_INT\main.pp" "grant\test workspace v6 6713 MAIN\040 DIP_SW and LED\main.pp" "grant\test workspace v6 6713 MAIN\030 BSL\main.pp" "grant\test workspace v6 6713 MAIN\029 BSL\main.pp" "grant\test workspace v6 6713 MAIN\020 circular buffer\main.pp" "grant\test workspace v6 6713 MAIN\010 hello\main.pp" "grant\test workspace v6 6713 MAIN\002 start\main.pp" "grant\test workspace v6 6713 MAIN\001 starting up\main.pp" "grant\dsk6713\tutorial\dsk6713\volume4\volume.pp" 
+	-$(RM) "grant\dsk6713\tutorial\dsk6713\volume4\volumecfg_c.pp" "grant\dsk6713\tutorial\dsk6713\volume3\volume.pp" "grant\dsk6713\tutorial\dsk6713\volume3\volumecfg_c.pp" "grant\dsk6713\tutorial\dsk6713\volume2\volume.pp" "grant\dsk6713\tutorial\dsk6713\volume2\volumecfg_c.pp" "grant\dsk6713\tutorial\dsk6713\volume1\volume.pp" "grant\dsk6713\tutorial\dsk6713\tsktest\tsktest.pp" "grant\dsk6713\tutorial\dsk6713\tsktest\tsktestcfg_c.pp" "grant\dsk6713\tutorial\dsk6713\siotest\dgn_print.pp" "grant\dsk6713\tutorial\dsk6713\siotest\siotest1.pp" "grant\dsk6713\tutorial\dsk6713\siotest\siotest1cfg_c.pp" "grant\dsk6713\tutorial\dsk6713\siotest\siotest2.pp" "grant\dsk6713\tutorial\dsk6713\siotest\siotest2cfg_c.pp" "grant\dsk6713\tutorial\dsk6713\siotest\siotest3.pp" "grant\dsk6713\tutorial\dsk6713\siotest\siotest3cfg_c.pp" "grant\dsk6713\tutorial\dsk6713\siotest\siotest4.pp" "grant\dsk6713\tutorial\dsk6713\siotest\siotest4cfg_c.pp" "grant\dsk6713\tutorial\dsk6713\siotest\siotest5.pp" "grant\dsk6713\tutorial\dsk6713\siotest\siotest5cfg_c.pp" 
+	-$(RM) "grant\dsk6713\tutorial\dsk6713\sinewave\sine.pp" "grant\dsk6713\tutorial\dsk6713\semtest\semtest.pp" "grant\dsk6713\tutorial\dsk6713\semtest\semtestcfg_c.pp" "grant\dsk6713\tutorial\dsk6713\mutex\mutex.pp" "grant\dsk6713\tutorial\dsk6713\mutex\mutexcfg_c.pp" "grant\dsk6713\tutorial\dsk6713\modem\modemtx.pp" "grant\dsk6713\tutorial\dsk6713\modem\razed32.pp" "grant\dsk6713\tutorial\dsk6713\modem\sinetab.pp" "grant\dsk6713\tutorial\dsk6713\memtest\memtest.pp" "grant\dsk6713\tutorial\dsk6713\memtest\memtestcfg_c.pp" "grant\dsk6713\tutorial\dsk6713\mbxtest\mbxtest.pp" "grant\dsk6713\tutorial\dsk6713\mbxtest\mbxtestcfg_c.pp" "grant\dsk6713\tutorial\dsk6713\maxminmath\anothertestapp.pp" "grant\dsk6713\tutorial\dsk6713\maxminmath\averagevalue.pp" "grant\dsk6713\tutorial\dsk6713\maxminmath\maximumvalue.pp" "grant\dsk6713\tutorial\dsk6713\maxminmath\minimumvalue.pp" "grant\dsk6713\tutorial\dsk6713\maxminmath\testapp.pp" "grant\dsk6713\tutorial\dsk6713\maxminmath\testapp0.pp" "grant\dsk6713\tutorial\dsk6713\maxminmath\testapp1.pp" 
+	-$(RM) "grant\dsk6713\tutorial\dsk6713\hostio2\hostio.pp" "grant\dsk6713\tutorial\dsk6713\hostio2\hostiocfg_c.pp" "grant\dsk6713\tutorial\dsk6713\hostio1\hostio.pp" "grant\dsk6713\tutorial\dsk6713\hostio1\hostiocfg_c.pp" "grant\dsk6713\tutorial\dsk6713\hello2\hello.pp" "grant\dsk6713\tutorial\dsk6713\hello2\hellocfg_c.pp" "grant\dsk6713\tutorial\dsk6713\hello1\hello.pp" "grant\dsk6713\tutorial\dsk6713\gelsolid\multidspwelcome.pp" "grant\dsk6713\tutorial\dsk6713\gelsolid\welcometodsp.pp" "grant\dsk6713\tutorial\dsk6713\echo\echo.pp" "grant\dsk6713\tutorial\dsk6713\echo\echocfg_c.pp" "grant\dsk6713\tutorial\dsk6713\datedisplay\anothertestapp.pp" "grant\dsk6713\tutorial\dsk6713\datedisplay\averagevalue.pp" "grant\dsk6713\tutorial\dsk6713\datedisplay\maximumvalue.pp" "grant\dsk6713\tutorial\dsk6713\datedisplay\minimumvalue.pp" "grant\dsk6713\tutorial\dsk6713\datedisplay\testapp.pp" "grant\dsk6713\tutorial\dsk6713\datedisplay\testapp0.pp" "grant\dsk6713\tutorial\dsk6713\datedisplay\testapp1.pp" "grant\dsk6713\tutorial\dsk6713\datedisplay\usingcodemaestro.pp" 
+	-$(RM) "grant\dsk6713\tutorial\dsk6713\datedisplay\usingcolumnediting.pp" "grant\dsk6713\lib\dsk6713bsl\dsk6713bsl\dsk6713.pp" "grant\dsk6713\lib\dsk6713bsl\dsk6713bsl\dsk6713_aic23_closecodec.pp" "grant\dsk6713\lib\dsk6713bsl\dsk6713bsl\dsk6713_aic23_loopback.pp" "grant\dsk6713\lib\dsk6713bsl\dsk6713bsl\dsk6713_aic23_mute.pp" "grant\dsk6713\lib\dsk6713bsl\dsk6713bsl\dsk6713_aic23_opencodec.pp" "grant\dsk6713\lib\dsk6713bsl\dsk6713bsl\dsk6713_aic23_outgain.pp" "grant\dsk6713\lib\dsk6713bsl\dsk6713bsl\dsk6713_aic23_powerdown.pp" "grant\dsk6713\lib\dsk6713bsl\dsk6713bsl\dsk6713_aic23_read.pp" "grant\dsk6713\lib\dsk6713bsl\dsk6713bsl\dsk6713_aic23_registers.pp" "grant\dsk6713\lib\dsk6713bsl\dsk6713bsl\dsk6713_aic23_setfreq.pp" "grant\dsk6713\lib\dsk6713bsl\dsk6713bsl\dsk6713_aic23_write.pp" "grant\dsk6713\lib\dsk6713bsl\dsk6713bsl\dsk6713_dip.pp" "grant\dsk6713\lib\dsk6713bsl\dsk6713bsl\dsk6713_flash_checksum.pp" "grant\dsk6713\lib\dsk6713bsl\dsk6713bsl\dsk6713_flash_erase.pp" "grant\dsk6713\lib\dsk6713bsl\dsk6713bsl\dsk6713_flash_read.pp" 
+	-$(RM) "grant\dsk6713\lib\dsk6713bsl\dsk6713bsl\dsk6713_flash_write.pp" "grant\dsk6713\lib\dsk6713bsl\dsk6713bsl\dsk6713_led.pp" "grant\dsk6713\examples\dsk6713\rtdx\t2h\t2h.pp" "grant\dsk6713\examples\dsk6713\rtdx\h2t\h2t.pp" "grant\dsk6713\examples\dsk6713\bsl\tone\tone.pp" "grant\dsk6713\examples\dsk6713\bsl\tone\tonecfg_c.pp" "grant\dsk6713\examples\dsk6713\bsl\post\post.pp" "grant\dsk6713\examples\dsk6713\bsl\post\postcfg_c.pp" "grant\dsk6713\examples\dsk6713\bsl\ledprd\ledprd.pp" "grant\dsk6713\examples\dsk6713\bsl\ledprd\ledprdcfg_c.pp" "grant\dsk6713\examples\dsk6713\bsl\led\led.pp" "grant\dsk6713\examples\dsk6713\bsl\led\ledcfg_c.pp" "grant\dsk6713\examples\dsk6713\bsl\dsk_app\aic23.pp" "grant\dsk6713\examples\dsk6713\bsl\dsk_app\dsk_app.pp" "grant\dsk6713\examples\dsk6713\bsl\dsk_app\dsk_appcfg_c.pp" "grant\dsk6713\examples\dsk6713\bios\switest\switest.pp" "grant\dsk6713\examples\dsk6713\bios\switest\switestcfg_c.pp" "grant\dsk6713\examples\dsk6713\bios\slice\slice.pp" "grant\dsk6713\examples\dsk6713\bios\slice\slicecfg_c.pp" 
+	-$(RM) "grant\dsk6713\examples\dsk6713\bios\quetest\quetest.pp" "grant\dsk6713\examples\dsk6713\bios\quetest\quetest1.pp" "grant\dsk6713\examples\dsk6713\bios\quetest\quetest1cfg_c.pp" "grant\dsk6713\examples\dsk6713\bios\quetest\quetestcfg_c.pp" "grant\dsk6713\examples\dsk6713\bios\lattest\lattest.pp" "grant\dsk6713\examples\dsk6713\bios\lattest\lattestcfg_c.pp" "grant\dsk6713\examples\dsk6713\bios\copy\copy.pp" "grant\dsk6713\examples\dsk6713\bios\copy\copycfg_c.pp" "grant\dsk6713\examples\dsk6713\bios\clktest\clktest.pp" "grant\dsk6713\examples\dsk6713\bios\clktest\clktestcfg_c.pp" "grant\dsk6713\examples\dsk6713\bios\bigTime\bigTimecfg_c.pp" "grant\dsk6713\examples\dsk6713\bios\audio\dsk6713_codec_devParams.pp" "grant\dsk6713\examples\dsk6713\bios\audio\pip_audio.pp" "grant\dsk6713\examples\dsk6713\bios\audio\pip_audiocfg_c.pp" "grant\dsk6713\examples\dsk6713\bios\audio\swi_audio.pp" "grant\dsk6713\examples\dsk6713\bios\audio\swi_audiocfg_c.pp" "grant\dsk6713\examples\dsk6713\bios\audio\tsk_audio.pp" 
+	-$(RM) "grant\dsk6713\examples\dsk6713\bios\audio\tsk_audiocfg_c.pp" "grant\dsk6713\bin\utilities\flashburn\c6000\dsk6713v2\FBTC6713\FBCmd.pp" "grant\dsk6713\bin\utilities\flashburn\c6000\dsk6713v2\FBTC6713\FBTC6713.pp" "grant\dsk6713\bin\utilities\flashburn\c6000\dsk6713v2\FBTC6713\FBurnCmd.pp" "grant\dsk6713\bin\utilities\flashburn\c6000\dsk6713v2\BlinkDSK6713\blink.pp" "grant\dsk6713\bin\utilities\flashburn\c6000\dsk6713v2\BlinkDSK6713\cpld.pp" "grant\dsk6713\bin\utilities\flashburn\c6000\dsk6713v2\BlinkDSK6713\emif.pp" "grant\dsk6713\bin\utilities\flashburn\c6000\dsk6713v2\BlinkDSK6713\pll.pp" "grant\dsk6713\bin\utilities\flashburn\c6000\dsk6713v2\BlinkDSK6713\timer.pp" 
+	-$(RM) "main.obj" "grant\test workspace v6 6713 MAIN\260 fft integer\dspfft.obj" "grant\test workspace v6 6713 MAIN\260 fft integer\main.obj" "grant\test workspace v6 6713 MAIN\250 fft integer original\dspfft.obj" "grant\test workspace v6 6713 MAIN\250 fft integer original\main.obj" "grant\test workspace v6 6713 MAIN\240 rounding\main.obj" "grant\test workspace v6 6713 MAIN\230 qsort\main.obj" "grant\test workspace v6 6713 MAIN\220 BSL AUDIO EDMA triple optimized\edma.obj" "grant\test workspace v6 6713 MAIN\220 BSL AUDIO EDMA triple optimized\vectors_intr.obj" "grant\test workspace v6 6713 MAIN\210 optimizer and debugging\main.obj" "grant\test workspace v6 6713 MAIN\200 2D array into function\main.obj" "grant\test workspace v6 6713 MAIN\190 DSP library and QDMA\main.obj" "grant\test workspace v6 6713 MAIN\190 DSP library and QDMA\vectors_intr.obj" "grant\test workspace v6 6713 MAIN\180 fixed point math\lm.obj" "grant\test workspace v6 6713 MAIN\170 fixed point math\fpmath.obj" "grant\test workspace v6 6713 MAIN\160 saturated add\sadd.obj" 
+	-$(RM) "grant\test workspace v6 6713 MAIN\150 fastlib update\fastlib.obj" "grant\test workspace v6 6713 MAIN\149 fastlib old v\fastlib.obj" "grant\test workspace v6 6713 MAIN\140 shifting\main.obj" "grant\test workspace v6 6713 MAIN\130 BSL AUDIO EDMA triple\edma.obj" "grant\test workspace v6 6713 MAIN\130 BSL AUDIO EDMA triple\vectors_intr.obj" "grant\test workspace v6 6713 MAIN\120 BSL AUDIO EDMA\edma.obj" "grant\test workspace v6 6713 MAIN\120 BSL AUDIO EDMA\vectors_intr.obj" "grant\test workspace v6 6713 MAIN\110 BSL AUDIO INT\audio.9.19.obj" "grant\test workspace v6 6713 MAIN\110 BSL AUDIO INT\vectors_intr.obj" "grant\test workspace v6 6713 MAIN\100 BSL AUDIO\audio.obj" "grant\test workspace v6 6713 MAIN\100 BSL AUDIO\piano.obj" "grant\test workspace v6 6713 MAIN\089 BSL AUDIO polled output only\audio.obj" "grant\test workspace v6 6713 MAIN\089 BSL AUDIO polled output only\piano.obj" "grant\test workspace v6 6713 MAIN\080 AUDIO register reads\main.obj" "grant\test workspace v6 6713 MAIN\070 AUDIO\main.obj" 
+	-$(RM) "grant\test workspace v6 6713 MAIN\060 CSL BSL XINT\Vectors_intr4567.obj" "grant\test workspace v6 6713 MAIN\060 CSL BSL XINT\inter.obj" "grant\test workspace v6 6713 MAIN\050 CSL TIMER_INT\main.obj" "grant\test workspace v6 6713 MAIN\050 CSL TIMER_INT\vecs_timer1.obj" "grant\test workspace v6 6713 MAIN\040 DIP_SW and LED\main.obj" "grant\test workspace v6 6713 MAIN\030 BSL\main.obj" "grant\test workspace v6 6713 MAIN\029 BSL\main.obj" "grant\test workspace v6 6713 MAIN\020 circular buffer\main.obj" "grant\test workspace v6 6713 MAIN\010 hello\main.obj" "grant\test workspace v6 6713 MAIN\002 start\main.obj" "grant\test workspace v6 6713 MAIN\001 starting up\main.obj" "grant\dsk6713\tutorial\dsk6713\volume4\load.obj" "grant\dsk6713\tutorial\dsk6713\volume4\volume.obj" "grant\dsk6713\tutorial\dsk6713\volume4\volumecfg.obj" "grant\dsk6713\tutorial\dsk6713\volume4\volumecfg_c.obj" "grant\dsk6713\tutorial\dsk6713\volume3\load.obj" "grant\dsk6713\tutorial\dsk6713\volume3\volume.obj" "grant\dsk6713\tutorial\dsk6713\volume3\volumecfg.obj" 
+	-$(RM) "grant\dsk6713\tutorial\dsk6713\volume3\volumecfg_c.obj" "grant\dsk6713\tutorial\dsk6713\volume2\load.obj" "grant\dsk6713\tutorial\dsk6713\volume2\volume.obj" "grant\dsk6713\tutorial\dsk6713\volume2\volumecfg.obj" "grant\dsk6713\tutorial\dsk6713\volume2\volumecfg_c.obj" "grant\dsk6713\tutorial\dsk6713\volume1\load.obj" "grant\dsk6713\tutorial\dsk6713\volume1\vectors.obj" "grant\dsk6713\tutorial\dsk6713\volume1\volume.obj" "grant\dsk6713\tutorial\dsk6713\tsktest\tsktest.obj" "grant\dsk6713\tutorial\dsk6713\tsktest\tsktestcfg.obj" "grant\dsk6713\tutorial\dsk6713\tsktest\tsktestcfg_c.obj" "grant\dsk6713\tutorial\dsk6713\siotest\dgn_print.obj" "grant\dsk6713\tutorial\dsk6713\siotest\siotest1.obj" "grant\dsk6713\tutorial\dsk6713\siotest\siotest1cfg.obj" "grant\dsk6713\tutorial\dsk6713\siotest\siotest1cfg_c.obj" "grant\dsk6713\tutorial\dsk6713\siotest\siotest2.obj" "grant\dsk6713\tutorial\dsk6713\siotest\siotest2cfg.obj" "grant\dsk6713\tutorial\dsk6713\siotest\siotest2cfg_c.obj" "grant\dsk6713\tutorial\dsk6713\siotest\siotest3.obj" 
+	-$(RM) "grant\dsk6713\tutorial\dsk6713\siotest\siotest3cfg.obj" "grant\dsk6713\tutorial\dsk6713\siotest\siotest3cfg_c.obj" "grant\dsk6713\tutorial\dsk6713\siotest\siotest4.obj" "grant\dsk6713\tutorial\dsk6713\siotest\siotest4cfg.obj" "grant\dsk6713\tutorial\dsk6713\siotest\siotest4cfg_c.obj" "grant\dsk6713\tutorial\dsk6713\siotest\siotest5.obj" "grant\dsk6713\tutorial\dsk6713\siotest\siotest5cfg.obj" "grant\dsk6713\tutorial\dsk6713\siotest\siotest5cfg_c.obj" "grant\dsk6713\tutorial\dsk6713\sinewave\sine.obj" "grant\dsk6713\tutorial\dsk6713\semtest\semtest.obj" "grant\dsk6713\tutorial\dsk6713\semtest\semtestcfg.obj" "grant\dsk6713\tutorial\dsk6713\semtest\semtestcfg_c.obj" "grant\dsk6713\tutorial\dsk6713\mutex\mutex.obj" "grant\dsk6713\tutorial\dsk6713\mutex\mutexcfg.obj" "grant\dsk6713\tutorial\dsk6713\mutex\mutexcfg_c.obj" "grant\dsk6713\tutorial\dsk6713\modem\modemtx.obj" "grant\dsk6713\tutorial\dsk6713\modem\razed32.obj" "grant\dsk6713\tutorial\dsk6713\modem\sinetab.obj" "grant\dsk6713\tutorial\dsk6713\memtest\memtest.obj" 
+	-$(RM) "grant\dsk6713\tutorial\dsk6713\memtest\memtestcfg.obj" "grant\dsk6713\tutorial\dsk6713\memtest\memtestcfg_c.obj" "grant\dsk6713\tutorial\dsk6713\mbxtest\mbxtest.obj" "grant\dsk6713\tutorial\dsk6713\mbxtest\mbxtestcfg.obj" "grant\dsk6713\tutorial\dsk6713\mbxtest\mbxtestcfg_c.obj" "grant\dsk6713\tutorial\dsk6713\maxminmath\anothertestapp.obj" "grant\dsk6713\tutorial\dsk6713\maxminmath\averagevalue.obj" "grant\dsk6713\tutorial\dsk6713\maxminmath\maximumvalue.obj" "grant\dsk6713\tutorial\dsk6713\maxminmath\minimumvalue.obj" "grant\dsk6713\tutorial\dsk6713\maxminmath\testapp.obj" "grant\dsk6713\tutorial\dsk6713\maxminmath\testapp0.obj" "grant\dsk6713\tutorial\dsk6713\maxminmath\testapp1.obj" "grant\dsk6713\tutorial\dsk6713\hostio2\hostio.obj" "grant\dsk6713\tutorial\dsk6713\hostio2\hostiocfg.obj" "grant\dsk6713\tutorial\dsk6713\hostio2\hostiocfg_c.obj" "grant\dsk6713\tutorial\dsk6713\hostio1\hostio.obj" "grant\dsk6713\tutorial\dsk6713\hostio1\hostiocfg.obj" "grant\dsk6713\tutorial\dsk6713\hostio1\hostiocfg_c.obj" 
+	-$(RM) "grant\dsk6713\tutorial\dsk6713\hello2\hello.obj" "grant\dsk6713\tutorial\dsk6713\hello2\hellocfg.obj" "grant\dsk6713\tutorial\dsk6713\hello2\hellocfg_c.obj" "grant\dsk6713\tutorial\dsk6713\hello1\hello.obj" "grant\dsk6713\tutorial\dsk6713\hello1\vectors.obj" "grant\dsk6713\tutorial\dsk6713\gelsolid\multidspwelcome.obj" "grant\dsk6713\tutorial\dsk6713\gelsolid\welcometodsp.obj" "grant\dsk6713\tutorial\dsk6713\echo\echo.obj" "grant\dsk6713\tutorial\dsk6713\echo\echo_asm.obj" "grant\dsk6713\tutorial\dsk6713\echo\echocfg.obj" "grant\dsk6713\tutorial\dsk6713\echo\echocfg_c.obj" "grant\dsk6713\tutorial\dsk6713\datedisplay\anothertestapp.obj" "grant\dsk6713\tutorial\dsk6713\datedisplay\averagevalue.obj" "grant\dsk6713\tutorial\dsk6713\datedisplay\maximumvalue.obj" "grant\dsk6713\tutorial\dsk6713\datedisplay\minimumvalue.obj" "grant\dsk6713\tutorial\dsk6713\datedisplay\testapp.obj" "grant\dsk6713\tutorial\dsk6713\datedisplay\testapp0.obj" "grant\dsk6713\tutorial\dsk6713\datedisplay\testapp1.obj" 
+	-$(RM) "grant\dsk6713\tutorial\dsk6713\datedisplay\usingcodemaestro.obj" "grant\dsk6713\tutorial\dsk6713\datedisplay\usingcolumnediting.obj" "grant\dsk6713\lib\dsk6713bsl\dsk6713bsl\dsk6713.obj" "grant\dsk6713\lib\dsk6713bsl\dsk6713bsl\dsk6713_aic23_closecodec.obj" "grant\dsk6713\lib\dsk6713bsl\dsk6713bsl\dsk6713_aic23_loopback.obj" "grant\dsk6713\lib\dsk6713bsl\dsk6713bsl\dsk6713_aic23_mute.obj" "grant\dsk6713\lib\dsk6713bsl\dsk6713bsl\dsk6713_aic23_opencodec.obj" "grant\dsk6713\lib\dsk6713bsl\dsk6713bsl\dsk6713_aic23_outgain.obj" "grant\dsk6713\lib\dsk6713bsl\dsk6713bsl\dsk6713_aic23_powerdown.obj" "grant\dsk6713\lib\dsk6713bsl\dsk6713bsl\dsk6713_aic23_read.obj" "grant\dsk6713\lib\dsk6713bsl\dsk6713bsl\dsk6713_aic23_registers.obj" "grant\dsk6713\lib\dsk6713bsl\dsk6713bsl\dsk6713_aic23_setfreq.obj" "grant\dsk6713\lib\dsk6713bsl\dsk6713bsl\dsk6713_aic23_write.obj" "grant\dsk6713\lib\dsk6713bsl\dsk6713bsl\dsk6713_dip.obj" "grant\dsk6713\lib\dsk6713bsl\dsk6713bsl\dsk6713_flash_checksum.obj" "grant\dsk6713\lib\dsk6713bsl\dsk6713bsl\dsk6713_flash_erase.obj" 
+	-$(RM) "grant\dsk6713\lib\dsk6713bsl\dsk6713bsl\dsk6713_flash_read.obj" "grant\dsk6713\lib\dsk6713bsl\dsk6713bsl\dsk6713_flash_write.obj" "grant\dsk6713\lib\dsk6713bsl\dsk6713bsl\dsk6713_led.obj" "grant\dsk6713\examples\dsk6713\rtdx\t2h\t2h.obj" "grant\dsk6713\examples\dsk6713\rtdx\shared\intvecs.obj" "grant\dsk6713\examples\dsk6713\rtdx\h2t\h2t.obj" "grant\dsk6713\examples\dsk6713\bsl\tone\tone.obj" "grant\dsk6713\examples\dsk6713\bsl\tone\tonecfg.obj" "grant\dsk6713\examples\dsk6713\bsl\tone\tonecfg_c.obj" "grant\dsk6713\examples\dsk6713\bsl\post\boot.obj" "grant\dsk6713\examples\dsk6713\bsl\post\post.obj" "grant\dsk6713\examples\dsk6713\bsl\post\postcfg.obj" "grant\dsk6713\examples\dsk6713\bsl\post\postcfg_c.obj" "grant\dsk6713\examples\dsk6713\bsl\ledprd\ledprd.obj" "grant\dsk6713\examples\dsk6713\bsl\ledprd\ledprdcfg.obj" "grant\dsk6713\examples\dsk6713\bsl\ledprd\ledprdcfg_c.obj" "grant\dsk6713\examples\dsk6713\bsl\led\led.obj" "grant\dsk6713\examples\dsk6713\bsl\led\ledcfg.obj" "grant\dsk6713\examples\dsk6713\bsl\led\ledcfg_c.obj" 
+	-$(RM) "grant\dsk6713\examples\dsk6713\bsl\dsk_app\aic23.obj" "grant\dsk6713\examples\dsk6713\bsl\dsk_app\dsk_app.obj" "grant\dsk6713\examples\dsk6713\bsl\dsk_app\dsk_appcfg.obj" "grant\dsk6713\examples\dsk6713\bsl\dsk_app\dsk_appcfg_c.obj" "grant\dsk6713\examples\dsk6713\bios\switest\switest.obj" "grant\dsk6713\examples\dsk6713\bios\switest\switestcfg.obj" "grant\dsk6713\examples\dsk6713\bios\switest\switestcfg_c.obj" "grant\dsk6713\examples\dsk6713\bios\slice\slice.obj" "grant\dsk6713\examples\dsk6713\bios\slice\slicecfg.obj" "grant\dsk6713\examples\dsk6713\bios\slice\slicecfg_c.obj" "grant\dsk6713\examples\dsk6713\bios\quetest\quetest.obj" "grant\dsk6713\examples\dsk6713\bios\quetest\quetest1.obj" "grant\dsk6713\examples\dsk6713\bios\quetest\quetest1cfg.obj" "grant\dsk6713\examples\dsk6713\bios\quetest\quetest1cfg_c.obj" "grant\dsk6713\examples\dsk6713\bios\quetest\quetestcfg.obj" "grant\dsk6713\examples\dsk6713\bios\quetest\quetestcfg_c.obj" "grant\dsk6713\examples\dsk6713\bios\lattest\lattest.obj" 
+	-$(RM) "grant\dsk6713\examples\dsk6713\bios\lattest\lattestcfg.obj" "grant\dsk6713\examples\dsk6713\bios\lattest\lattestcfg_c.obj" "grant\dsk6713\examples\dsk6713\bios\copy\copy.obj" "grant\dsk6713\examples\dsk6713\bios\copy\copycfg.obj" "grant\dsk6713\examples\dsk6713\bios\copy\copycfg_c.obj" "grant\dsk6713\examples\dsk6713\bios\clktest\clktest.obj" "grant\dsk6713\examples\dsk6713\bios\clktest\clktestcfg.obj" "grant\dsk6713\examples\dsk6713\bios\clktest\clktestcfg_c.obj" "grant\dsk6713\examples\dsk6713\bios\bigTime\bigTime.obj" "grant\dsk6713\examples\dsk6713\bios\bigTime\bigTimecfg.obj" "grant\dsk6713\examples\dsk6713\bios\bigTime\bigTimecfg_c.obj" "grant\dsk6713\examples\dsk6713\bios\audio\dsk6713_codec_devParams.obj" "grant\dsk6713\examples\dsk6713\bios\audio\pip_audio.obj" "grant\dsk6713\examples\dsk6713\bios\audio\pip_audiocfg.obj" "grant\dsk6713\examples\dsk6713\bios\audio\pip_audiocfg_c.obj" "grant\dsk6713\examples\dsk6713\bios\audio\swi_audio.obj" "grant\dsk6713\examples\dsk6713\bios\audio\swi_audiocfg.obj" 
+	-$(RM) "grant\dsk6713\examples\dsk6713\bios\audio\swi_audiocfg_c.obj" "grant\dsk6713\examples\dsk6713\bios\audio\tsk_audio.obj" "grant\dsk6713\examples\dsk6713\bios\audio\tsk_audiocfg.obj" "grant\dsk6713\examples\dsk6713\bios\audio\tsk_audiocfg_c.obj" "grant\dsk6713\bin\utilities\flashburn\c6000\dsk6713v2\FBTC6713\FBCmd.obj" "grant\dsk6713\bin\utilities\flashburn\c6000\dsk6713v2\FBTC6713\FBTC6713.obj" "grant\dsk6713\bin\utilities\flashburn\c6000\dsk6713v2\FBTC6713\FBurnCmd.obj" "grant\dsk6713\bin\utilities\flashburn\c6000\dsk6713v2\BlinkDSK6713\blink.obj" "grant\dsk6713\bin\utilities\flashburn\c6000\dsk6713v2\BlinkDSK6713\boot.obj" "grant\dsk6713\bin\utilities\flashburn\c6000\dsk6713v2\BlinkDSK6713\cpld.obj" "grant\dsk6713\bin\utilities\flashburn\c6000\dsk6713v2\BlinkDSK6713\emif.obj" "grant\dsk6713\bin\utilities\flashburn\c6000\dsk6713v2\BlinkDSK6713\pll.obj" "grant\dsk6713\bin\utilities\flashburn\c6000\dsk6713v2\BlinkDSK6713\timer.obj" 
+	-$(RM) "grant\dsk6713\tutorial\dsk6713\volume4\volumecfg.pp" "grant\dsk6713\tutorial\dsk6713\volume3\volumecfg.pp" "grant\dsk6713\tutorial\dsk6713\volume2\volumecfg.pp" "grant\dsk6713\tutorial\dsk6713\tsktest\tsktestcfg.pp" "grant\dsk6713\tutorial\dsk6713\siotest\siotest1cfg.pp" "grant\dsk6713\tutorial\dsk6713\siotest\siotest2cfg.pp" "grant\dsk6713\tutorial\dsk6713\siotest\siotest3cfg.pp" "grant\dsk6713\tutorial\dsk6713\siotest\siotest4cfg.pp" "grant\dsk6713\tutorial\dsk6713\siotest\siotest5cfg.pp" "grant\dsk6713\tutorial\dsk6713\semtest\semtestcfg.pp" "grant\dsk6713\tutorial\dsk6713\mutex\mutexcfg.pp" "grant\dsk6713\tutorial\dsk6713\memtest\memtestcfg.pp" "grant\dsk6713\tutorial\dsk6713\mbxtest\mbxtestcfg.pp" "grant\dsk6713\tutorial\dsk6713\hostio2\hostiocfg.pp" "grant\dsk6713\tutorial\dsk6713\hostio1\hostiocfg.pp" "grant\dsk6713\tutorial\dsk6713\hello2\hellocfg.pp" "grant\dsk6713\tutorial\dsk6713\echo\echocfg.pp" "grant\dsk6713\examples\dsk6713\bsl\tone\tonecfg.pp" "grant\dsk6713\examples\dsk6713\bsl\post\postcfg.pp" 
+	-$(RM) "grant\dsk6713\examples\dsk6713\bsl\ledprd\ledprdcfg.pp" "grant\dsk6713\examples\dsk6713\bsl\led\ledcfg.pp" "grant\dsk6713\examples\dsk6713\bsl\dsk_app\dsk_appcfg.pp" "grant\dsk6713\examples\dsk6713\bios\switest\switestcfg.pp" "grant\dsk6713\examples\dsk6713\bios\slice\slicecfg.pp" "grant\dsk6713\examples\dsk6713\bios\quetest\quetest1cfg.pp" "grant\dsk6713\examples\dsk6713\bios\quetest\quetestcfg.pp" "grant\dsk6713\examples\dsk6713\bios\lattest\lattestcfg.pp" "grant\dsk6713\examples\dsk6713\bios\copy\copycfg.pp" "grant\dsk6713\examples\dsk6713\bios\clktest\clktestcfg.pp" "grant\dsk6713\examples\dsk6713\bios\bigTime\bigTimecfg.pp" "grant\dsk6713\examples\dsk6713\bios\audio\pip_audiocfg.pp" "grant\dsk6713\examples\dsk6713\bios\audio\swi_audiocfg.pp" "grant\dsk6713\examples\dsk6713\bios\audio\tsk_audiocfg.pp" 
+	-$(RM) "grant\test workspace v6 6713 MAIN\260 fft integer\dspfft.pp" "grant\test workspace v6 6713 MAIN\250 fft integer original\dspfft.pp" "grant\test workspace v6 6713 MAIN\220 BSL AUDIO EDMA triple optimized\vectors_intr.pp" "grant\test workspace v6 6713 MAIN\190 DSP library and QDMA\vectors_intr.pp" "grant\test workspace v6 6713 MAIN\130 BSL AUDIO EDMA triple\vectors_intr.pp" "grant\test workspace v6 6713 MAIN\120 BSL AUDIO EDMA\vectors_intr.pp" "grant\test workspace v6 6713 MAIN\110 BSL AUDIO INT\vectors_intr.pp" "grant\test workspace v6 6713 MAIN\060 CSL BSL XINT\Vectors_intr4567.pp" "grant\test workspace v6 6713 MAIN\050 CSL TIMER_INT\vecs_timer1.pp" "grant\dsk6713\tutorial\dsk6713\volume4\load.pp" "grant\dsk6713\tutorial\dsk6713\volume3\load.pp" "grant\dsk6713\tutorial\dsk6713\volume2\load.pp" "grant\dsk6713\tutorial\dsk6713\volume1\load.pp" "grant\dsk6713\tutorial\dsk6713\volume1\vectors.pp" "grant\dsk6713\tutorial\dsk6713\hello1\vectors.pp" "grant\dsk6713\examples\dsk6713\rtdx\shared\intvecs.pp" 
+	-$(RM) "grant\dsk6713\examples\dsk6713\bsl\post\boot.pp" "grant\dsk6713\bin\utilities\flashburn\c6000\dsk6713v2\BlinkDSK6713\boot.pp" 
+	-@echo 'Finished clean'
+	-@echo ' '
+
+.PHONY: all clean dependents
+.SECONDARY:
+
+-include ../makefile.targets
+

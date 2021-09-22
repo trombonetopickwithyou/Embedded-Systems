@@ -1,0 +1,1 @@
+-l"./sts_atmcfg.cmd" "./sts_atmcfg_c.obj" "./sts_atmcfg.obj" "./main.obj" -l"libc.a" 

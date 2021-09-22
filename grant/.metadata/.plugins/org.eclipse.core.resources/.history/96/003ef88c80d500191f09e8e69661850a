@@ -1,0 +1,30 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+OUT_SRCS += \
+../grant/dsk6713/examples/dsk6713/rtdx/h2t/h2t.out 
+
+C_SRCS += \
+../grant/dsk6713/examples/dsk6713/rtdx/h2t/h2t.c 
+
+OBJS += \
+./grant/dsk6713/examples/dsk6713/rtdx/h2t/h2t.obj 
+
+C_DEPS += \
+./grant/dsk6713/examples/dsk6713/rtdx/h2t/h2t.pp 
+
+C_DEPS__QUOTED += \
+"grant\dsk6713\examples\dsk6713\rtdx\h2t\h2t.pp" 
+
+OBJS__QUOTED += \
+"grant\dsk6713\examples\dsk6713\rtdx\h2t\h2t.obj" 
+
+C_SRCS__QUOTED += \
+"../grant/dsk6713/examples/dsk6713/rtdx/h2t/h2t.c" 
+
+OUT_SRCS__QUOTED += \
+"../grant/dsk6713/examples/dsk6713/rtdx/h2t/h2t.out" 
+
+

@@ -1,0 +1,23 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+OUT_SRCS += \
+../grant/test\ workspace\ v6\ 6713\ MAIN/240\ rounding/Debug/200\ rounding.out \
+../grant/test\ workspace\ v6\ 6713\ MAIN/240\ rounding/Debug/240\ rounding.out 
+
+OBJ_SRCS += \
+../grant/test\ workspace\ v6\ 6713\ MAIN/240\ rounding/Debug/main.obj 
+
+OPT_SRCS += \
+../grant/test\ workspace\ v6\ 6713\ MAIN/240\ rounding/Debug/ccsObjs.opt 
+
+OUT_SRCS__QUOTED += \
+"../grant/test workspace v6 6713 MAIN/240 rounding/Debug/200 rounding.out" \
+"../grant/test workspace v6 6713 MAIN/240 rounding/Debug/240 rounding.out" 
+
+OPT_SRCS__QUOTED += \
+"../grant/test workspace v6 6713 MAIN/240 rounding/Debug/ccsObjs.opt" 
+
+

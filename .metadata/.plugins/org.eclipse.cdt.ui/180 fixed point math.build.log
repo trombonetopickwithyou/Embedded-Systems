@@ -1,0 +1,17 @@
+
+**** Build of configuration Debug for project 180 fixed point math ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../lm.c'
+'Invoking: C6000 Compiler'
+"C:/ti/ccsv6/tools/compiler/c6000_7.4.7/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="C:/ti/ccsv6/tools/compiler/c6000_7.4.7/include" --define=c6713 --diag_wrap=off --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="lm.pp"  "../lm.c"
+'Finished building: ../lm.c'
+' '
+'Building target: 180 fixed point math.out'
+'Invoking: C6000 Linker'
+"C:/ti/ccsv6/tools/compiler/c6000_7.4.7/bin/cl6x" -mv6700 --abi=coffabi -g --define=c6713 --diag_wrap=off --diag_warning=225 --display_error_number -z --stack_size=0x800 -m"180 fixed point math.map" --heap_size=0x800 -i"C:/ti/ccsv6/tools/compiler/c6000_7.4.7/lib" -i"C:/ti/ccsv6/tools/compiler/c6000_7.4.7/include" --reread_libs --warn_sections --diag_wrap=off --display_error_number --xml_link_info="180 fixed point math_linkInfo.xml" --rom_model -o "180 fixed point math.out" "./lm.obj" "../C6713.cmd"  -l"libc.a" 
+<Linking>
+'Finished building target: 180 fixed point math.out'
+' '
+
+**** Build Finished ****

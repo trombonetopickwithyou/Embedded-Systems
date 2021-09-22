@@ -1,0 +1,75 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+CMD_SRCS += \
+../grant/dsk6713/tutorial/dsk6713/datedisplay/mainapplication.cmd 
+
+C_SRCS += \
+../grant/dsk6713/tutorial/dsk6713/datedisplay/anothertestapp.c \
+../grant/dsk6713/tutorial/dsk6713/datedisplay/averagevalue.c \
+../grant/dsk6713/tutorial/dsk6713/datedisplay/maximumvalue.c \
+../grant/dsk6713/tutorial/dsk6713/datedisplay/minimumvalue.c \
+../grant/dsk6713/tutorial/dsk6713/datedisplay/testapp.c \
+../grant/dsk6713/tutorial/dsk6713/datedisplay/testapp0.c \
+../grant/dsk6713/tutorial/dsk6713/datedisplay/testapp1.c \
+../grant/dsk6713/tutorial/dsk6713/datedisplay/usingcodemaestro.c \
+../grant/dsk6713/tutorial/dsk6713/datedisplay/usingcolumnediting.c 
+
+OBJS += \
+./grant/dsk6713/tutorial/dsk6713/datedisplay/anothertestapp.obj \
+./grant/dsk6713/tutorial/dsk6713/datedisplay/averagevalue.obj \
+./grant/dsk6713/tutorial/dsk6713/datedisplay/maximumvalue.obj \
+./grant/dsk6713/tutorial/dsk6713/datedisplay/minimumvalue.obj \
+./grant/dsk6713/tutorial/dsk6713/datedisplay/testapp.obj \
+./grant/dsk6713/tutorial/dsk6713/datedisplay/testapp0.obj \
+./grant/dsk6713/tutorial/dsk6713/datedisplay/testapp1.obj \
+./grant/dsk6713/tutorial/dsk6713/datedisplay/usingcodemaestro.obj \
+./grant/dsk6713/tutorial/dsk6713/datedisplay/usingcolumnediting.obj 
+
+C_DEPS += \
+./grant/dsk6713/tutorial/dsk6713/datedisplay/anothertestapp.pp \
+./grant/dsk6713/tutorial/dsk6713/datedisplay/averagevalue.pp \
+./grant/dsk6713/tutorial/dsk6713/datedisplay/maximumvalue.pp \
+./grant/dsk6713/tutorial/dsk6713/datedisplay/minimumvalue.pp \
+./grant/dsk6713/tutorial/dsk6713/datedisplay/testapp.pp \
+./grant/dsk6713/tutorial/dsk6713/datedisplay/testapp0.pp \
+./grant/dsk6713/tutorial/dsk6713/datedisplay/testapp1.pp \
+./grant/dsk6713/tutorial/dsk6713/datedisplay/usingcodemaestro.pp \
+./grant/dsk6713/tutorial/dsk6713/datedisplay/usingcolumnediting.pp 
+
+C_DEPS__QUOTED += \
+"grant\dsk6713\tutorial\dsk6713\datedisplay\anothertestapp.pp" \
+"grant\dsk6713\tutorial\dsk6713\datedisplay\averagevalue.pp" \
+"grant\dsk6713\tutorial\dsk6713\datedisplay\maximumvalue.pp" \
+"grant\dsk6713\tutorial\dsk6713\datedisplay\minimumvalue.pp" \
+"grant\dsk6713\tutorial\dsk6713\datedisplay\testapp.pp" \
+"grant\dsk6713\tutorial\dsk6713\datedisplay\testapp0.pp" \
+"grant\dsk6713\tutorial\dsk6713\datedisplay\testapp1.pp" \
+"grant\dsk6713\tutorial\dsk6713\datedisplay\usingcodemaestro.pp" \
+"grant\dsk6713\tutorial\dsk6713\datedisplay\usingcolumnediting.pp" 
+
+OBJS__QUOTED += \
+"grant\dsk6713\tutorial\dsk6713\datedisplay\anothertestapp.obj" \
+"grant\dsk6713\tutorial\dsk6713\datedisplay\averagevalue.obj" \
+"grant\dsk6713\tutorial\dsk6713\datedisplay\maximumvalue.obj" \
+"grant\dsk6713\tutorial\dsk6713\datedisplay\minimumvalue.obj" \
+"grant\dsk6713\tutorial\dsk6713\datedisplay\testapp.obj" \
+"grant\dsk6713\tutorial\dsk6713\datedisplay\testapp0.obj" \
+"grant\dsk6713\tutorial\dsk6713\datedisplay\testapp1.obj" \
+"grant\dsk6713\tutorial\dsk6713\datedisplay\usingcodemaestro.obj" \
+"grant\dsk6713\tutorial\dsk6713\datedisplay\usingcolumnediting.obj" 
+
+C_SRCS__QUOTED += \
+"../grant/dsk6713/tutorial/dsk6713/datedisplay/anothertestapp.c" \
+"../grant/dsk6713/tutorial/dsk6713/datedisplay/averagevalue.c" \
+"../grant/dsk6713/tutorial/dsk6713/datedisplay/maximumvalue.c" \
+"../grant/dsk6713/tutorial/dsk6713/datedisplay/minimumvalue.c" \
+"../grant/dsk6713/tutorial/dsk6713/datedisplay/testapp.c" \
+"../grant/dsk6713/tutorial/dsk6713/datedisplay/testapp0.c" \
+"../grant/dsk6713/tutorial/dsk6713/datedisplay/testapp1.c" \
+"../grant/dsk6713/tutorial/dsk6713/datedisplay/usingcodemaestro.c" \
+"../grant/dsk6713/tutorial/dsk6713/datedisplay/usingcolumnediting.c" 
+
+

@@ -1,0 +1,34 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+CMD_SRCS += \
+../grant/dsk6713/tutorial/dsk6713/gelsolid/gelsolid.cmd \
+../grant/dsk6713/tutorial/dsk6713/gelsolid/hellodsp.cmd 
+
+C_SRCS += \
+../grant/dsk6713/tutorial/dsk6713/gelsolid/multidspwelcome.c \
+../grant/dsk6713/tutorial/dsk6713/gelsolid/welcometodsp.c 
+
+OBJS += \
+./grant/dsk6713/tutorial/dsk6713/gelsolid/multidspwelcome.obj \
+./grant/dsk6713/tutorial/dsk6713/gelsolid/welcometodsp.obj 
+
+C_DEPS += \
+./grant/dsk6713/tutorial/dsk6713/gelsolid/multidspwelcome.pp \
+./grant/dsk6713/tutorial/dsk6713/gelsolid/welcometodsp.pp 
+
+C_DEPS__QUOTED += \
+"grant\dsk6713\tutorial\dsk6713\gelsolid\multidspwelcome.pp" \
+"grant\dsk6713\tutorial\dsk6713\gelsolid\welcometodsp.pp" 
+
+OBJS__QUOTED += \
+"grant\dsk6713\tutorial\dsk6713\gelsolid\multidspwelcome.obj" \
+"grant\dsk6713\tutorial\dsk6713\gelsolid\welcometodsp.obj" 
+
+C_SRCS__QUOTED += \
+"../grant/dsk6713/tutorial/dsk6713/gelsolid/multidspwelcome.c" \
+"../grant/dsk6713/tutorial/dsk6713/gelsolid/welcometodsp.c" 
+
+

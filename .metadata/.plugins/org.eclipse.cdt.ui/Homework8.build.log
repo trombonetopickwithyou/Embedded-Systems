@@ -1,0 +1,24 @@
+
+**** Build of configuration Debug for project Homework8 ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../main.c'
+'Invoking: C6000 Compiler'
+"C:/ti/ccsv6/tools/compiler/c6000_7.4.7/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="C:/ti/ccsv6/tools/compiler/c6000_7.4.7/include" --include_path="D:/Embedded/libraries/dsk6713/include" --include_path="D:/Embedded/libraries/bios/include" --include_path="D:/Embedded/Projects/Homework_8/modifiedHomework_6/Debug" --include_path="C:/ti/bios_5_42_01_09/packages/ti/bios/include" --include_path="C:/ti/bios_5_42_01_09/packages/ti/rtdx/include/c6000" --define=c6713 --define=CHIP_6713 --diag_wrap=off --diag_warning=225 --display_error_number --mem_model:data=far --preproc_with_compile --preproc_dependency="main.pp"  "../main.c"
+"D:/Embedded/libraries/bios/include/csl_stdinc.h", line 47: warning #303-D: typedef name has already been declared (with same type)
+"D:/Embedded/libraries/bios/include/csl_stdinc.h", line 48: warning #303-D: typedef name has already been declared (with same type)
+"D:/Embedded/libraries/bios/include/csl_stdinc.h", line 49: warning #303-D: typedef name has already been declared (with same type)
+"D:/Embedded/libraries/bios/include/csl_stdinc.h", line 51: warning #303-D: typedef name has already been declared (with same type)
+"D:/Embedded/libraries/bios/include/csl_stdinc.h", line 52: warning #303-D: typedef name has already been declared (with same type)
+"D:/Embedded/libraries/bios/include/csl_stdinc.h", line 53: warning #303-D: typedef name has already been declared (with same type)
+'Finished building: ../main.c'
+' '
+'Building target: Homework8.out'
+'Invoking: C6000 Linker'
+"C:/ti/ccsv6/tools/compiler/c6000_7.4.7/bin/cl6x" -mv6700 --abi=coffabi -g --define=c6713 --define=CHIP_6713 --diag_wrap=off --diag_warning=225 --display_error_number --mem_model:data=far -z --stack_size=0x800 -m"Homework8.map" --heap_size=0x800 -i"C:/ti/ccsv6/tools/compiler/c6000_7.4.7/lib" -i"C:/ti/ccsv6/tools/compiler/c6000_7.4.7/include" -i"C:/ti/bios_5_42_01_09/packages/ti/rtdx/lib/c6000" -i"C:/ti/bios_5_42_01_09/packages/ti/bios/lib" --reread_libs --warn_sections --diag_wrap=off --display_error_number --xml_link_info="Homework8_linkInfo.xml" --rom_model -o "Homework8.out" "./dsk6713_dip.obj" "./dsk6713_led.obj" "./josh_semcfg.obj" "./josh_semcfg_c.obj" "./main.obj" "./vectors_intr.obj" -l"./josh_semcfg.cmd" -l"libc.a" -l"D:\Embedded\libraries\bios\lib\csl6713.lib" -l"D:\Embedded\libraries\dsk6713\lib\dsk6713bsl\Debug\dsk6713bsl.lib" 
+<Linking>
+warning #10247-D: creating output section ".vecs" without a SECTIONS specification
+'Finished building target: Homework8.out'
+' '
+
+**** Build Finished ****

@@ -1,0 +1,1 @@
+"./dsk6713_dip.obj" "./dsk6713_led.obj" "./josh_semcfg.obj" "./josh_semcfg_c.obj" "./main.obj" "./vectors_intr.obj" -l"./josh_semcfg.cmd" -l"libc.a" -l"D:\Embedded\libraries\bios\lib\csl6713.lib" -l"D:\Embedded\libraries\dsk6713\lib\dsk6713bsl\Debug\dsk6713bsl.lib" 

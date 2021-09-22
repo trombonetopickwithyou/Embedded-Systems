@@ -1,0 +1,47 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+CMD_SRCS += \
+../grant/dsk6713/tutorial/dsk6713/mutex/mutexcfg.cmd 
+
+S62_SRCS += \
+../grant/dsk6713/tutorial/dsk6713/mutex/mutexcfg.s62 
+
+C_SRCS += \
+../grant/dsk6713/tutorial/dsk6713/mutex/mutex.c \
+../grant/dsk6713/tutorial/dsk6713/mutex/mutexcfg_c.c 
+
+OBJS += \
+./grant/dsk6713/tutorial/dsk6713/mutex/mutex.obj \
+./grant/dsk6713/tutorial/dsk6713/mutex/mutexcfg.obj \
+./grant/dsk6713/tutorial/dsk6713/mutex/mutexcfg_c.obj 
+
+S62_DEPS += \
+./grant/dsk6713/tutorial/dsk6713/mutex/mutexcfg.pp 
+
+C_DEPS += \
+./grant/dsk6713/tutorial/dsk6713/mutex/mutex.pp \
+./grant/dsk6713/tutorial/dsk6713/mutex/mutexcfg_c.pp 
+
+C_DEPS__QUOTED += \
+"grant\dsk6713\tutorial\dsk6713\mutex\mutex.pp" \
+"grant\dsk6713\tutorial\dsk6713\mutex\mutexcfg_c.pp" 
+
+OBJS__QUOTED += \
+"grant\dsk6713\tutorial\dsk6713\mutex\mutex.obj" \
+"grant\dsk6713\tutorial\dsk6713\mutex\mutexcfg.obj" \
+"grant\dsk6713\tutorial\dsk6713\mutex\mutexcfg_c.obj" 
+
+S62_DEPS__QUOTED += \
+"grant\dsk6713\tutorial\dsk6713\mutex\mutexcfg.pp" 
+
+C_SRCS__QUOTED += \
+"../grant/dsk6713/tutorial/dsk6713/mutex/mutex.c" \
+"../grant/dsk6713/tutorial/dsk6713/mutex/mutexcfg_c.c" 
+
+S62_SRCS__QUOTED += \
+"../grant/dsk6713/tutorial/dsk6713/mutex/mutexcfg.s62" 
+
+

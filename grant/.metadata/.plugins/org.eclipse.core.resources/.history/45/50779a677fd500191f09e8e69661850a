@@ -1,0 +1,61 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+S67_SRCS += \
+../grant/dsk6713/tutorial/dsk6713/echo/echo_asm.s67 
+
+CMD_SRCS += \
+../grant/dsk6713/tutorial/dsk6713/echo/echocfg.cmd 
+
+S62_SRCS += \
+../grant/dsk6713/tutorial/dsk6713/echo/echocfg.s62 
+
+C_SRCS += \
+../grant/dsk6713/tutorial/dsk6713/echo/echo.c \
+../grant/dsk6713/tutorial/dsk6713/echo/echocfg_c.c 
+
+OBJS += \
+./grant/dsk6713/tutorial/dsk6713/echo/echo.obj \
+./grant/dsk6713/tutorial/dsk6713/echo/echo_asm.obj \
+./grant/dsk6713/tutorial/dsk6713/echo/echocfg.obj \
+./grant/dsk6713/tutorial/dsk6713/echo/echocfg_c.obj 
+
+S62_DEPS += \
+./grant/dsk6713/tutorial/dsk6713/echo/echocfg.pp 
+
+C_DEPS += \
+./grant/dsk6713/tutorial/dsk6713/echo/echo.pp \
+./grant/dsk6713/tutorial/dsk6713/echo/echocfg_c.pp 
+
+S67_DEPS += \
+./grant/dsk6713/tutorial/dsk6713/echo/echo_asm.pp 
+
+S67_DEPS__QUOTED += \
+"grant\dsk6713\tutorial\dsk6713\echo\echo_asm.pp" 
+
+C_DEPS__QUOTED += \
+"grant\dsk6713\tutorial\dsk6713\echo\echo.pp" \
+"grant\dsk6713\tutorial\dsk6713\echo\echocfg_c.pp" 
+
+OBJS__QUOTED += \
+"grant\dsk6713\tutorial\dsk6713\echo\echo.obj" \
+"grant\dsk6713\tutorial\dsk6713\echo\echo_asm.obj" \
+"grant\dsk6713\tutorial\dsk6713\echo\echocfg.obj" \
+"grant\dsk6713\tutorial\dsk6713\echo\echocfg_c.obj" 
+
+S62_DEPS__QUOTED += \
+"grant\dsk6713\tutorial\dsk6713\echo\echocfg.pp" 
+
+C_SRCS__QUOTED += \
+"../grant/dsk6713/tutorial/dsk6713/echo/echo.c" \
+"../grant/dsk6713/tutorial/dsk6713/echo/echocfg_c.c" 
+
+S67_SRCS__QUOTED += \
+"../grant/dsk6713/tutorial/dsk6713/echo/echo_asm.s67" 
+
+S62_SRCS__QUOTED += \
+"../grant/dsk6713/tutorial/dsk6713/echo/echocfg.s62" 
+
+

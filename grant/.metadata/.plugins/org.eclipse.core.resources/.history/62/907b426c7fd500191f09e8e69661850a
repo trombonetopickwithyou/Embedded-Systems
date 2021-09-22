@@ -1,0 +1,12 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+OUT_SRCS += \
+../grant/dsk6713/examples/dsk6713/bios/bigTime/Debug/bigTime.out 
+
+OUT_SRCS__QUOTED += \
+"../grant/dsk6713/examples/dsk6713/bios/bigTime/Debug/bigTime.out" 
+
+

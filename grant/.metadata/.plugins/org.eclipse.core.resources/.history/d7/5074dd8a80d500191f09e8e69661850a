@@ -1,0 +1,47 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+CMD_SRCS += \
+../grant/dsk6713/tutorial/dsk6713/hostio2/hostiocfg.cmd 
+
+S62_SRCS += \
+../grant/dsk6713/tutorial/dsk6713/hostio2/hostiocfg.s62 
+
+C_SRCS += \
+../grant/dsk6713/tutorial/dsk6713/hostio2/hostio.c \
+../grant/dsk6713/tutorial/dsk6713/hostio2/hostiocfg_c.c 
+
+OBJS += \
+./grant/dsk6713/tutorial/dsk6713/hostio2/hostio.obj \
+./grant/dsk6713/tutorial/dsk6713/hostio2/hostiocfg.obj \
+./grant/dsk6713/tutorial/dsk6713/hostio2/hostiocfg_c.obj 
+
+S62_DEPS += \
+./grant/dsk6713/tutorial/dsk6713/hostio2/hostiocfg.pp 
+
+C_DEPS += \
+./grant/dsk6713/tutorial/dsk6713/hostio2/hostio.pp \
+./grant/dsk6713/tutorial/dsk6713/hostio2/hostiocfg_c.pp 
+
+C_DEPS__QUOTED += \
+"grant\dsk6713\tutorial\dsk6713\hostio2\hostio.pp" \
+"grant\dsk6713\tutorial\dsk6713\hostio2\hostiocfg_c.pp" 
+
+OBJS__QUOTED += \
+"grant\dsk6713\tutorial\dsk6713\hostio2\hostio.obj" \
+"grant\dsk6713\tutorial\dsk6713\hostio2\hostiocfg.obj" \
+"grant\dsk6713\tutorial\dsk6713\hostio2\hostiocfg_c.obj" 
+
+S62_DEPS__QUOTED += \
+"grant\dsk6713\tutorial\dsk6713\hostio2\hostiocfg.pp" 
+
+C_SRCS__QUOTED += \
+"../grant/dsk6713/tutorial/dsk6713/hostio2/hostio.c" \
+"../grant/dsk6713/tutorial/dsk6713/hostio2/hostiocfg_c.c" 
+
+S62_SRCS__QUOTED += \
+"../grant/dsk6713/tutorial/dsk6713/hostio2/hostiocfg.s62" 
+
+

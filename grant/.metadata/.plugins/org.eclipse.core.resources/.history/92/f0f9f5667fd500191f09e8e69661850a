@@ -1,0 +1,47 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+CMD_SRCS += \
+../grant/dsk6713/tutorial/dsk6713/hello2/hellocfg.cmd 
+
+S62_SRCS += \
+../grant/dsk6713/tutorial/dsk6713/hello2/hellocfg.s62 
+
+C_SRCS += \
+../grant/dsk6713/tutorial/dsk6713/hello2/hello.c \
+../grant/dsk6713/tutorial/dsk6713/hello2/hellocfg_c.c 
+
+OBJS += \
+./grant/dsk6713/tutorial/dsk6713/hello2/hello.obj \
+./grant/dsk6713/tutorial/dsk6713/hello2/hellocfg.obj \
+./grant/dsk6713/tutorial/dsk6713/hello2/hellocfg_c.obj 
+
+S62_DEPS += \
+./grant/dsk6713/tutorial/dsk6713/hello2/hellocfg.pp 
+
+C_DEPS += \
+./grant/dsk6713/tutorial/dsk6713/hello2/hello.pp \
+./grant/dsk6713/tutorial/dsk6713/hello2/hellocfg_c.pp 
+
+C_DEPS__QUOTED += \
+"grant\dsk6713\tutorial\dsk6713\hello2\hello.pp" \
+"grant\dsk6713\tutorial\dsk6713\hello2\hellocfg_c.pp" 
+
+OBJS__QUOTED += \
+"grant\dsk6713\tutorial\dsk6713\hello2\hello.obj" \
+"grant\dsk6713\tutorial\dsk6713\hello2\hellocfg.obj" \
+"grant\dsk6713\tutorial\dsk6713\hello2\hellocfg_c.obj" 
+
+S62_DEPS__QUOTED += \
+"grant\dsk6713\tutorial\dsk6713\hello2\hellocfg.pp" 
+
+C_SRCS__QUOTED += \
+"../grant/dsk6713/tutorial/dsk6713/hello2/hello.c" \
+"../grant/dsk6713/tutorial/dsk6713/hello2/hellocfg_c.c" 
+
+S62_SRCS__QUOTED += \
+"../grant/dsk6713/tutorial/dsk6713/hello2/hellocfg.s62" 
+
+

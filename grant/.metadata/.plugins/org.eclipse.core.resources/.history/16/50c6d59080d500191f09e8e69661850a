@@ -1,0 +1,106 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+S67_SRCS += \
+../grant/dsk6713/examples/dsk6713/bios/audio/pip_audiocfg.s67 
+
+CMD_SRCS += \
+../grant/dsk6713/examples/dsk6713/bios/audio/pip_audio.cmd \
+../grant/dsk6713/examples/dsk6713/bios/audio/pip_audiocfg.cmd \
+../grant/dsk6713/examples/dsk6713/bios/audio/swi_audio.cmd \
+../grant/dsk6713/examples/dsk6713/bios/audio/swi_audiocfg.cmd \
+../grant/dsk6713/examples/dsk6713/bios/audio/tsk_audio.cmd \
+../grant/dsk6713/examples/dsk6713/bios/audio/tsk_audiocfg.cmd 
+
+S62_SRCS += \
+../grant/dsk6713/examples/dsk6713/bios/audio/pip_audiocfg.s62 \
+../grant/dsk6713/examples/dsk6713/bios/audio/swi_audiocfg.s62 \
+../grant/dsk6713/examples/dsk6713/bios/audio/tsk_audiocfg.s62 
+
+C_SRCS += \
+../grant/dsk6713/examples/dsk6713/bios/audio/dsk6713_codec_devParams.c \
+../grant/dsk6713/examples/dsk6713/bios/audio/pip_audio.c \
+../grant/dsk6713/examples/dsk6713/bios/audio/pip_audiocfg_c.c \
+../grant/dsk6713/examples/dsk6713/bios/audio/swi_audio.c \
+../grant/dsk6713/examples/dsk6713/bios/audio/swi_audiocfg_c.c \
+../grant/dsk6713/examples/dsk6713/bios/audio/tsk_audio.c \
+../grant/dsk6713/examples/dsk6713/bios/audio/tsk_audiocfg_c.c 
+
+OBJS += \
+./grant/dsk6713/examples/dsk6713/bios/audio/dsk6713_codec_devParams.obj \
+./grant/dsk6713/examples/dsk6713/bios/audio/pip_audio.obj \
+./grant/dsk6713/examples/dsk6713/bios/audio/pip_audiocfg.obj \
+./grant/dsk6713/examples/dsk6713/bios/audio/pip_audiocfg_c.obj \
+./grant/dsk6713/examples/dsk6713/bios/audio/swi_audio.obj \
+./grant/dsk6713/examples/dsk6713/bios/audio/swi_audiocfg.obj \
+./grant/dsk6713/examples/dsk6713/bios/audio/swi_audiocfg_c.obj \
+./grant/dsk6713/examples/dsk6713/bios/audio/tsk_audio.obj \
+./grant/dsk6713/examples/dsk6713/bios/audio/tsk_audiocfg.obj \
+./grant/dsk6713/examples/dsk6713/bios/audio/tsk_audiocfg_c.obj 
+
+S62_DEPS += \
+./grant/dsk6713/examples/dsk6713/bios/audio/pip_audiocfg.pp \
+./grant/dsk6713/examples/dsk6713/bios/audio/swi_audiocfg.pp \
+./grant/dsk6713/examples/dsk6713/bios/audio/tsk_audiocfg.pp 
+
+C_DEPS += \
+./grant/dsk6713/examples/dsk6713/bios/audio/dsk6713_codec_devParams.pp \
+./grant/dsk6713/examples/dsk6713/bios/audio/pip_audio.pp \
+./grant/dsk6713/examples/dsk6713/bios/audio/pip_audiocfg_c.pp \
+./grant/dsk6713/examples/dsk6713/bios/audio/swi_audio.pp \
+./grant/dsk6713/examples/dsk6713/bios/audio/swi_audiocfg_c.pp \
+./grant/dsk6713/examples/dsk6713/bios/audio/tsk_audio.pp \
+./grant/dsk6713/examples/dsk6713/bios/audio/tsk_audiocfg_c.pp 
+
+S67_DEPS += \
+./grant/dsk6713/examples/dsk6713/bios/audio/pip_audiocfg.pp 
+
+S67_DEPS__QUOTED += \
+"grant\dsk6713\examples\dsk6713\bios\audio\pip_audiocfg.pp" 
+
+C_DEPS__QUOTED += \
+"grant\dsk6713\examples\dsk6713\bios\audio\dsk6713_codec_devParams.pp" \
+"grant\dsk6713\examples\dsk6713\bios\audio\pip_audio.pp" \
+"grant\dsk6713\examples\dsk6713\bios\audio\pip_audiocfg_c.pp" \
+"grant\dsk6713\examples\dsk6713\bios\audio\swi_audio.pp" \
+"grant\dsk6713\examples\dsk6713\bios\audio\swi_audiocfg_c.pp" \
+"grant\dsk6713\examples\dsk6713\bios\audio\tsk_audio.pp" \
+"grant\dsk6713\examples\dsk6713\bios\audio\tsk_audiocfg_c.pp" 
+
+OBJS__QUOTED += \
+"grant\dsk6713\examples\dsk6713\bios\audio\dsk6713_codec_devParams.obj" \
+"grant\dsk6713\examples\dsk6713\bios\audio\pip_audio.obj" \
+"grant\dsk6713\examples\dsk6713\bios\audio\pip_audiocfg.obj" \
+"grant\dsk6713\examples\dsk6713\bios\audio\pip_audiocfg_c.obj" \
+"grant\dsk6713\examples\dsk6713\bios\audio\swi_audio.obj" \
+"grant\dsk6713\examples\dsk6713\bios\audio\swi_audiocfg.obj" \
+"grant\dsk6713\examples\dsk6713\bios\audio\swi_audiocfg_c.obj" \
+"grant\dsk6713\examples\dsk6713\bios\audio\tsk_audio.obj" \
+"grant\dsk6713\examples\dsk6713\bios\audio\tsk_audiocfg.obj" \
+"grant\dsk6713\examples\dsk6713\bios\audio\tsk_audiocfg_c.obj" 
+
+S62_DEPS__QUOTED += \
+"grant\dsk6713\examples\dsk6713\bios\audio\pip_audiocfg.pp" \
+"grant\dsk6713\examples\dsk6713\bios\audio\swi_audiocfg.pp" \
+"grant\dsk6713\examples\dsk6713\bios\audio\tsk_audiocfg.pp" 
+
+C_SRCS__QUOTED += \
+"../grant/dsk6713/examples/dsk6713/bios/audio/dsk6713_codec_devParams.c" \
+"../grant/dsk6713/examples/dsk6713/bios/audio/pip_audio.c" \
+"../grant/dsk6713/examples/dsk6713/bios/audio/pip_audiocfg_c.c" \
+"../grant/dsk6713/examples/dsk6713/bios/audio/swi_audio.c" \
+"../grant/dsk6713/examples/dsk6713/bios/audio/swi_audiocfg_c.c" \
+"../grant/dsk6713/examples/dsk6713/bios/audio/tsk_audio.c" \
+"../grant/dsk6713/examples/dsk6713/bios/audio/tsk_audiocfg_c.c" 
+
+S62_SRCS__QUOTED += \
+"../grant/dsk6713/examples/dsk6713/bios/audio/pip_audiocfg.s62" \
+"../grant/dsk6713/examples/dsk6713/bios/audio/swi_audiocfg.s62" \
+"../grant/dsk6713/examples/dsk6713/bios/audio/tsk_audiocfg.s62" 
+
+S67_SRCS__QUOTED += \
+"../grant/dsk6713/examples/dsk6713/bios/audio/pip_audiocfg.s67" 
+
+

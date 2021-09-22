@@ -1,0 +1,120 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS += \
+../grant/dsk6713/lib/dsk6713bsl/dsk6713bsl/dsk6713.c \
+../grant/dsk6713/lib/dsk6713bsl/dsk6713bsl/dsk6713_aic23_closecodec.c \
+../grant/dsk6713/lib/dsk6713bsl/dsk6713bsl/dsk6713_aic23_loopback.c \
+../grant/dsk6713/lib/dsk6713bsl/dsk6713bsl/dsk6713_aic23_mute.c \
+../grant/dsk6713/lib/dsk6713bsl/dsk6713bsl/dsk6713_aic23_opencodec.c \
+../grant/dsk6713/lib/dsk6713bsl/dsk6713bsl/dsk6713_aic23_outgain.c \
+../grant/dsk6713/lib/dsk6713bsl/dsk6713bsl/dsk6713_aic23_powerdown.c \
+../grant/dsk6713/lib/dsk6713bsl/dsk6713bsl/dsk6713_aic23_read.c \
+../grant/dsk6713/lib/dsk6713bsl/dsk6713bsl/dsk6713_aic23_registers.c \
+../grant/dsk6713/lib/dsk6713bsl/dsk6713bsl/dsk6713_aic23_setfreq.c \
+../grant/dsk6713/lib/dsk6713bsl/dsk6713bsl/dsk6713_aic23_write.c \
+../grant/dsk6713/lib/dsk6713bsl/dsk6713bsl/dsk6713_dip.c \
+../grant/dsk6713/lib/dsk6713bsl/dsk6713bsl/dsk6713_flash_checksum.c \
+../grant/dsk6713/lib/dsk6713bsl/dsk6713bsl/dsk6713_flash_erase.c \
+../grant/dsk6713/lib/dsk6713bsl/dsk6713bsl/dsk6713_flash_read.c \
+../grant/dsk6713/lib/dsk6713bsl/dsk6713bsl/dsk6713_flash_write.c \
+../grant/dsk6713/lib/dsk6713bsl/dsk6713bsl/dsk6713_led.c 
+
+OBJS += \
+./grant/dsk6713/lib/dsk6713bsl/dsk6713bsl/dsk6713.obj \
+./grant/dsk6713/lib/dsk6713bsl/dsk6713bsl/dsk6713_aic23_closecodec.obj \
+./grant/dsk6713/lib/dsk6713bsl/dsk6713bsl/dsk6713_aic23_loopback.obj \
+./grant/dsk6713/lib/dsk6713bsl/dsk6713bsl/dsk6713_aic23_mute.obj \
+./grant/dsk6713/lib/dsk6713bsl/dsk6713bsl/dsk6713_aic23_opencodec.obj \
+./grant/dsk6713/lib/dsk6713bsl/dsk6713bsl/dsk6713_aic23_outgain.obj \
+./grant/dsk6713/lib/dsk6713bsl/dsk6713bsl/dsk6713_aic23_powerdown.obj \
+./grant/dsk6713/lib/dsk6713bsl/dsk6713bsl/dsk6713_aic23_read.obj \
+./grant/dsk6713/lib/dsk6713bsl/dsk6713bsl/dsk6713_aic23_registers.obj \
+./grant/dsk6713/lib/dsk6713bsl/dsk6713bsl/dsk6713_aic23_setfreq.obj \
+./grant/dsk6713/lib/dsk6713bsl/dsk6713bsl/dsk6713_aic23_write.obj \
+./grant/dsk6713/lib/dsk6713bsl/dsk6713bsl/dsk6713_dip.obj \
+./grant/dsk6713/lib/dsk6713bsl/dsk6713bsl/dsk6713_flash_checksum.obj \
+./grant/dsk6713/lib/dsk6713bsl/dsk6713bsl/dsk6713_flash_erase.obj \
+./grant/dsk6713/lib/dsk6713bsl/dsk6713bsl/dsk6713_flash_read.obj \
+./grant/dsk6713/lib/dsk6713bsl/dsk6713bsl/dsk6713_flash_write.obj \
+./grant/dsk6713/lib/dsk6713bsl/dsk6713bsl/dsk6713_led.obj 
+
+C_DEPS += \
+./grant/dsk6713/lib/dsk6713bsl/dsk6713bsl/dsk6713.pp \
+./grant/dsk6713/lib/dsk6713bsl/dsk6713bsl/dsk6713_aic23_closecodec.pp \
+./grant/dsk6713/lib/dsk6713bsl/dsk6713bsl/dsk6713_aic23_loopback.pp \
+./grant/dsk6713/lib/dsk6713bsl/dsk6713bsl/dsk6713_aic23_mute.pp \
+./grant/dsk6713/lib/dsk6713bsl/dsk6713bsl/dsk6713_aic23_opencodec.pp \
+./grant/dsk6713/lib/dsk6713bsl/dsk6713bsl/dsk6713_aic23_outgain.pp \
+./grant/dsk6713/lib/dsk6713bsl/dsk6713bsl/dsk6713_aic23_powerdown.pp \
+./grant/dsk6713/lib/dsk6713bsl/dsk6713bsl/dsk6713_aic23_read.pp \
+./grant/dsk6713/lib/dsk6713bsl/dsk6713bsl/dsk6713_aic23_registers.pp \
+./grant/dsk6713/lib/dsk6713bsl/dsk6713bsl/dsk6713_aic23_setfreq.pp \
+./grant/dsk6713/lib/dsk6713bsl/dsk6713bsl/dsk6713_aic23_write.pp \
+./grant/dsk6713/lib/dsk6713bsl/dsk6713bsl/dsk6713_dip.pp \
+./grant/dsk6713/lib/dsk6713bsl/dsk6713bsl/dsk6713_flash_checksum.pp \
+./grant/dsk6713/lib/dsk6713bsl/dsk6713bsl/dsk6713_flash_erase.pp \
+./grant/dsk6713/lib/dsk6713bsl/dsk6713bsl/dsk6713_flash_read.pp \
+./grant/dsk6713/lib/dsk6713bsl/dsk6713bsl/dsk6713_flash_write.pp \
+./grant/dsk6713/lib/dsk6713bsl/dsk6713bsl/dsk6713_led.pp 
+
+C_DEPS__QUOTED += \
+"grant\dsk6713\lib\dsk6713bsl\dsk6713bsl\dsk6713.pp" \
+"grant\dsk6713\lib\dsk6713bsl\dsk6713bsl\dsk6713_aic23_closecodec.pp" \
+"grant\dsk6713\lib\dsk6713bsl\dsk6713bsl\dsk6713_aic23_loopback.pp" \
+"grant\dsk6713\lib\dsk6713bsl\dsk6713bsl\dsk6713_aic23_mute.pp" \
+"grant\dsk6713\lib\dsk6713bsl\dsk6713bsl\dsk6713_aic23_opencodec.pp" \
+"grant\dsk6713\lib\dsk6713bsl\dsk6713bsl\dsk6713_aic23_outgain.pp" \
+"grant\dsk6713\lib\dsk6713bsl\dsk6713bsl\dsk6713_aic23_powerdown.pp" \
+"grant\dsk6713\lib\dsk6713bsl\dsk6713bsl\dsk6713_aic23_read.pp" \
+"grant\dsk6713\lib\dsk6713bsl\dsk6713bsl\dsk6713_aic23_registers.pp" \
+"grant\dsk6713\lib\dsk6713bsl\dsk6713bsl\dsk6713_aic23_setfreq.pp" \
+"grant\dsk6713\lib\dsk6713bsl\dsk6713bsl\dsk6713_aic23_write.pp" \
+"grant\dsk6713\lib\dsk6713bsl\dsk6713bsl\dsk6713_dip.pp" \
+"grant\dsk6713\lib\dsk6713bsl\dsk6713bsl\dsk6713_flash_checksum.pp" \
+"grant\dsk6713\lib\dsk6713bsl\dsk6713bsl\dsk6713_flash_erase.pp" \
+"grant\dsk6713\lib\dsk6713bsl\dsk6713bsl\dsk6713_flash_read.pp" \
+"grant\dsk6713\lib\dsk6713bsl\dsk6713bsl\dsk6713_flash_write.pp" \
+"grant\dsk6713\lib\dsk6713bsl\dsk6713bsl\dsk6713_led.pp" 
+
+OBJS__QUOTED += \
+"grant\dsk6713\lib\dsk6713bsl\dsk6713bsl\dsk6713.obj" \
+"grant\dsk6713\lib\dsk6713bsl\dsk6713bsl\dsk6713_aic23_closecodec.obj" \
+"grant\dsk6713\lib\dsk6713bsl\dsk6713bsl\dsk6713_aic23_loopback.obj" \
+"grant\dsk6713\lib\dsk6713bsl\dsk6713bsl\dsk6713_aic23_mute.obj" \
+"grant\dsk6713\lib\dsk6713bsl\dsk6713bsl\dsk6713_aic23_opencodec.obj" \
+"grant\dsk6713\lib\dsk6713bsl\dsk6713bsl\dsk6713_aic23_outgain.obj" \
+"grant\dsk6713\lib\dsk6713bsl\dsk6713bsl\dsk6713_aic23_powerdown.obj" \
+"grant\dsk6713\lib\dsk6713bsl\dsk6713bsl\dsk6713_aic23_read.obj" \
+"grant\dsk6713\lib\dsk6713bsl\dsk6713bsl\dsk6713_aic23_registers.obj" \
+"grant\dsk6713\lib\dsk6713bsl\dsk6713bsl\dsk6713_aic23_setfreq.obj" \
+"grant\dsk6713\lib\dsk6713bsl\dsk6713bsl\dsk6713_aic23_write.obj" \
+"grant\dsk6713\lib\dsk6713bsl\dsk6713bsl\dsk6713_dip.obj" \
+"grant\dsk6713\lib\dsk6713bsl\dsk6713bsl\dsk6713_flash_checksum.obj" \
+"grant\dsk6713\lib\dsk6713bsl\dsk6713bsl\dsk6713_flash_erase.obj" \
+"grant\dsk6713\lib\dsk6713bsl\dsk6713bsl\dsk6713_flash_read.obj" \
+"grant\dsk6713\lib\dsk6713bsl\dsk6713bsl\dsk6713_flash_write.obj" \
+"grant\dsk6713\lib\dsk6713bsl\dsk6713bsl\dsk6713_led.obj" 
+
+C_SRCS__QUOTED += \
+"../grant/dsk6713/lib/dsk6713bsl/dsk6713bsl/dsk6713.c" \
+"../grant/dsk6713/lib/dsk6713bsl/dsk6713bsl/dsk6713_aic23_closecodec.c" \
+"../grant/dsk6713/lib/dsk6713bsl/dsk6713bsl/dsk6713_aic23_loopback.c" \
+"../grant/dsk6713/lib/dsk6713bsl/dsk6713bsl/dsk6713_aic23_mute.c" \
+"../grant/dsk6713/lib/dsk6713bsl/dsk6713bsl/dsk6713_aic23_opencodec.c" \
+"../grant/dsk6713/lib/dsk6713bsl/dsk6713bsl/dsk6713_aic23_outgain.c" \
+"../grant/dsk6713/lib/dsk6713bsl/dsk6713bsl/dsk6713_aic23_powerdown.c" \
+"../grant/dsk6713/lib/dsk6713bsl/dsk6713bsl/dsk6713_aic23_read.c" \
+"../grant/dsk6713/lib/dsk6713bsl/dsk6713bsl/dsk6713_aic23_registers.c" \
+"../grant/dsk6713/lib/dsk6713bsl/dsk6713bsl/dsk6713_aic23_setfreq.c" \
+"../grant/dsk6713/lib/dsk6713bsl/dsk6713bsl/dsk6713_aic23_write.c" \
+"../grant/dsk6713/lib/dsk6713bsl/dsk6713bsl/dsk6713_dip.c" \
+"../grant/dsk6713/lib/dsk6713bsl/dsk6713bsl/dsk6713_flash_checksum.c" \
+"../grant/dsk6713/lib/dsk6713bsl/dsk6713bsl/dsk6713_flash_erase.c" \
+"../grant/dsk6713/lib/dsk6713bsl/dsk6713bsl/dsk6713_flash_read.c" \
+"../grant/dsk6713/lib/dsk6713bsl/dsk6713bsl/dsk6713_flash_write.c" \
+"../grant/dsk6713/lib/dsk6713bsl/dsk6713bsl/dsk6713_led.c" 
+
+

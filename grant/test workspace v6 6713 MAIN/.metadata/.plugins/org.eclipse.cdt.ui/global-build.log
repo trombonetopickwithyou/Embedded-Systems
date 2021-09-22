@@ -1,0 +1,313 @@
+
+**** Build of configuration Debug for project 260 fft integer ****
+
+"C:\\ti2\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../dspfft.asm'
+'Invoking: C6000 Compiler'
+"C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/include" --include_path="C:/Documents and Settings/One/Desktop/DT Docs/CCS/libraries/Fastlib/inc" --define=c6713 --display_error_number --diag_warning=225 --diag_wrap=off --preproc_with_compile --preproc_dependency="dspfft.pp"  "../dspfft.asm"
+'Finished building: ../dspfft.asm'
+' '
+'Building file: ../main.c'
+'Invoking: C6000 Compiler'
+"C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/include" --include_path="C:/Documents and Settings/One/Desktop/DT Docs/CCS/libraries/Fastlib/inc" --define=c6713 --display_error_number --diag_warning=225 --diag_wrap=off --preproc_with_compile --preproc_dependency="main.pp"  "../main.c"
+'Finished building: ../main.c'
+' '
+'Building target: 260 fft integer.out'
+'Invoking: C6000 Linker'
+"C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/bin/cl6x" -mv6700 --abi=coffabi -g --define=c6713 --display_error_number --diag_warning=225 --diag_wrap=off -z --stack_size=0x800 -m"260 fft integer.map" --heap_size=0x800 -i"C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/lib" -i"C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/include" --reread_libs --warn_sections --display_error_number --diag_wrap=off --xml_link_info="260 fft integer_linkInfo.xml" --rom_model -o "260 fft integer.out"  "./main.obj" "./dspfft.obj" "../C6713.cmd" -l"libc.a" -l"C:\Documents and Settings\One\Desktop\DT Docs\CCS\libraries\Fastlib\lib\c67xfastMath.lib" 
+<Linking>
+'Finished building target: 260 fft integer.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project 001 starting up ****
+
+"C:\\ti2\\ccsv6\\utils\\bin\\gmake" -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project 002 start ****
+
+"C:\\ti2\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../main.c'
+'Invoking: C6000 Compiler'
+"C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/include" --define=c6713 --display_error_number --diag_warning=225 --diag_wrap=off --preproc_with_compile --preproc_dependency="main.pp"  "../main.c"
+"../main.c", line 14: error #20: identifier "Glo" is undefined
+
+"../main.c", line 19: warning #112-D: statement is unreachable
+>> Compilation failure
+"../main.c", line 8: warning #552-D: variable "data" was set but never used
+1 error detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target `all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project 010 hello ****
+
+"C:\\ti2\\ccsv6\\utils\\bin\\gmake" -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project 020 circular buffer ****
+
+"C:\\ti2\\ccsv6\\utils\\bin\\gmake" -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project 029 BSL ****
+
+"C:\\ti2\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../main.c'
+'Invoking: C6000 Compiler'
+"C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/include" --include_path="D:/Program Files/ti/C6xCSL/include" --include_path="D:/Program Files/ti/DSK6713/c6000/dsk6713/include" --define=c6713 --define=CHIP_6713 --display_error_number --diag_warning=225 --diag_wrap=off --mem_model:const=data --mem_model:data=far_aggregates --printf_support=minimal --preproc_with_compile --preproc_dependency="main.pp"  "../main.c"
+"../main.c", line 7: fatal error #5: could not open source file "DSK6713.h"
+
+>> Compilation failure
+1 fatal error detected in the compilation of "../main.c".
+Compilation terminated.
+gmake: *** [main.obj] Error 1
+gmake: Target `all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project 030 BSL ****
+
+"C:\\ti2\\ccsv6\\utils\\bin\\gmake" -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project 040 DIP_SW and LED ****
+
+"C:\\ti2\\ccsv6\\utils\\bin\\gmake" -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project 050 CSL TIMER_INT ****
+
+"C:\\ti2\\ccsv6\\utils\\bin\\gmake" -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project 060 CSL BSL XINT ****
+
+"C:\\ti2\\ccsv6\\utils\\bin\\gmake" -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project 070 AUDIO ****
+
+"C:\\ti2\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../main.c'
+'Invoking: C6000 Compiler'
+"C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/include" --include_path="C:/Documents and Settings/One/Desktop/DT Docs/CCS/libraries/dsk6713/include" --include_path="C:/Documents and Settings/One/Desktop/DT Docs/CCS/libraries/cslupdate/include" --define=c6713 --define=CHIP_6713 --display_error_number --diag_warning=225 --diag_wrap=off --mem_model:const=far --mem_model:data=far --preproc_with_compile --preproc_dependency="main.pp"  "../main.c"
+'Finished building: ../main.c'
+' '
+'Building target: 070 AUDIO.out'
+'Invoking: C6000 Linker'
+"C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/bin/cl6x" -mv6700 --abi=coffabi -g --define=c6713 --define=CHIP_6713 --display_error_number --diag_warning=225 --diag_wrap=off --mem_model:const=far --mem_model:data=far -z --stack_size=0x800 -m"070 AUDIO.map" --heap_size=0x800 -i"C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/lib" -i"C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/include" --reread_libs --verbose_diagnostics --warn_sections --display_error_number --issue_remarks --diag_wrap=off --xml_link_info="070 AUDIO_linkInfo.xml" --rom_model -o "070 AUDIO.out"  "./main.obj" "../C6713.cmd" -l"libc.a" -l"C:\Documents and Settings\One\Desktop\DT Docs\CCS\libraries\cslupdate\lib_3x\csl6713.lib" -l"C:\Documents and Settings\One\Desktop\DT Docs\CCS\libraries\dsk6713\lib\dsk6713bsl.lib" 
+<Linking>
+remark #10205-D: automatic RTS selection:  linking in "rts6700.lib" in place of index library "libc.a"
+warning #16002-D: build attribute vendor section TI missing in "C:\Documents and Settings\One\Desktop\DT Docs\CCS\libraries\cslupdate\lib_3x\csl6713.lib<csl.obj>": compatibility cannot be determined
+warning #16002-D: build attribute vendor section TI missing in "C:\Documents and Settings\One\Desktop\DT Docs\CCS\libraries\cslupdate\lib_3x\csl6713.lib<csl_irq.obj>": compatibility cannot be determined
+warning #16002-D: build attribute vendor section TI missing in "C:\Documents and Settings\One\Desktop\DT Docs\CCS\libraries\cslupdate\lib_3x\csl6713.lib<csl_mcbsp.obj>": compatibility cannot be determined
+warning #16002-D: build attribute vendor section TI missing in "C:\Documents and Settings\One\Desktop\DT Docs\CCS\libraries\cslupdate\lib_3x\csl6713.lib<csl_timer.obj>": compatibility cannot be determined
+warning #16002-D: build attribute vendor section TI missing in "C:\Documents and Settings\One\Desktop\DT Docs\CCS\libraries\dsk6713\lib\dsk6713bsl.lib<dsk6713.obj>": compatibility cannot be determined
+warning #16002-D: build attribute vendor section TI missing in "C:\Documents and Settings\One\Desktop\DT Docs\CCS\libraries\dsk6713\lib\dsk6713bsl.lib<dsk6713_aic23_opencodec.obj>": compatibility cannot be determined
+warning #16002-D: build attribute vendor section TI missing in "C:\Documents and Settings\One\Desktop\DT Docs\CCS\libraries\dsk6713\lib\dsk6713bsl.lib<dsk6713_aic23_registers.obj>": compatibility cannot be determined
+'Finished building target: 070 AUDIO.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project 080 AUDIO register reads ****
+
+"C:\\ti2\\ccsv6\\utils\\bin\\gmake" -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project 089 BSL AUDIO polled output only ****
+
+"C:\\ti2\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../audio.c'
+'Invoking: C6000 Compiler'
+"C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="C:/Documents and Settings/One/Desktop/DT Docs/CCS/libraries/dsk6713/include" --include_path="C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/include" --define=c6713 --define=CHIP_6713 --display_error_number --diag_warning=225 --diag_wrap=off --mem_model:const=far --mem_model:data=far --preproc_with_compile --preproc_dependency="audio.pp"  "../audio.c"
+"C:/Documents and Settings/One/Desktop/DT Docs/CCS/libraries/dsk6713/include/dsk6713.h", line 20: fatal error #5: could not open source file "csl.h"
+1 fatal error detected in the compilation of "../audio.c".
+Compilation terminated.
+
+>> Compilation failure
+gmake: *** [audio.obj] Error 1
+'Building file: ../piano.c'
+'Invoking: C6000 Compiler'
+"C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="C:/Documents and Settings/One/Desktop/DT Docs/CCS/libraries/dsk6713/include" --include_path="C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/include" --define=c6713 --define=CHIP_6713 --display_error_number --diag_warning=225 --diag_wrap=off --mem_model:const=far --mem_model:data=far --preproc_with_compile --preproc_dependency="piano.pp"  "../piano.c"
+"C:/Documents and Settings/One/Desktop/DT Docs/CCS/libraries/dsk6713/include/dsk6713_aic23.h", line 18: fatal error #5: could not open source file "csl.h"
+
+>> Compilation failure
+1 fatal error detected in the compilation of "../piano.c".
+Compilation terminated.
+gmake: *** [piano.obj] Error 1
+gmake: Target `all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project 100 BSL AUDIO ****
+
+"C:\\ti2\\ccsv6\\utils\\bin\\gmake" -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project 110 BSL AUDIO INT ****
+
+"C:\\ti2\\ccsv6\\utils\\bin\\gmake" -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project 120 BSL AUDIO EDMA ****
+
+"C:\\ti2\\ccsv6\\utils\\bin\\gmake" -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project 130 BSL AUDIO EDMA triple ****
+
+"C:\\ti2\\ccsv6\\utils\\bin\\gmake" -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project 140 shifting ****
+
+"C:\\ti2\\ccsv6\\utils\\bin\\gmake" -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project 149 fastlib old v ****
+
+"C:\\ti2\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building target: 149 fastlib old v.out'
+'Invoking: C6000 Linker'
+"C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/bin/cl6x" -mv6700 --abi=coffabi -g --define=c6713 --display_error_number --diag_warning=225 --diag_wrap=off --printf_support=full -z --stack_size=0x800 -m"149 fastlib old v.map" --heap_size=0x800 -i"C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/lib" -i"C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/include" --reread_libs --priority --warn_sections --display_error_number --diag_wrap=off --xml_link_info="149 fastlib old v_linkInfo.xml" --rom_model -o "149 fastlib old v.out"  "./fastlib.obj" "../C6713.cmd" -l"libc.a" -l"C:\Documents and Settings\One\Desktop\DT Docs\CCS\libraries\mthlib\lib\fastrts67x.lib" 
+<Linking>
+warning #16002-D: build attribute vendor section TI missing in "C:\Documents and Settings\One\Desktop\DT Docs\CCS\libraries\mthlib\lib\fastrts67x.lib<divdp.obj>": compatibility cannot be determined
+warning #16002-D: build attribute vendor section TI missing in "C:\Documents and Settings\One\Desktop\DT Docs\CCS\libraries\mthlib\lib\fastrts67x.lib<divsp.obj>": compatibility cannot be determined
+warning #16002-D: build attribute vendor section TI missing in "C:\Documents and Settings\One\Desktop\DT Docs\CCS\libraries\mthlib\lib\fastrts67x.lib<recipdp.obj>": compatibility cannot be determined
+warning #16002-D: build attribute vendor section TI missing in "C:\Documents and Settings\One\Desktop\DT Docs\CCS\libraries\mthlib\lib\fastrts67x.lib<recipsp.obj>": compatibility cannot be determined
+warning #16002-D: build attribute vendor section TI missing in "C:\Documents and Settings\One\Desktop\DT Docs\CCS\libraries\mthlib\lib\fastrts67x.lib<sqrtdp.obj>": compatibility cannot be determined
+warning #16002-D: build attribute vendor section TI missing in "C:\Documents and Settings\One\Desktop\DT Docs\CCS\libraries\mthlib\lib\fastrts67x.lib<sqrtsp.obj>": compatibility cannot be determined
+error #10056: symbol "__divd" redefined: first defined in "C:\ti2\ccsv6\tools\compiler\c6000_7.4.7\lib\rts6700.lib<divd.obj>"; redefined in "C:\Documents and Settings\One\Desktop\DT Docs\CCS\libraries\mthlib\lib\fastrts67x.lib<divdp.obj>"
+error #10056: symbol "__divf" redefined: first defined in "C:\ti2\ccsv6\tools\compiler\c6000_7.4.7\lib\rts6700.lib<divf.obj>"; redefined in "C:\Documents and Settings\One\Desktop\DT Docs\CCS\libraries\mthlib\lib\fastrts67x.lib<divsp.obj>"
+error #10010: errors encountered during linking; "149 fastlib old v.out" not built
+
+>> Compilation failure
+gmake: *** [149 fastlib old v.out] Error 1
+gmake: Target `all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project 150 fastlib update ****
+
+"C:\\ti2\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../fastlib.c'
+'Invoking: C6000 Compiler'
+"C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="C:/Documents and Settings/One/Desktop/DT Docs/CCS/libraries/Fastlib/inc" --include_path="C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/include" --define=c6713 --display_error_number --diag_warning=225 --diag_wrap=off --printf_support=full --preproc_with_compile --preproc_dependency="fastlib.pp"  "../fastlib.c"
+'Finished building: ../fastlib.c'
+' '
+'Building target: 150 fastlib update.out'
+'Invoking: C6000 Linker'
+"C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/bin/cl6x" -mv6700 --abi=coffabi -g --define=c6713 --display_error_number --diag_warning=225 --diag_wrap=off --printf_support=full -z --stack_size=0x800 -m"150 fastlib update.map" --heap_size=0x800 -i"C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/lib" -i"C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/include" --reread_libs --priority --disable_auto_rts --warn_sections --display_error_number --diag_wrap=off --xml_link_info="150 fastlib update_linkInfo.xml" --rom_model -o "150 fastlib update.out"  "./fastlib.obj" "../C6713.cmd" -l"C:\Documents and Settings\One\Desktop\DT Docs\CCS\libraries\Fastlib\lib\c67xfastMath.lib" -l"libc.a" 
+<Linking>
+'Finished building target: 150 fastlib update.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project 160 saturated add ****
+
+"C:\\ti2\\ccsv6\\utils\\bin\\gmake" -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project 170 fixed point math ****
+
+"C:\\ti2\\ccsv6\\utils\\bin\\gmake" -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project 180 fixed point math ****
+
+"C:\\ti2\\ccsv6\\utils\\bin\\gmake" -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project 190 DSP library and QDMA ****
+
+"C:\\ti2\\ccsv6\\utils\\bin\\gmake" -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project 200 2D array into function ****
+
+"C:\\ti2\\ccsv6\\utils\\bin\\gmake" -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project 210 optimizer and debugging ****
+
+"C:\\ti2\\ccsv6\\utils\\bin\\gmake" -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project 220 BSL AUDIO EDMA triple optimized ****
+
+"C:\\ti2\\ccsv6\\utils\\bin\\gmake" -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project 230 qsort ****
+
+"C:\\ti2\\ccsv6\\utils\\bin\\gmake" -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project 240 rounding ****
+
+"C:\\ti2\\ccsv6\\utils\\bin\\gmake" -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project 250 fft integer original ****
+
+"C:\\ti2\\ccsv6\\utils\\bin\\gmake" -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project 260 fft integer ****
+
+"C:\\ti2\\ccsv6\\utils\\bin\\gmake" -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****

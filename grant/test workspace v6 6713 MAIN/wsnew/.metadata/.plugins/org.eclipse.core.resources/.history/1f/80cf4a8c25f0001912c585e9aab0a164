@@ -1,0 +1,83 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+CMD_SRCS += \
+../C6713.cmd 
+
+TCF_SRCS += \
+../510\ raw.tcf 
+
+S??_SRCS += \
+./510\ rawcfg.s?? 
+
+C_SRCS += \
+./510\ rawcfg_c.c \
+../main.c 
+
+OBJS += \
+./510\ rawcfg.obj \
+./510\ rawcfg_c.obj \
+./main.obj 
+
+GEN_MISC_FILES += \
+./510\ raw.cdb 
+
+GEN_HDRS += \
+./510\ rawcfg.h \
+./510\ rawcfg.h?? 
+
+S??_DEPS += \
+./510\ rawcfg.pp 
+
+C_DEPS += \
+./510\ rawcfg_c.pp \
+./main.pp 
+
+GEN_CMDS += \
+./510\ rawcfg.cmd 
+
+GEN_FILES += \
+./510\ rawcfg.cmd \
+./510\ rawcfg.s?? \
+./510\ rawcfg_c.c 
+
+GEN_HDRS__QUOTED += \
+"510 rawcfg.h" \
+"510 rawcfg.h??" 
+
+GEN_MISC_FILES__QUOTED += \
+"510 raw.cdb" 
+
+GEN_FILES__QUOTED += \
+"510 rawcfg.cmd" \
+"510 rawcfg.s??" \
+"510 rawcfg_c.c" 
+
+C_DEPS__QUOTED += \
+"510 rawcfg_c.pp" \
+"main.pp" 
+
+S??_DEPS__QUOTED += \
+"510 rawcfg.pp" 
+
+OBJS__QUOTED += \
+"510 rawcfg.obj" \
+"510 rawcfg_c.obj" \
+"main.obj" 
+
+GEN_CMDS__FLAG += \
+-l"./510 rawcfg.cmd" 
+
+S??_SRCS__QUOTED += \
+"./510 rawcfg.s??" 
+
+S??_OBJS__QUOTED += \
+"510 rawcfg.obj" 
+
+C_SRCS__QUOTED += \
+"./510 rawcfg_c.c" \
+"../main.c" 
+
+

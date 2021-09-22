@@ -1,0 +1,23 @@
+utils.loadPlatform("ti.platforms.dsk6713");
+
+/* The following DSP/BIOS Features are enabled.  */
+bios.enableRealTimeAnalysis(prog);
+bios.enableRtdx(prog);
+bios.enableTskManager(prog);
+
+bios.GBL.BOARDNAME = "c6713 DSK";
+bios.PRD.create("PRD0");
+bios.PRD.instance("PRD0").order = 1;
+bios.PRD.instance("PRD0").period = 1000;
+bios.PRD.instance("PRD0").fxn = prog.extern("PRD0_ftn");
+bios.TSK.create("TSK0");
+bios.TSK.instance("TSK0").order = 1;
+bios.TSK.instance("TSK0").fxn = prog.extern("TSK0_ftn");
+bios.SEM.create("SEM0");
+bios.IDL.create("IDL0");
+bios.IDL.instance("IDL0").order = 1;
+bios.IDL.instance("IDL0").fxn = prog.extern("IDL0_ftn");
+bios.GBL.USERINITFXN = prog.extern("initGlo");
+// !GRAPHICAL_CONFIG_TOOL_SCRIPT_INSERT_POINT!
+
+prog.gen();

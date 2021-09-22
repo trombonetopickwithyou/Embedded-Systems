@@ -1,0 +1,27 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+CMD_SRCS += \
+../grant/test\ workspace\ v6\ 6713\ MAIN/160\ saturated\ add/C6713.cmd 
+
+C_SRCS += \
+../grant/test\ workspace\ v6\ 6713\ MAIN/160\ saturated\ add/sadd.c 
+
+OBJS += \
+./grant/test\ workspace\ v6\ 6713\ MAIN/160\ saturated\ add/sadd.obj 
+
+C_DEPS += \
+./grant/test\ workspace\ v6\ 6713\ MAIN/160\ saturated\ add/sadd.pp 
+
+C_DEPS__QUOTED += \
+"grant\test workspace v6 6713 MAIN\160 saturated add\sadd.pp" 
+
+OBJS__QUOTED += \
+"grant\test workspace v6 6713 MAIN\160 saturated add\sadd.obj" 
+
+C_SRCS__QUOTED += \
+"../grant/test workspace v6 6713 MAIN/160 saturated add/sadd.c" 
+
+

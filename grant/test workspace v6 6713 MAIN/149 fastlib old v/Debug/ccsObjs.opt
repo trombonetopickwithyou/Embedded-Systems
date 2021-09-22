@@ -1,0 +1,1 @@
+"./fastlib.obj" "../C6713.cmd" -l"libc.a" -l"C:\Documents and Settings\One\Desktop\DT Docs\CCS\libraries\mthlib\lib\fastrts67x.lib" 

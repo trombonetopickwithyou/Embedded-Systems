@@ -1,0 +1,25 @@
+
+**** Build of configuration Debug for project 089 BSL AUDIO polled output only ****
+
+"C:\\ti2\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../audio.c'
+'Invoking: C6000 Compiler'
+"C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="C:/Documents and Settings/One/Desktop/DT Docs/CCS/libraries/dsk6713/include" --include_path="C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/include" --define=c6713 --define=CHIP_6713 --display_error_number --diag_warning=225 --diag_wrap=off --mem_model:const=far --mem_model:data=far --preproc_with_compile --preproc_dependency="audio.pp"  "../audio.c"
+"C:/Documents and Settings/One/Desktop/DT Docs/CCS/libraries/dsk6713/include/dsk6713.h", line 20: fatal error #5: could not open source file "csl.h"
+1 fatal error detected in the compilation of "../audio.c".
+Compilation terminated.
+
+>> Compilation failure
+gmake: *** [audio.obj] Error 1
+'Building file: ../piano.c'
+'Invoking: C6000 Compiler'
+"C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="C:/Documents and Settings/One/Desktop/DT Docs/CCS/libraries/dsk6713/include" --include_path="C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/include" --define=c6713 --define=CHIP_6713 --display_error_number --diag_warning=225 --diag_wrap=off --mem_model:const=far --mem_model:data=far --preproc_with_compile --preproc_dependency="piano.pp"  "../piano.c"
+"C:/Documents and Settings/One/Desktop/DT Docs/CCS/libraries/dsk6713/include/dsk6713_aic23.h", line 18: fatal error #5: could not open source file "csl.h"
+
+>> Compilation failure
+1 fatal error detected in the compilation of "../piano.c".
+Compilation terminated.
+gmake: *** [piano.obj] Error 1
+gmake: Target `all' not remade because of errors.
+
+**** Build Finished ****

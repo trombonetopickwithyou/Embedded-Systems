@@ -1,0 +1,39 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+CMD_SRCS += \
+../grant/dsk6713/tutorial/dsk6713/modem/modem.cmd 
+
+C_SRCS += \
+../grant/dsk6713/tutorial/dsk6713/modem/modemtx.c \
+../grant/dsk6713/tutorial/dsk6713/modem/razed32.c \
+../grant/dsk6713/tutorial/dsk6713/modem/sinetab.c 
+
+OBJS += \
+./grant/dsk6713/tutorial/dsk6713/modem/modemtx.obj \
+./grant/dsk6713/tutorial/dsk6713/modem/razed32.obj \
+./grant/dsk6713/tutorial/dsk6713/modem/sinetab.obj 
+
+C_DEPS += \
+./grant/dsk6713/tutorial/dsk6713/modem/modemtx.pp \
+./grant/dsk6713/tutorial/dsk6713/modem/razed32.pp \
+./grant/dsk6713/tutorial/dsk6713/modem/sinetab.pp 
+
+C_DEPS__QUOTED += \
+"grant\dsk6713\tutorial\dsk6713\modem\modemtx.pp" \
+"grant\dsk6713\tutorial\dsk6713\modem\razed32.pp" \
+"grant\dsk6713\tutorial\dsk6713\modem\sinetab.pp" 
+
+OBJS__QUOTED += \
+"grant\dsk6713\tutorial\dsk6713\modem\modemtx.obj" \
+"grant\dsk6713\tutorial\dsk6713\modem\razed32.obj" \
+"grant\dsk6713\tutorial\dsk6713\modem\sinetab.obj" 
+
+C_SRCS__QUOTED += \
+"../grant/dsk6713/tutorial/dsk6713/modem/modemtx.c" \
+"../grant/dsk6713/tutorial/dsk6713/modem/razed32.c" \
+"../grant/dsk6713/tutorial/dsk6713/modem/sinetab.c" 
+
+

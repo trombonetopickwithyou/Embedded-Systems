@@ -1,0 +1,28 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+OUT_SRCS += \
+../grant/test\ workspace\ v6\ 6713\ MAIN/100\ BSL\ AUDIO/Debug/060\ BSL\ AUDIO\ INT.out \
+../grant/test\ workspace\ v6\ 6713\ MAIN/100\ BSL\ AUDIO/Debug/060\ BSL\ AUDIO.out \
+../grant/test\ workspace\ v6\ 6713\ MAIN/100\ BSL\ AUDIO/Debug/070\ BSL\ AUDIO.out \
+../grant/test\ workspace\ v6\ 6713\ MAIN/100\ BSL\ AUDIO/Debug/100\ BSL\ AUDIO.out 
+
+OBJ_SRCS += \
+../grant/test\ workspace\ v6\ 6713\ MAIN/100\ BSL\ AUDIO/Debug/audio.obj \
+../grant/test\ workspace\ v6\ 6713\ MAIN/100\ BSL\ AUDIO/Debug/piano.obj 
+
+OPT_SRCS += \
+../grant/test\ workspace\ v6\ 6713\ MAIN/100\ BSL\ AUDIO/Debug/ccsObjs.opt 
+
+OUT_SRCS__QUOTED += \
+"../grant/test workspace v6 6713 MAIN/100 BSL AUDIO/Debug/060 BSL AUDIO INT.out" \
+"../grant/test workspace v6 6713 MAIN/100 BSL AUDIO/Debug/060 BSL AUDIO.out" \
+"../grant/test workspace v6 6713 MAIN/100 BSL AUDIO/Debug/070 BSL AUDIO.out" \
+"../grant/test workspace v6 6713 MAIN/100 BSL AUDIO/Debug/100 BSL AUDIO.out" 
+
+OPT_SRCS__QUOTED += \
+"../grant/test workspace v6 6713 MAIN/100 BSL AUDIO/Debug/ccsObjs.opt" 
+
+

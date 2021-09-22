@@ -1,0 +1,1 @@
+-l"./510rawcfg.cmd" "./main.obj" "./510rawcfg_c.obj" "./510rawcfg.obj" -l"libc.a" 

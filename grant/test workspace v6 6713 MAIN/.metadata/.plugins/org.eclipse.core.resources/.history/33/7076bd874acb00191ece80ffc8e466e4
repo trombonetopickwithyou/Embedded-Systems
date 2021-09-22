@@ -1,0 +1,12 @@
+/*
+ * main.c
+ */
+int main(void) {
+	int x = 5;
+
+char *ptr;
+
+ptr = 0x90080000;
+
+	return x;
+}

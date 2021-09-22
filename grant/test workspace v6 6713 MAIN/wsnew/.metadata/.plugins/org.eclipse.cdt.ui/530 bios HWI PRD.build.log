@@ -1,0 +1,43 @@
+
+**** Build of configuration Debug for project 530 bios HWI PRD ****
+
+"C:\\ti2\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../bioshwi.tcf'
+'Invoking: TConf'
+"C:/ti2/bios_5_42_01_09/xdctools/tconf" -b -Dconfig.importPath="C:/ti2/bios_5_42_01_09/packages;" "../bioshwi.tcf"
+'Finished building: ../bioshwi.tcf'
+' '
+'Building file: bioshwicfg.s??'
+'Invoking: C6000 Compiler'
+"C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/include" --include_path="C:/Documents and Settings/One/Desktop/DT Docs/CCS/libraries/cslupdate/include" --include_path="C:/Documents and Settings/One/Desktop/DT Docs/CCS/libraries/dsk6713/include" --include_path="C:/Documents and Settings/One/Desktop/DT Docs/CCS6.0/wsnew/530 bios HWI PRD/Debug" --include_path="C:/ti2/bios_5_42_01_09/packages/ti/bios/include" --include_path="C:/ti2/bios_5_42_01_09/packages/ti/rtdx/include/c6000" --define=c6713 --define=CHIP_6713 --display_error_number --issue_remarks --verbose_diagnostics --diag_warning=225 --diag_wrap=off --mem_model:const=far --mem_model:data=far --preproc_with_compile --preproc_dependency="bioshwicfg.pp"  "bioshwicfg.s??"
+'Finished building: bioshwicfg.s??'
+' '
+'Building file: bioshwicfg_c.c'
+'Invoking: C6000 Compiler'
+"C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/include" --include_path="C:/Documents and Settings/One/Desktop/DT Docs/CCS/libraries/cslupdate/include" --include_path="C:/Documents and Settings/One/Desktop/DT Docs/CCS/libraries/dsk6713/include" --include_path="C:/Documents and Settings/One/Desktop/DT Docs/CCS6.0/wsnew/530 bios HWI PRD/Debug" --include_path="C:/ti2/bios_5_42_01_09/packages/ti/bios/include" --include_path="C:/ti2/bios_5_42_01_09/packages/ti/rtdx/include/c6000" --define=c6713 --define=CHIP_6713 --display_error_number --issue_remarks --verbose_diagnostics --diag_warning=225 --diag_wrap=off --mem_model:const=far --mem_model:data=far --preproc_with_compile --preproc_dependency="bioshwicfg_c.pp"  "bioshwicfg_c.c"
+'Finished building: bioshwicfg_c.c'
+' '
+'Building file: ../hello.c'
+'Invoking: C6000 Compiler'
+"C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/include" --include_path="C:/Documents and Settings/One/Desktop/DT Docs/CCS/libraries/cslupdate/include" --include_path="C:/Documents and Settings/One/Desktop/DT Docs/CCS/libraries/dsk6713/include" --include_path="C:/Documents and Settings/One/Desktop/DT Docs/CCS6.0/wsnew/530 bios HWI PRD/Debug" --include_path="C:/ti2/bios_5_42_01_09/packages/ti/bios/include" --include_path="C:/ti2/bios_5_42_01_09/packages/ti/rtdx/include/c6000" --define=c6713 --define=CHIP_6713 --display_error_number --issue_remarks --verbose_diagnostics --diag_warning=225 --diag_wrap=off --mem_model:const=far --mem_model:data=far --preproc_with_compile --preproc_dependency="hello.pp"  "../hello.c"
+"../hello.c", line 57: remark #880-D: parameter "arg0" was never referenced
+  void PRD0_tick(int arg0, int arg1)
+                     ^
+
+"../hello.c", line 57: remark #880-D: parameter "arg1" was never referenced
+  void PRD0_tick(int arg0, int arg1)
+                               ^
+
+'Finished building: ../hello.c'
+' '
+'Building target: 530 bios HWI PRD.out'
+'Invoking: C6000 Linker'
+"C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/bin/cl6x" -mv6700 --abi=coffabi -g --define=c6713 --define=CHIP_6713 --display_error_number --issue_remarks --verbose_diagnostics --diag_warning=225 --diag_wrap=off --mem_model:const=far --mem_model:data=far -z --stack_size=0x800 -m"530 bios HWI PRD.map" --heap_size=0x800 -i"C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/lib" -i"C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/include" -i"C:/ti2/bios_5_42_01_09/packages/ti/rtdx/lib/c6000" -i"C:/ti2/bios_5_42_01_09/packages/ti/bios/lib" --reread_libs --verbose_diagnostics --warn_sections --display_error_number --issue_remarks --diag_wrap=off --xml_link_info="530 bios HWI PRD_linkInfo.xml" --rom_model -o "530 bios HWI PRD.out" -l"./bioshwicfg.cmd"  "./hello.obj" "./bioshwicfg_c.obj" "./bioshwicfg.obj" -l"libc.a" -l"C:\Documents and Settings\One\Desktop\DT Docs\CCS\libraries\cslupdate\lib_3x\csl6713.lib" -l"C:\Documents and Settings\One\Desktop\DT Docs\CCS\libraries\dsk6713\lib\dsk6713bsl.lib" 
+<Linking>
+remark #10205-D: automatic RTS selection:  linking in "rts6700.lib" in place of index library "libc.a"
+"./bioshwicfg.cmd", line 264: remark #10191-D: object ".printf" is not allocated, but is being placed as part of allocated object "GROUP_1"
+         .printf (COPY): {} 
+'Finished building target: 530 bios HWI PRD.out'
+' '
+
+**** Build Finished ****

@@ -1,0 +1,31 @@
+utils.loadPlatform("ti.platforms.dsk6713");
+
+/* The following DSP/BIOS Features are enabled.  */
+bios.enableRealTimeAnalysis(prog);
+bios.enableRtdx(prog);
+bios.enableTskManager(prog);
+
+bios.GBL.BOARDNAME = "c6713";
+bios.PRD.create("PRD0");
+bios.PRD.instance("PRD0").order = 1;
+bios.PRD.instance("PRD0").fxn = prog.extern("PRD0_ftn");
+bios.PRD.instance("PRD0").period = 1000;
+bios.MBX.create("MBX0");
+bios.MBX.instance("MBX0").length = 4;
+bios.MBX.instance("MBX0").messageSize = 4;
+bios.TSK.create("TSK0");
+bios.TSK.instance("TSK0").order = 1;
+bios.TSK.instance("TSK0").fxn = prog.extern("TSK0_ftn");
+bios.MBX.create("MBX1");
+bios.MBX.instance("MBX1").messageSize = 4;
+bios.MBX.instance("MBX1").length = 4;
+bios.TSK.create("TSK1");
+bios.TSK.instance("TSK1").order = 2;
+bios.TSK.instance("TSK1").fxn = prog.extern("TSK1_ftn");
+bios.GBL.BOARDNAME = "DSK6713";
+bios.TSK.instance("TSK0").comment = "TSK0 to turn off LEDs";
+bios.TSK.instance("TSK1").comment = "TSK1 to turn on LEDs";
+bios.PRD.instance("PRD0").comment = "PRD0 to read switches and send mail";
+// !GRAPHICAL_CONFIG_TOOL_SCRIPT_INSERT_POINT!
+
+prog.gen();

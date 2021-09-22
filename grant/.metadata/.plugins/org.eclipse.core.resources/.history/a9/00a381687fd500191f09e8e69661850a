@@ -1,0 +1,27 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+CMD_SRCS += \
+../grant/dsk6713/examples/dsk6713/rtdx/shared/c6713dsk.cmd 
+
+ASM_SRCS += \
+../grant/dsk6713/examples/dsk6713/rtdx/shared/intvecs.asm 
+
+OBJS += \
+./grant/dsk6713/examples/dsk6713/rtdx/shared/intvecs.obj 
+
+ASM_DEPS += \
+./grant/dsk6713/examples/dsk6713/rtdx/shared/intvecs.pp 
+
+OBJS__QUOTED += \
+"grant\dsk6713\examples\dsk6713\rtdx\shared\intvecs.obj" 
+
+ASM_DEPS__QUOTED += \
+"grant\dsk6713\examples\dsk6713\rtdx\shared\intvecs.pp" 
+
+ASM_SRCS__QUOTED += \
+"../grant/dsk6713/examples/dsk6713/rtdx/shared/intvecs.asm" 
+
+

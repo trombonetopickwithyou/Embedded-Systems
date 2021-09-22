@@ -1,0 +1,74 @@
+
+**** Build of configuration Debug for project 560 bios MB ****
+
+"C:\\ti2\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../mb.tcf'
+'Invoking: TConf'
+"C:/ti2/bios_5_42_01_09/xdctools/tconf" -b -Dconfig.importPath="C:/ti2/bios_5_42_01_09/packages;" -js -w "../mb.tcf"
+'Finished building: ../mb.tcf'
+' '
+'Building file: ../mailbox.c'
+'Invoking: C6000 Compiler'
+"C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/include" --include_path="C:/Documents and Settings/One/Desktop/DT Docs/CCS/libraries/cslupdate/include" --include_path="C:/Documents and Settings/One/Desktop/DT Docs/CCS/libraries/dsk6713/include" --include_path="C:/Documents and Settings/One/Desktop/DT Docs/CCS6.0/wsnew/560 bios MB/Debug" --include_path="C:/ti2/bios_5_42_01_09/packages/ti/bios/include" --include_path="C:/ti2/bios_5_42_01_09/packages/ti/rtdx/include/c6000" --define=c6713 --define=CHIP_6713 --display_error_number --issue_remarks --verbose_diagnostics --diag_warning=225 --diag_wrap=off --mem_model:const=far --mem_model:data=far --preproc_with_compile --preproc_dependency="mailbox.pp"  "../mailbox.c"
+"../mailbox.c", line 38: remark #880-D: parameter "arg0" was never referenced
+  void PRD0_ftn(int arg0, int arg1)
+                    ^
+
+"../mailbox.c", line 38: remark #880-D: parameter "arg1" was never referenced
+  void PRD0_ftn(int arg0, int arg1)
+                              ^
+
+"../mailbox.c", line 40: warning #552-D: variable "status" was set but never
+          used
+  	int status;
+  	    ^
+
+"../mailbox.c", line 54: remark #880-D: parameter "arg0" was never referenced
+  void TSK0_ftn(int arg0, int arg1)
+                    ^
+
+"../mailbox.c", line 54: remark #880-D: parameter "arg1" was never referenced
+  void TSK0_ftn(int arg0, int arg1)
+                              ^
+
+"../mailbox.c", line 57: warning #552-D: variable "status" was set but never
+          used
+  	int status;
+  	    ^
+
+"../mailbox.c", line 69: remark #880-D: parameter "arg0" was never referenced
+  void TSK1_ftn(int arg0, int arg1)
+                    ^
+
+"../mailbox.c", line 69: remark #880-D: parameter "arg1" was never referenced
+  void TSK1_ftn(int arg0, int arg1)
+                              ^
+
+"../mailbox.c", line 72: warning #552-D: variable "status" was set but never
+          used
+  	int status;
+  	    ^
+
+'Finished building: ../mailbox.c'
+' '
+'Building file: mbcfg.s??'
+'Invoking: C6000 Compiler'
+"C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/include" --include_path="C:/Documents and Settings/One/Desktop/DT Docs/CCS/libraries/cslupdate/include" --include_path="C:/Documents and Settings/One/Desktop/DT Docs/CCS/libraries/dsk6713/include" --include_path="C:/Documents and Settings/One/Desktop/DT Docs/CCS6.0/wsnew/560 bios MB/Debug" --include_path="C:/ti2/bios_5_42_01_09/packages/ti/bios/include" --include_path="C:/ti2/bios_5_42_01_09/packages/ti/rtdx/include/c6000" --define=c6713 --define=CHIP_6713 --display_error_number --issue_remarks --verbose_diagnostics --diag_warning=225 --diag_wrap=off --mem_model:const=far --mem_model:data=far --preproc_with_compile --preproc_dependency="mbcfg.pp"  "mbcfg.s??"
+'Finished building: mbcfg.s??'
+' '
+'Building file: mbcfg_c.c'
+'Invoking: C6000 Compiler'
+"C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/include" --include_path="C:/Documents and Settings/One/Desktop/DT Docs/CCS/libraries/cslupdate/include" --include_path="C:/Documents and Settings/One/Desktop/DT Docs/CCS/libraries/dsk6713/include" --include_path="C:/Documents and Settings/One/Desktop/DT Docs/CCS6.0/wsnew/560 bios MB/Debug" --include_path="C:/ti2/bios_5_42_01_09/packages/ti/bios/include" --include_path="C:/ti2/bios_5_42_01_09/packages/ti/rtdx/include/c6000" --define=c6713 --define=CHIP_6713 --display_error_number --issue_remarks --verbose_diagnostics --diag_warning=225 --diag_wrap=off --mem_model:const=far --mem_model:data=far --preproc_with_compile --preproc_dependency="mbcfg_c.pp"  "mbcfg_c.c"
+'Finished building: mbcfg_c.c'
+' '
+'Building target: 560 bios MB.out'
+'Invoking: C6000 Linker'
+"C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/bin/cl6x" -mv6700 --abi=coffabi -g --define=c6713 --define=CHIP_6713 --display_error_number --issue_remarks --verbose_diagnostics --diag_warning=225 --diag_wrap=off --mem_model:const=far --mem_model:data=far -z --stack_size=0x800 -m"560 bios MB.map" --heap_size=0x800 -i"C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/lib" -i"C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/include" -i"C:/ti2/bios_5_42_01_09/packages/ti/rtdx/lib/c6000" -i"C:/ti2/bios_5_42_01_09/packages/ti/bios/lib" --reread_libs --verbose_diagnostics --warn_sections --display_error_number --issue_remarks --diag_wrap=off --xml_link_info="560 bios MB_linkInfo.xml" --rom_model -o "560 bios MB.out" -l"./mbcfg.cmd"  "./mbcfg_c.obj" "./mbcfg.obj" "./mailbox.obj" -l"libc.a" -l"C:\Documents and Settings\One\Desktop\DT Docs\CCS\libraries\cslupdate\lib_3x\csl6713.lib" -l"C:\Documents and Settings\One\Desktop\DT Docs\CCS\libraries\dsk6713\lib\dsk6713bsl.lib" 
+<Linking>
+remark #10205-D: automatic RTS selection:  linking in "rts6700.lib" in place of index library "libc.a"
+"./mbcfg.cmd", line 274: remark #10191-D: object ".printf" is not allocated, but is being placed as part of allocated object "GROUP_1"
+         .printf (COPY): {} 
+'Finished building target: 560 bios MB.out'
+' '
+
+**** Build Finished ****

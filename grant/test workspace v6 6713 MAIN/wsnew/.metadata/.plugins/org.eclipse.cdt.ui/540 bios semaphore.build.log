@@ -1,0 +1,83 @@
+
+**** Build of configuration Debug for project 540 bios semaphore ****
+
+"C:\\ti2\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../semaphore.tcf'
+'Invoking: TConf'
+"C:/ti2/bios_5_42_01_09/xdctools/tconf" -b -Dconfig.importPath="C:/ti2/bios_5_42_01_09/packages;" "../semaphore.tcf"
+'Finished building: ../semaphore.tcf'
+' '
+'Building file: ../sem.c'
+'Invoking: C6000 Compiler'
+"C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/include" --include_path="C:/Documents and Settings/One/Desktop/DT Docs/CCS/libraries/cslupdate/include" --include_path="C:/Documents and Settings/One/Desktop/DT Docs/CCS/libraries/dsk6713/include" --include_path="C:/Documents and Settings/One/Desktop/DT Docs/CCS6.0/wsnew/540 bios semaphore/Debug" --include_path="C:/ti2/bios_5_42_01_09/packages/ti/bios/include" --include_path="C:/ti2/bios_5_42_01_09/packages/ti/rtdx/include/c6000" --define=c6713 --define=CHIP_6713 --display_error_number --issue_remarks --verbose_diagnostics --diag_warning=225 --diag_wrap=off --mem_model:data=far --preproc_with_compile --preproc_dependency="sem.pp"  "../sem.c"
+"../sem.c", line 34: remark #880-D: parameter "arg0" was never referenced
+  void PRD0_ftn(int arg0, int arg1)
+                    ^
+
+"../sem.c", line 34: remark #880-D: parameter "arg1" was never referenced
+  void PRD0_ftn(int arg0, int arg1)
+                              ^
+
+"../sem.c", line 42: remark #880-D: parameter "arg0" was never referenced
+  void SWI0_ftn(int arg0, int arg1)
+                    ^
+
+"../sem.c", line 42: remark #880-D: parameter "arg1" was never referenced
+  void SWI0_ftn(int arg0, int arg1)
+                              ^
+
+"../sem.c", line 60: remark #880-D: parameter "arg0" was never referenced
+  void TSK0_ftn(int arg0, int arg1)
+                    ^
+
+"../sem.c", line 60: remark #880-D: parameter "arg1" was never referenced
+  void TSK0_ftn(int arg0, int arg1)
+                              ^
+
+"../sem.c", line 72: remark #880-D: parameter "arg0" was never referenced
+  void TSK1_ftn(int arg0, int arg1)
+                    ^
+
+"../sem.c", line 72: remark #880-D: parameter "arg1" was never referenced
+  void TSK1_ftn(int arg0, int arg1)
+                              ^
+
+"../sem.c", line 85: remark #880-D: parameter "arg0" was never referenced
+  void TSK2_ftn(int arg0, int arg1)
+                    ^
+
+"../sem.c", line 85: remark #880-D: parameter "arg1" was never referenced
+  void TSK2_ftn(int arg0, int arg1)
+                              ^
+
+"../sem.c", line 98: remark #880-D: parameter "arg0" was never referenced
+  void TSK3_ftn(int arg0, int arg1)
+                    ^
+
+"../sem.c", line 98: remark #880-D: parameter "arg1" was never referenced
+  void TSK3_ftn(int arg0, int arg1)
+                              ^
+
+'Finished building: ../sem.c'
+' '
+'Building file: semaphorecfg.s??'
+'Invoking: C6000 Compiler'
+"C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/include" --include_path="C:/Documents and Settings/One/Desktop/DT Docs/CCS/libraries/cslupdate/include" --include_path="C:/Documents and Settings/One/Desktop/DT Docs/CCS/libraries/dsk6713/include" --include_path="C:/Documents and Settings/One/Desktop/DT Docs/CCS6.0/wsnew/540 bios semaphore/Debug" --include_path="C:/ti2/bios_5_42_01_09/packages/ti/bios/include" --include_path="C:/ti2/bios_5_42_01_09/packages/ti/rtdx/include/c6000" --define=c6713 --define=CHIP_6713 --display_error_number --issue_remarks --verbose_diagnostics --diag_warning=225 --diag_wrap=off --mem_model:data=far --preproc_with_compile --preproc_dependency="semaphorecfg.pp"  "semaphorecfg.s??"
+'Finished building: semaphorecfg.s??'
+' '
+'Building file: semaphorecfg_c.c'
+'Invoking: C6000 Compiler'
+"C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/include" --include_path="C:/Documents and Settings/One/Desktop/DT Docs/CCS/libraries/cslupdate/include" --include_path="C:/Documents and Settings/One/Desktop/DT Docs/CCS/libraries/dsk6713/include" --include_path="C:/Documents and Settings/One/Desktop/DT Docs/CCS6.0/wsnew/540 bios semaphore/Debug" --include_path="C:/ti2/bios_5_42_01_09/packages/ti/bios/include" --include_path="C:/ti2/bios_5_42_01_09/packages/ti/rtdx/include/c6000" --define=c6713 --define=CHIP_6713 --display_error_number --issue_remarks --verbose_diagnostics --diag_warning=225 --diag_wrap=off --mem_model:data=far --preproc_with_compile --preproc_dependency="semaphorecfg_c.pp"  "semaphorecfg_c.c"
+'Finished building: semaphorecfg_c.c'
+' '
+'Building target: 540 bios semaphore.out'
+'Invoking: C6000 Linker'
+"C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/bin/cl6x" -mv6700 --abi=coffabi -g --define=c6713 --define=CHIP_6713 --display_error_number --issue_remarks --verbose_diagnostics --diag_warning=225 --diag_wrap=off --mem_model:data=far -z --stack_size=0x800 -m"540 bios semaphore.map" --heap_size=0x800 -i"C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/lib" -i"C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/include" -i"C:/ti2/bios_5_42_01_09/packages/ti/rtdx/lib/c6000" -i"C:/ti2/bios_5_42_01_09/packages/ti/bios/lib" --reread_libs --warn_sections --display_error_number --diag_wrap=off --xml_link_info="540 bios semaphore_linkInfo.xml" --rom_model -o "540 bios semaphore.out" -l"./semaphorecfg.cmd"  "./semaphorecfg_c.obj" "./semaphorecfg.obj" "./sem.obj" -l"libc.a" -l"C:\Documents and Settings\One\Desktop\DT Docs\CCS\libraries\cslupdate\lib_3x\csl6713.lib" -l"C:\Documents and Settings\One\Desktop\DT Docs\CCS\libraries\dsk6713\lib\dsk6713bsl.lib" 
+<Linking>
+remark #10205-D: automatic RTS selection:  linking in "rts6700.lib" in place of index library "libc.a"
+"./semaphorecfg.cmd", line 284: remark #10191-D: object ".printf" is not allocated, but is being placed as part of allocated object "GROUP_1"
+         .printf (COPY): {} 
+'Finished building target: 540 bios semaphore.out'
+' '
+
+**** Build Finished ****

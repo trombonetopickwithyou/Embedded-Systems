@@ -1,0 +1,26 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+OUT_SRCS += \
+../grant/test\ workspace\ v6\ 6713\ MAIN/060\ CSL\ BSL\ XINT/Debug/045\ CSL\ BSL\ XINT.out \
+../grant/test\ workspace\ v6\ 6713\ MAIN/060\ CSL\ BSL\ XINT/Debug/050\ CSL\ BSL\ XINT.out \
+../grant/test\ workspace\ v6\ 6713\ MAIN/060\ CSL\ BSL\ XINT/Debug/060\ CSL\ BSL\ XINT.out 
+
+OBJ_SRCS += \
+../grant/test\ workspace\ v6\ 6713\ MAIN/060\ CSL\ BSL\ XINT/Debug/Vectors_intr4567.obj \
+../grant/test\ workspace\ v6\ 6713\ MAIN/060\ CSL\ BSL\ XINT/Debug/inter.obj 
+
+OPT_SRCS += \
+../grant/test\ workspace\ v6\ 6713\ MAIN/060\ CSL\ BSL\ XINT/Debug/ccsObjs.opt 
+
+OUT_SRCS__QUOTED += \
+"../grant/test workspace v6 6713 MAIN/060 CSL BSL XINT/Debug/045 CSL BSL XINT.out" \
+"../grant/test workspace v6 6713 MAIN/060 CSL BSL XINT/Debug/050 CSL BSL XINT.out" \
+"../grant/test workspace v6 6713 MAIN/060 CSL BSL XINT/Debug/060 CSL BSL XINT.out" 
+
+OPT_SRCS__QUOTED += \
+"../grant/test workspace v6 6713 MAIN/060 CSL BSL XINT/Debug/ccsObjs.opt" 
+
+

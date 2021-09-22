@@ -1,0 +1,32 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+OUT_SRCS += \
+../grant/test\ workspace\ v6\ 6713\ MAIN/220\ BSL\ AUDIO\ EDMA\ triple\ optimized/Debug/090\ BSL\ AUDIO\ EDMA.out \
+../grant/test\ workspace\ v6\ 6713\ MAIN/220\ BSL\ AUDIO\ EDMA\ triple\ optimized/Debug/095\ BSL\ AUDIO\ EDMA\ triple.out \
+../grant/test\ workspace\ v6\ 6713\ MAIN/220\ BSL\ AUDIO\ EDMA\ triple\ optimized/Debug/110\ BSL\ AUDIO\ EDMA.out \
+../grant/test\ workspace\ v6\ 6713\ MAIN/220\ BSL\ AUDIO\ EDMA\ triple\ optimized/Debug/175\ BSL\ AUDIO\ EDMA\ triple\ 2D.out \
+../grant/test\ workspace\ v6\ 6713\ MAIN/220\ BSL\ AUDIO\ EDMA\ triple\ optimized/Debug/185\ BSL\ AUDIO\ EDMA\ triple\ 2D.out \
+../grant/test\ workspace\ v6\ 6713\ MAIN/220\ BSL\ AUDIO\ EDMA\ triple\ optimized/Debug/220\ BSL\ AUDIO\ EDMA\ triple\ optimized.out 
+
+OBJ_SRCS += \
+../grant/test\ workspace\ v6\ 6713\ MAIN/220\ BSL\ AUDIO\ EDMA\ triple\ optimized/Debug/edma.obj \
+../grant/test\ workspace\ v6\ 6713\ MAIN/220\ BSL\ AUDIO\ EDMA\ triple\ optimized/Debug/vectors_intr.obj 
+
+OPT_SRCS += \
+../grant/test\ workspace\ v6\ 6713\ MAIN/220\ BSL\ AUDIO\ EDMA\ triple\ optimized/Debug/ccsObjs.opt 
+
+OUT_SRCS__QUOTED += \
+"../grant/test workspace v6 6713 MAIN/220 BSL AUDIO EDMA triple optimized/Debug/090 BSL AUDIO EDMA.out" \
+"../grant/test workspace v6 6713 MAIN/220 BSL AUDIO EDMA triple optimized/Debug/095 BSL AUDIO EDMA triple.out" \
+"../grant/test workspace v6 6713 MAIN/220 BSL AUDIO EDMA triple optimized/Debug/110 BSL AUDIO EDMA.out" \
+"../grant/test workspace v6 6713 MAIN/220 BSL AUDIO EDMA triple optimized/Debug/175 BSL AUDIO EDMA triple 2D.out" \
+"../grant/test workspace v6 6713 MAIN/220 BSL AUDIO EDMA triple optimized/Debug/185 BSL AUDIO EDMA triple 2D.out" \
+"../grant/test workspace v6 6713 MAIN/220 BSL AUDIO EDMA triple optimized/Debug/220 BSL AUDIO EDMA triple optimized.out" 
+
+OPT_SRCS__QUOTED += \
+"../grant/test workspace v6 6713 MAIN/220 BSL AUDIO EDMA triple optimized/Debug/ccsObjs.opt" 
+
+

@@ -1,0 +1,430 @@
+******************************************************************************
+               TMS320C6x Linker PC v7.4.7                      
+******************************************************************************
+>> Linked Thu Oct 17 16:44:26 2019
+
+OUTPUT FILE NAME:   <220 BSL AUDIO EDMA triple optimized.out>
+ENTRY POINT SYMBOL: "_c_int00"  address: 00003b20
+
+
+MEMORY CONFIGURATION
+
+         name            origin    length      used     unused   attr    fill
+----------------------  --------  ---------  --------  --------  ----  --------
+  VECS                  00000000   00000200  00000200  00000000  RWIX
+  BOOT                  00000200   00000200  00000000  00000200  RWIX
+  IRAM                  00000400   00007c00  0000482c  000033d4  RWIX
+  IRAM2                 00008000   0002c000  00001726  0002a8da  RWIX
+  SRAM_EXT              80000000   01000000  00000000  01000000  RWIX
+  FLASH                 90000000   00020000  00000000  00020000  RWIX
+
+
+SECTION ALLOCATION MAP
+
+ output                                  attributes/
+section   page    origin      length       input sections
+--------  ----  ----------  ----------   ----------------
+.vecs      0    00000000    00000200     
+                  00000000    00000200     vectors_intr.obj (.vecs)
+
+$BRID      0    00000000    00000250     COPY SECTION
+                  00000000    00000014     csl6713.lib : csl.obj ($BRID)
+                  00000014    000000e8                 : csl_edma.obj ($BRID)
+                  000000fc    00000078                 : csl_irq.obj ($BRID)
+                  00000174    0000007c                 : csl_mcbsp.obj ($BRID)
+                  000001f0    00000060                 : csl_timer.obj ($BRID)
+
+.text      0    00000400    00003c40     
+                  00000400    00001200     edma.obj (.text)
+                  00001600    00000480     dsk6713bsl.lib : dsk6713.obj (.text)
+                  00001a80    00000300                    : dsk6713_aic23_opencodec.obj (.text)
+                  00001d80    000002c0     edma.obj (.text:retain)
+                  00002040    00000260     csl6713.lib : csl_edma.obj (.text:_EDMA_open)
+                  000022a0    00000240     rts6700.lib : memcpy62.obj (.text:_memcpy)
+                  000024e0    00000200     csl6713.lib : csl_edma.obj (.text:_EDMA_allocTable)
+                  000026e0    000001c0                 : csl.obj (.text:__CSL_init)
+                  000028a0    000001a0                 : csl_irq.obj (.text:_IRQ_map)
+                  00002a40    00000180                 : csl_mcbsp.obj (.text:_MCBSP_reset)
+                  00002bc0    00000160                 : csl_timer.obj (.text:_TIMER_open)
+                  00002d20    00000140     dsk6713bsl.lib : dsk6713_aic23_registers.obj (.text)
+                  00002e60    00000120     csl6713.lib : csl_edma.obj (.text:_EDMA_reset)
+                  00002f80    00000120                 : csl_timer.obj (.text:_TIMER_reset)
+                  000030a0    00000120                 : csl_irq.obj (.text:_mux2Tables)
+                  000031c0    00000100                 : csl_mcbsp.obj (.text:_MCBSP_start)
+                  000032c0    00000100     rts6700.lib : autoinit.obj (.text:__auto_init)
+                  000033c0    000000e0     csl6713.lib : csl_edma.obj (.text:_EDMA_config)
+                  000034a0    000000e0                 : csl_mcbsp.obj (.text:_MCBSP_open)
+                  00003580    000000e0     rts6700.lib : strasg.obj (.text:__strasg)
+                  00003660    000000e0                 : exit.obj (.text:_exit)
+                  00003740    000000c0     csl6713.lib : csl_edma.obj (.text:_EDMA_clearPram)
+                  00003800    000000c0     rts6700.lib : cpy_tbl.obj (.text:_copy_in)
+                  000038c0    000000c0     csl6713.lib : csl_irq.obj (.text:_getMux)
+                  00003980    000000a0                 : csl_irq.obj (.text:_setMux)
+                  00003a20    00000080                 : csl_irq.obj (.text:__IRQ_init)
+                  00003aa0    00000080     rts6700.lib : cpp_init.obj (.text:___TI_cpp_init)
+                  00003b20    00000080                 : boot.obj (.text:_c_int00)
+                  00003ba0    00000080     dsk6713bsl.lib : dsk6713_dip.obj (.text)
+                  00003c20    00000060     csl6713.lib : csl_edma.obj (.text:_EDMA_disableChannel)
+                  00003c80    00000060                 : csl_edma.obj (.text:_EDMA_enableChannel)
+                  00003ce0    00000060                 : csl_edma.obj (.text:_EDMA_intDisable)
+                  00003d40    00000060                 : csl_edma.obj (.text:_EDMA_intEnable)
+                  00003da0    00000060                 : csl_edma.obj (.text:_EDMA_qdmaConfig)
+                  00003e00    00000040                 : csl_irq.obj (.text:_IRQ_enable)
+                  00003e40    00000040                 : csl_irq.obj (.text:_IRQ_reset)
+                  00003e80    00000040     rts6700.lib : args_main.obj (.text:__args_main)
+                  00003ec0    00000020     csl6713.lib : csl.obj (.text:_CSL6713_LIB_)
+                  00003ee0    00000020                 : csl_edma.obj (.text:_EDMA_intClear)
+                  00003f00    00000020                 : csl_edma.obj (.text:_EDMA_intTest)
+                  00003f20    00000020                 : csl_irq.obj (.text:_IRQ_globalDisable)
+                  00003f40    00000020                 : csl_irq.obj (.text:_IRQ_globalEnable)
+                  00003f60    00000020                 : csl_irq.obj (.text:_IRQ_nmiEnable)
+                  00003f80    00000020                 : csl_irq.obj (.text:_IRQ_setVecs)
+                  00003fa0    00000020                 : csl_mcbsp.obj (.text:_MCBSP_read)
+                  00003fc0    00000020                 : csl_mcbsp.obj (.text:_MCBSP_write)
+                  00003fe0    00000020     rts6700.lib : exit.obj (.text:_abort)
+                  00004000    00000020     csl6713.lib : csl_irq.obj (.text)
+                  00004020    00000020     vectors_intr.obj (.text)
+
+.bss       0    00000400    00000000     UNINITIALIZED
+
+.const     0    00004040    000007f8     
+                  00004040    00000288     edma.obj (.const:_bp_fil)
+                  000042c8    00000288     edma.obj (.const:_hp_fil)
+                  00004550    00000288     edma.obj (.const:_lp_fil)
+                  000047d8    00000040     dsk6713bsl.lib : dsk6713_aic23_opencodec.obj (.const)
+                  00004818    00000020                    : dsk6713.obj (.const)
+
+.cinit     0    00004838    000003f4     
+                  00004838    0000012c     csl6713.lib : csl_irq.obj (.cinit)
+                  00004964    00000004     --HOLE-- [fill = 0]
+                  00004968    00000108     edma.obj (.cinit)
+                  00004a70    00000070     csl6713.lib : csl_edma.obj (.cinit)
+                  00004ae0    00000054                 : csl_mcbsp.obj (.cinit)
+                  00004b34    00000004     --HOLE-- [fill = 0]
+                  00004b38    0000004c                 : csl_timer.obj (.cinit)
+                  00004b84    00000004     --HOLE-- [fill = 0]
+                  00004b88    0000003c                 : csl.obj (.cinit)
+                  00004bc4    00000004     --HOLE-- [fill = 0]
+                  00004bc8    00000030     dsk6713bsl.lib : dsk6713_aic23_registers.obj (.cinit)
+                  00004bf8    0000002c     rts6700.lib : exit.obj (.cinit)
+                  00004c24    00000004     --HOLE-- [fill = 0]
+                  00004c28    00000004     (.pad.cinit) [fill = 0]
+
+.buffers   0    00008000    00000c00     UNINITIALIZED
+                  00008000    00000c00     edma.obj (.buffers)
+
+.stack     0    00008c00    00000800     UNINITIALIZED
+                  00008c00    00000008     rts6700.lib : boot.obj (.stack)
+                  00008c08    000007f8     --HOLE--
+
+.far       0    00009400    00000326     UNINITIALIZED
+                  00009400    0000011c     edma.obj (.far)
+                  0000951c    000000f4     csl6713.lib : csl_irq.obj (.far)
+                  00009610    00000054                 : csl_edma.obj (.far)
+                  00009664    00000038                 : csl_mcbsp.obj (.far)
+                  0000969c    00000028                 : csl.obj (.far)
+                  000096c4    00000028     dsk6713bsl.lib : dsk6713_aic23_registers.obj (.far)
+                  000096ec    00000024     csl6713.lib : csl_timer.obj (.far)
+                  00009710    0000000c     rts6700.lib : exit.obj (.far)
+                  0000971c    00000008     dsk6713bsl.lib : dsk6713_aic23_opencodec.obj (.far)
+                  00009724    00000002                    : dsk6713.obj (.far)
+
+
+GLOBAL SYMBOLS: SORTED ALPHABETICALLY BY Name 
+
+address    name
+--------   ----
+00000400   $bss
+00000400   .bss
+00000400   .text
+00003fe0   C$$EXIT
+0000942c   _AIC_data
+00003ec0   _CSL6713_LIB_
+0000971c   _DSK6713_AIC23_codeccontrolhandle
+00009720   _DSK6713_AIC23_codecdatahandle
+00002de0   _DSK6713_AIC23_config
+00001a80   _DSK6713_AIC23_openCodec
+00002db8   _DSK6713_AIC23_rget
+00002d20   _DSK6713_AIC23_rset
+00003ba8   _DSK6713_DIP_get
+00003ba0   _DSK6713_DIP_init
+00001a14   _DSK6713_getVersion
+0000164c   _DSK6713_init
+00001968   _DSK6713_rget
+0000197c   _DSK6713_rset
+00009724   _DSK6713_version
+00001990   _DSK6713_wait
+000019e8   _DSK6713_waitusec
+000024e0   _EDMA_allocTable
+00003740   _EDMA_clearPram
+000033c0   _EDMA_config
+00003c20   _EDMA_disableChannel
+00003c80   _EDMA_enableChannel
+00003ee0   _EDMA_intClear
+00003ce0   _EDMA_intDisable
+00003d40   _EDMA_intEnable
+00003f00   _EDMA_intTest
+00002040   _EDMA_open
+00003da0   _EDMA_qdmaConfig
+00002e60   _EDMA_reset
+00009430   _Glo
+00003e00   _IRQ_enable
+00003f20   _IRQ_globalDisable
+00003f40   _IRQ_globalEnable
+000028a0   _IRQ_map
+00003f60   _IRQ_nmiEnable
+00003e40   _IRQ_reset
+00003f80   _IRQ_setVecs
+000034a0   _MCBSP_open
+00003fa0   _MCBSP_read
+00002a40   _MCBSP_reset
+000031c0   _MCBSP_start
+00003fc0   _MCBSP_write
+00000768   _MoveData
+00002bc0   _TIMER_open
+00002f80   _TIMER_reset
+000026e0   __CSL_init
+00009608   __IRQ_dispatchTable
+00009544   __IRQ_eventTable
+00004000   __IRQ_hookFetchPacket
+00003a20   __IRQ_init
+000095c8   __IRQ_intTable
+00009694   __MCBSP_hDev0
+00009698   __MCBSP_hDev1
+00009400   __STACK_END
+00000800   __STACK_SIZE
+000096ec   __TIMER_deviceTable
+0000970c   __TIMER_hBios
+00009704   __TIMER_hDev0
+00009708   __TIMER_hDev1
+00000001   __TI_args_main
+00003aa0   ___TI_cpp_init
+00009718   ___TI_enable_exit_profile_output
+ffffffff   ___TI_pprof_out_hndl
+ffffffff   ___TI_prof_data_size
+ffffffff   ___TI_prof_data_start
+ffffffff   ___binit__
+00000400   ___bss__
+ffffffff   ___c_args__
+00004838   ___cinit__
+00000400   ___end__
+00004040   ___etext__
+ffffffff   ___pinit__
+00000400   ___text__
+00003e80   __args_main
+000032c0   __auto_init
+00009710   __cleanup_ptr
+00009714   __dtors_ptr
+00008c00   __stack
+00003580   __strasg
+00003fe0   _abort
+00004040   _bp_fil
+00003b20   _c_int00
+00001d80   _c_int8
+000094bc   _cfgEdmaPang_rx
+00009504   _cfgEdmaPang_tx
+0000948c   _cfgEdmaPing_rx
+000094d4   _cfgEdmaPing_tx
+000094a4   _cfgEdmaPong_rx
+000094ec   _cfgEdmaPong_tx
+0000944c   _cfgEdma_rx
+00009474   _cfgEdma_tx
+00009400   _config1
+00000824   _conv
+00003800   _copy_in
+00003660   _exit
+0000047c   _forever_loop
+00009428   _hCodec
+00009448   _hEdmaPang_rx
+00009470   _hEdmaPang_tx
+00009440   _hEdmaPing_rx
+00009468   _hEdmaPing_tx
+00009444   _hEdmaPong_rx
+0000946c   _hEdmaPong_tx
+0000943c   _hEdma_rx
+00009464   _hEdma_tx
+000042c8   _hp_fil
+00000d1c   _init
+00000ce4   _input_sample
+00004550   _lp_fil
+00000448   _main
+000022a0   _memcpy
+00000ca4   _output_sample
+00008400   _rx_pang
+00008000   _rx_ping
+00008200   _rx_pong
+00009624   _tccAllocTable
+00008a00   _tx_pang
+00008600   _tx_ping
+00008800   _tx_pong
+00000020   _vector1
+00000140   _vector10
+00000160   _vector11
+00000180   _vector12
+000001a0   _vector13
+000001c0   _vector14
+000001e0   _vector15
+00000040   _vector2
+00000060   _vector3
+00000080   _vector4
+000000a0   _vector5
+000000c0   _vector6
+000000e0   _vector7
+00000120   _vector9
+00000000   _vectors
+ffffffff   binit
+00004838   cinit
+00000400   end
+00004040   etext
+ffffffff   pinit
+
+
+GLOBAL SYMBOLS: SORTED BY Symbol Address 
+
+address    name
+--------   ----
+00000000   _vectors
+00000001   __TI_args_main
+00000020   _vector1
+00000040   _vector2
+00000060   _vector3
+00000080   _vector4
+000000a0   _vector5
+000000c0   _vector6
+000000e0   _vector7
+00000120   _vector9
+00000140   _vector10
+00000160   _vector11
+00000180   _vector12
+000001a0   _vector13
+000001c0   _vector14
+000001e0   _vector15
+00000400   $bss
+00000400   .bss
+00000400   .text
+00000400   ___bss__
+00000400   ___end__
+00000400   ___text__
+00000400   end
+00000448   _main
+0000047c   _forever_loop
+00000768   _MoveData
+00000800   __STACK_SIZE
+00000824   _conv
+00000ca4   _output_sample
+00000ce4   _input_sample
+00000d1c   _init
+0000164c   _DSK6713_init
+00001968   _DSK6713_rget
+0000197c   _DSK6713_rset
+00001990   _DSK6713_wait
+000019e8   _DSK6713_waitusec
+00001a14   _DSK6713_getVersion
+00001a80   _DSK6713_AIC23_openCodec
+00001d80   _c_int8
+00002040   _EDMA_open
+000022a0   _memcpy
+000024e0   _EDMA_allocTable
+000026e0   __CSL_init
+000028a0   _IRQ_map
+00002a40   _MCBSP_reset
+00002bc0   _TIMER_open
+00002d20   _DSK6713_AIC23_rset
+00002db8   _DSK6713_AIC23_rget
+00002de0   _DSK6713_AIC23_config
+00002e60   _EDMA_reset
+00002f80   _TIMER_reset
+000031c0   _MCBSP_start
+000032c0   __auto_init
+000033c0   _EDMA_config
+000034a0   _MCBSP_open
+00003580   __strasg
+00003660   _exit
+00003740   _EDMA_clearPram
+00003800   _copy_in
+00003a20   __IRQ_init
+00003aa0   ___TI_cpp_init
+00003b20   _c_int00
+00003ba0   _DSK6713_DIP_init
+00003ba8   _DSK6713_DIP_get
+00003c20   _EDMA_disableChannel
+00003c80   _EDMA_enableChannel
+00003ce0   _EDMA_intDisable
+00003d40   _EDMA_intEnable
+00003da0   _EDMA_qdmaConfig
+00003e00   _IRQ_enable
+00003e40   _IRQ_reset
+00003e80   __args_main
+00003ec0   _CSL6713_LIB_
+00003ee0   _EDMA_intClear
+00003f00   _EDMA_intTest
+00003f20   _IRQ_globalDisable
+00003f40   _IRQ_globalEnable
+00003f60   _IRQ_nmiEnable
+00003f80   _IRQ_setVecs
+00003fa0   _MCBSP_read
+00003fc0   _MCBSP_write
+00003fe0   C$$EXIT
+00003fe0   _abort
+00004000   __IRQ_hookFetchPacket
+00004040   ___etext__
+00004040   _bp_fil
+00004040   etext
+000042c8   _hp_fil
+00004550   _lp_fil
+00004838   ___cinit__
+00004838   cinit
+00008000   _rx_ping
+00008200   _rx_pong
+00008400   _rx_pang
+00008600   _tx_ping
+00008800   _tx_pong
+00008a00   _tx_pang
+00008c00   __stack
+00009400   __STACK_END
+00009400   _config1
+00009428   _hCodec
+0000942c   _AIC_data
+00009430   _Glo
+0000943c   _hEdma_rx
+00009440   _hEdmaPing_rx
+00009444   _hEdmaPong_rx
+00009448   _hEdmaPang_rx
+0000944c   _cfgEdma_rx
+00009464   _hEdma_tx
+00009468   _hEdmaPing_tx
+0000946c   _hEdmaPong_tx
+00009470   _hEdmaPang_tx
+00009474   _cfgEdma_tx
+0000948c   _cfgEdmaPing_rx
+000094a4   _cfgEdmaPong_rx
+000094bc   _cfgEdmaPang_rx
+000094d4   _cfgEdmaPing_tx
+000094ec   _cfgEdmaPong_tx
+00009504   _cfgEdmaPang_tx
+00009544   __IRQ_eventTable
+000095c8   __IRQ_intTable
+00009608   __IRQ_dispatchTable
+00009624   _tccAllocTable
+00009694   __MCBSP_hDev0
+00009698   __MCBSP_hDev1
+000096ec   __TIMER_deviceTable
+00009704   __TIMER_hDev0
+00009708   __TIMER_hDev1
+0000970c   __TIMER_hBios
+00009710   __cleanup_ptr
+00009714   __dtors_ptr
+00009718   ___TI_enable_exit_profile_output
+0000971c   _DSK6713_AIC23_codeccontrolhandle
+00009720   _DSK6713_AIC23_codecdatahandle
+00009724   _DSK6713_version
+ffffffff   ___TI_pprof_out_hndl
+ffffffff   ___TI_prof_data_size
+ffffffff   ___TI_prof_data_start
+ffffffff   ___binit__
+ffffffff   ___c_args__
+ffffffff   ___pinit__
+ffffffff   binit
+ffffffff   pinit
+
+[143 symbols]

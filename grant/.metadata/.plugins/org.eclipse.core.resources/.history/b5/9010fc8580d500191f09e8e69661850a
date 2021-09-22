@@ -1,0 +1,25 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+OUT_SRCS += \
+../grant/test\ workspace\ v6\ 6713\ MAIN/020\ circular\ buffer/Debug/015\ circular\ buffer.out \
+../grant/test\ workspace\ v6\ 6713\ MAIN/020\ circular\ buffer/Debug/020\ circular\ buffer.out \
+../grant/test\ workspace\ v6\ 6713\ MAIN/020\ circular\ buffer/Debug/0205\ circular\ buffer.out 
+
+OBJ_SRCS += \
+../grant/test\ workspace\ v6\ 6713\ MAIN/020\ circular\ buffer/Debug/main.obj 
+
+OPT_SRCS += \
+../grant/test\ workspace\ v6\ 6713\ MAIN/020\ circular\ buffer/Debug/ccsObjs.opt 
+
+OUT_SRCS__QUOTED += \
+"../grant/test workspace v6 6713 MAIN/020 circular buffer/Debug/015 circular buffer.out" \
+"../grant/test workspace v6 6713 MAIN/020 circular buffer/Debug/020 circular buffer.out" \
+"../grant/test workspace v6 6713 MAIN/020 circular buffer/Debug/0205 circular buffer.out" 
+
+OPT_SRCS__QUOTED += \
+"../grant/test workspace v6 6713 MAIN/020 circular buffer/Debug/ccsObjs.opt" 
+
+

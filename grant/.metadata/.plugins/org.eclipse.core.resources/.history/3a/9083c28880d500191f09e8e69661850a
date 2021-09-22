@@ -1,0 +1,47 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+CMD_SRCS += \
+../grant/dsk6713/tutorial/dsk6713/volume1/volume.cmd 
+
+ASM_SRCS += \
+../grant/dsk6713/tutorial/dsk6713/volume1/load.asm \
+../grant/dsk6713/tutorial/dsk6713/volume1/vectors.asm 
+
+C_SRCS += \
+../grant/dsk6713/tutorial/dsk6713/volume1/volume.c 
+
+OBJS += \
+./grant/dsk6713/tutorial/dsk6713/volume1/load.obj \
+./grant/dsk6713/tutorial/dsk6713/volume1/vectors.obj \
+./grant/dsk6713/tutorial/dsk6713/volume1/volume.obj 
+
+ASM_DEPS += \
+./grant/dsk6713/tutorial/dsk6713/volume1/load.pp \
+./grant/dsk6713/tutorial/dsk6713/volume1/vectors.pp 
+
+C_DEPS += \
+./grant/dsk6713/tutorial/dsk6713/volume1/volume.pp 
+
+C_DEPS__QUOTED += \
+"grant\dsk6713\tutorial\dsk6713\volume1\volume.pp" 
+
+OBJS__QUOTED += \
+"grant\dsk6713\tutorial\dsk6713\volume1\load.obj" \
+"grant\dsk6713\tutorial\dsk6713\volume1\vectors.obj" \
+"grant\dsk6713\tutorial\dsk6713\volume1\volume.obj" 
+
+ASM_DEPS__QUOTED += \
+"grant\dsk6713\tutorial\dsk6713\volume1\load.pp" \
+"grant\dsk6713\tutorial\dsk6713\volume1\vectors.pp" 
+
+ASM_SRCS__QUOTED += \
+"../grant/dsk6713/tutorial/dsk6713/volume1/load.asm" \
+"../grant/dsk6713/tutorial/dsk6713/volume1/vectors.asm" 
+
+C_SRCS__QUOTED += \
+"../grant/dsk6713/tutorial/dsk6713/volume1/volume.c" 
+
+

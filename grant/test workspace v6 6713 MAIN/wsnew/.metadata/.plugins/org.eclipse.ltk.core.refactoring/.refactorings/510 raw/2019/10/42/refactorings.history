@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;510 raw/510 raw.tcf&apos; to &apos;510raw.tcf&apos;" description="Rename resource &apos;510 raw.tcf&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="510 raw.tcf" name="510raw.tcf" stamp="1571237930640" updateReferences="true"/>
+</session>

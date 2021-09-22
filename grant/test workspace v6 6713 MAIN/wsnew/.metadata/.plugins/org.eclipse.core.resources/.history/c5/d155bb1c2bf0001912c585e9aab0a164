@@ -1,0 +1,8 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+USER_OBJS :=
+
+LIBS := -l"libc.a" -l"D:/Program\ Files/ti/C6xCSL/lib_3x/csl6713.lib" -l"D:/Program\ Files/ti/fast\ rts\ 67x/lib/c67xfastMath.lib"
+

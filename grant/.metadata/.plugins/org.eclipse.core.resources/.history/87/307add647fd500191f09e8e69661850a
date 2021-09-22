@@ -1,0 +1,118 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Each subdirectory must supply rules for building sources it contributes
+grant/dsk6713/tutorial/dsk6713/siotest/dgn_print.obj: ../grant/dsk6713/tutorial/dsk6713/siotest/dgn_print.c $(GEN_OPTS) $(GEN_HDRS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: C6000 Compiler'
+	"C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/bios/include" --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/dsk6713/include" --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/dsk6713/lib" --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/bios/lib" --define=c6713 --define=CHIP_6713 --display_error_number --diag_warning=225 --diag_wrap=off --mem_model:const=far --mem_model:data=far --preproc_with_compile --preproc_dependency="grant/dsk6713/tutorial/dsk6713/siotest/dgn_print.pp" --obj_directory="grant/dsk6713/tutorial/dsk6713/siotest" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+grant/dsk6713/tutorial/dsk6713/siotest/siotest1.obj: ../grant/dsk6713/tutorial/dsk6713/siotest/siotest1.c $(GEN_OPTS) $(GEN_HDRS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: C6000 Compiler'
+	"C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/bios/include" --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/dsk6713/include" --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/dsk6713/lib" --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/bios/lib" --define=c6713 --define=CHIP_6713 --display_error_number --diag_warning=225 --diag_wrap=off --mem_model:const=far --mem_model:data=far --preproc_with_compile --preproc_dependency="grant/dsk6713/tutorial/dsk6713/siotest/siotest1.pp" --obj_directory="grant/dsk6713/tutorial/dsk6713/siotest" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+grant/dsk6713/tutorial/dsk6713/siotest/siotest1cfg.obj: ../grant/dsk6713/tutorial/dsk6713/siotest/siotest1cfg.s62 $(GEN_OPTS) $(GEN_HDRS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: C6000 Compiler'
+	"C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/bios/include" --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/dsk6713/include" --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/dsk6713/lib" --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/bios/lib" --define=c6713 --define=CHIP_6713 --display_error_number --diag_warning=225 --diag_wrap=off --mem_model:const=far --mem_model:data=far --preproc_with_compile --preproc_dependency="grant/dsk6713/tutorial/dsk6713/siotest/siotest1cfg.pp" --obj_directory="grant/dsk6713/tutorial/dsk6713/siotest" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+grant/dsk6713/tutorial/dsk6713/siotest/siotest1cfg_c.obj: ../grant/dsk6713/tutorial/dsk6713/siotest/siotest1cfg_c.c $(GEN_OPTS) $(GEN_HDRS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: C6000 Compiler'
+	"C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/bios/include" --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/dsk6713/include" --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/dsk6713/lib" --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/bios/lib" --define=c6713 --define=CHIP_6713 --display_error_number --diag_warning=225 --diag_wrap=off --mem_model:const=far --mem_model:data=far --preproc_with_compile --preproc_dependency="grant/dsk6713/tutorial/dsk6713/siotest/siotest1cfg_c.pp" --obj_directory="grant/dsk6713/tutorial/dsk6713/siotest" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+grant/dsk6713/tutorial/dsk6713/siotest/siotest2.obj: ../grant/dsk6713/tutorial/dsk6713/siotest/siotest2.c $(GEN_OPTS) $(GEN_HDRS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: C6000 Compiler'
+	"C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/bios/include" --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/dsk6713/include" --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/dsk6713/lib" --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/bios/lib" --define=c6713 --define=CHIP_6713 --display_error_number --diag_warning=225 --diag_wrap=off --mem_model:const=far --mem_model:data=far --preproc_with_compile --preproc_dependency="grant/dsk6713/tutorial/dsk6713/siotest/siotest2.pp" --obj_directory="grant/dsk6713/tutorial/dsk6713/siotest" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+grant/dsk6713/tutorial/dsk6713/siotest/siotest2cfg.obj: ../grant/dsk6713/tutorial/dsk6713/siotest/siotest2cfg.s62 $(GEN_OPTS) $(GEN_HDRS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: C6000 Compiler'
+	"C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/bios/include" --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/dsk6713/include" --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/dsk6713/lib" --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/bios/lib" --define=c6713 --define=CHIP_6713 --display_error_number --diag_warning=225 --diag_wrap=off --mem_model:const=far --mem_model:data=far --preproc_with_compile --preproc_dependency="grant/dsk6713/tutorial/dsk6713/siotest/siotest2cfg.pp" --obj_directory="grant/dsk6713/tutorial/dsk6713/siotest" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+grant/dsk6713/tutorial/dsk6713/siotest/siotest2cfg_c.obj: ../grant/dsk6713/tutorial/dsk6713/siotest/siotest2cfg_c.c $(GEN_OPTS) $(GEN_HDRS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: C6000 Compiler'
+	"C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/bios/include" --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/dsk6713/include" --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/dsk6713/lib" --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/bios/lib" --define=c6713 --define=CHIP_6713 --display_error_number --diag_warning=225 --diag_wrap=off --mem_model:const=far --mem_model:data=far --preproc_with_compile --preproc_dependency="grant/dsk6713/tutorial/dsk6713/siotest/siotest2cfg_c.pp" --obj_directory="grant/dsk6713/tutorial/dsk6713/siotest" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+grant/dsk6713/tutorial/dsk6713/siotest/siotest3.obj: ../grant/dsk6713/tutorial/dsk6713/siotest/siotest3.c $(GEN_OPTS) $(GEN_HDRS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: C6000 Compiler'
+	"C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/bios/include" --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/dsk6713/include" --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/dsk6713/lib" --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/bios/lib" --define=c6713 --define=CHIP_6713 --display_error_number --diag_warning=225 --diag_wrap=off --mem_model:const=far --mem_model:data=far --preproc_with_compile --preproc_dependency="grant/dsk6713/tutorial/dsk6713/siotest/siotest3.pp" --obj_directory="grant/dsk6713/tutorial/dsk6713/siotest" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+grant/dsk6713/tutorial/dsk6713/siotest/siotest3cfg.obj: ../grant/dsk6713/tutorial/dsk6713/siotest/siotest3cfg.s62 $(GEN_OPTS) $(GEN_HDRS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: C6000 Compiler'
+	"C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/bios/include" --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/dsk6713/include" --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/dsk6713/lib" --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/bios/lib" --define=c6713 --define=CHIP_6713 --display_error_number --diag_warning=225 --diag_wrap=off --mem_model:const=far --mem_model:data=far --preproc_with_compile --preproc_dependency="grant/dsk6713/tutorial/dsk6713/siotest/siotest3cfg.pp" --obj_directory="grant/dsk6713/tutorial/dsk6713/siotest" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+grant/dsk6713/tutorial/dsk6713/siotest/siotest3cfg_c.obj: ../grant/dsk6713/tutorial/dsk6713/siotest/siotest3cfg_c.c $(GEN_OPTS) $(GEN_HDRS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: C6000 Compiler'
+	"C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/bios/include" --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/dsk6713/include" --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/dsk6713/lib" --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/bios/lib" --define=c6713 --define=CHIP_6713 --display_error_number --diag_warning=225 --diag_wrap=off --mem_model:const=far --mem_model:data=far --preproc_with_compile --preproc_dependency="grant/dsk6713/tutorial/dsk6713/siotest/siotest3cfg_c.pp" --obj_directory="grant/dsk6713/tutorial/dsk6713/siotest" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+grant/dsk6713/tutorial/dsk6713/siotest/siotest4.obj: ../grant/dsk6713/tutorial/dsk6713/siotest/siotest4.c $(GEN_OPTS) $(GEN_HDRS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: C6000 Compiler'
+	"C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/bios/include" --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/dsk6713/include" --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/dsk6713/lib" --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/bios/lib" --define=c6713 --define=CHIP_6713 --display_error_number --diag_warning=225 --diag_wrap=off --mem_model:const=far --mem_model:data=far --preproc_with_compile --preproc_dependency="grant/dsk6713/tutorial/dsk6713/siotest/siotest4.pp" --obj_directory="grant/dsk6713/tutorial/dsk6713/siotest" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+grant/dsk6713/tutorial/dsk6713/siotest/siotest4cfg.obj: ../grant/dsk6713/tutorial/dsk6713/siotest/siotest4cfg.s62 $(GEN_OPTS) $(GEN_HDRS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: C6000 Compiler'
+	"C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/bios/include" --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/dsk6713/include" --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/dsk6713/lib" --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/bios/lib" --define=c6713 --define=CHIP_6713 --display_error_number --diag_warning=225 --diag_wrap=off --mem_model:const=far --mem_model:data=far --preproc_with_compile --preproc_dependency="grant/dsk6713/tutorial/dsk6713/siotest/siotest4cfg.pp" --obj_directory="grant/dsk6713/tutorial/dsk6713/siotest" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+grant/dsk6713/tutorial/dsk6713/siotest/siotest4cfg_c.obj: ../grant/dsk6713/tutorial/dsk6713/siotest/siotest4cfg_c.c $(GEN_OPTS) $(GEN_HDRS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: C6000 Compiler'
+	"C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/bios/include" --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/dsk6713/include" --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/dsk6713/lib" --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/bios/lib" --define=c6713 --define=CHIP_6713 --display_error_number --diag_warning=225 --diag_wrap=off --mem_model:const=far --mem_model:data=far --preproc_with_compile --preproc_dependency="grant/dsk6713/tutorial/dsk6713/siotest/siotest4cfg_c.pp" --obj_directory="grant/dsk6713/tutorial/dsk6713/siotest" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+grant/dsk6713/tutorial/dsk6713/siotest/siotest5.obj: ../grant/dsk6713/tutorial/dsk6713/siotest/siotest5.c $(GEN_OPTS) $(GEN_HDRS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: C6000 Compiler'
+	"C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/bios/include" --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/dsk6713/include" --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/dsk6713/lib" --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/bios/lib" --define=c6713 --define=CHIP_6713 --display_error_number --diag_warning=225 --diag_wrap=off --mem_model:const=far --mem_model:data=far --preproc_with_compile --preproc_dependency="grant/dsk6713/tutorial/dsk6713/siotest/siotest5.pp" --obj_directory="grant/dsk6713/tutorial/dsk6713/siotest" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+grant/dsk6713/tutorial/dsk6713/siotest/siotest5cfg.obj: ../grant/dsk6713/tutorial/dsk6713/siotest/siotest5cfg.s62 $(GEN_OPTS) $(GEN_HDRS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: C6000 Compiler'
+	"C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/bios/include" --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/dsk6713/include" --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/dsk6713/lib" --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/bios/lib" --define=c6713 --define=CHIP_6713 --display_error_number --diag_warning=225 --diag_wrap=off --mem_model:const=far --mem_model:data=far --preproc_with_compile --preproc_dependency="grant/dsk6713/tutorial/dsk6713/siotest/siotest5cfg.pp" --obj_directory="grant/dsk6713/tutorial/dsk6713/siotest" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+grant/dsk6713/tutorial/dsk6713/siotest/siotest5cfg_c.obj: ../grant/dsk6713/tutorial/dsk6713/siotest/siotest5cfg_c.c $(GEN_OPTS) $(GEN_HDRS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: C6000 Compiler'
+	"C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/bin/cl6x" -mv6700 --abi=coffabi -g --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/bios/include" --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/dsk6713/include" --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/dsk6713/lib" --include_path="D:/Embedded/Homework_2/070 AUDIO/libraries/dsk6713/c6000/bios/lib" --define=c6713 --define=CHIP_6713 --display_error_number --diag_warning=225 --diag_wrap=off --mem_model:const=far --mem_model:data=far --preproc_with_compile --preproc_dependency="grant/dsk6713/tutorial/dsk6713/siotest/siotest5cfg_c.pp" --obj_directory="grant/dsk6713/tutorial/dsk6713/siotest" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+

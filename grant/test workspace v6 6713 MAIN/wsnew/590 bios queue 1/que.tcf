@@ -1,0 +1,29 @@
+utils.loadPlatform("ti.platforms.dsk6713");
+
+/* The following DSP/BIOS Features are enabled.  */
+bios.enableRealTimeAnalysis(prog);
+bios.enableRtdx(prog);
+bios.enableTskManager(prog);
+
+bios.GBL.BOARDNAME = "DSK c6713";
+bios.QUE.create("QUE0");
+bios.LOG.create("LOG0");
+bios.LOG.instance("LOG0").bufLen = 256;
+bios.PRD.create("PRD0");
+bios.PRD.instance("PRD0").order = 1;
+bios.PRD.instance("PRD0").fxn = prog.extern("PRD0_ftn");
+bios.PRD.instance("PRD0").period = 100;
+bios.TSK.create("TSK0");
+bios.TSK.instance("TSK0").order = 1;
+bios.TSK.instance("TSK0").fxn = prog.extern("TSK0_ftn");
+bios.SEM.create("SEM0");
+bios.MEM.NOMEMORYHEAPS = 0;
+bios.MEM.instance("IRAM").createHeap = 1;
+bios.MEM.instance("IRAM").heapSize = 0x00000800;
+bios.MEM.BIOSOBJSEG = prog.get("IRAM");
+bios.MEM.MALLOCSEG = prog.get("IRAM");
+bios.MEM.instance("SDRAM").createHeap = 1;
+bios.MEM.instance("SDRAM").heapSize = 0x00001000;
+// !GRAPHICAL_CONFIG_TOOL_SCRIPT_INSERT_POINT!
+
+prog.gen();

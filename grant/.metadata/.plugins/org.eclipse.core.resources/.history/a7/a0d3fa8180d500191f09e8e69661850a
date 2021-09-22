@@ -1,0 +1,27 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+OUT_SRCS += \
+../grant/test\ workspace\ v6\ 6713\ MAIN/150\ fastlib\ update/Debug/100\ fastlib.out \
+../grant/test\ workspace\ v6\ 6713\ MAIN/150\ fastlib\ update/Debug/125\ fastlib\ update.out \
+../grant/test\ workspace\ v6\ 6713\ MAIN/150\ fastlib\ update/Debug/130\ fastlib\ update.out \
+../grant/test\ workspace\ v6\ 6713\ MAIN/150\ fastlib\ update/Debug/150\ fastlib\ update.out 
+
+OBJ_SRCS += \
+../grant/test\ workspace\ v6\ 6713\ MAIN/150\ fastlib\ update/Debug/fastlib.obj 
+
+OPT_SRCS += \
+../grant/test\ workspace\ v6\ 6713\ MAIN/150\ fastlib\ update/Debug/ccsObjs.opt 
+
+OUT_SRCS__QUOTED += \
+"../grant/test workspace v6 6713 MAIN/150 fastlib update/Debug/100 fastlib.out" \
+"../grant/test workspace v6 6713 MAIN/150 fastlib update/Debug/125 fastlib update.out" \
+"../grant/test workspace v6 6713 MAIN/150 fastlib update/Debug/130 fastlib update.out" \
+"../grant/test workspace v6 6713 MAIN/150 fastlib update/Debug/150 fastlib update.out" 
+
+OPT_SRCS__QUOTED += \
+"../grant/test workspace v6 6713 MAIN/150 fastlib update/Debug/ccsObjs.opt" 
+
+

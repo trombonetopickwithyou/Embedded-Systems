@@ -1,0 +1,27 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+CMD_SRCS += \
+../grant/dsk6713/tutorial/dsk6713/sinewave/sinewave.cmd 
+
+C_SRCS += \
+../grant/dsk6713/tutorial/dsk6713/sinewave/sine.c 
+
+OBJS += \
+./grant/dsk6713/tutorial/dsk6713/sinewave/sine.obj 
+
+C_DEPS += \
+./grant/dsk6713/tutorial/dsk6713/sinewave/sine.pp 
+
+C_DEPS__QUOTED += \
+"grant\dsk6713\tutorial\dsk6713\sinewave\sine.pp" 
+
+OBJS__QUOTED += \
+"grant\dsk6713\tutorial\dsk6713\sinewave\sine.obj" 
+
+C_SRCS__QUOTED += \
+"../grant/dsk6713/tutorial/dsk6713/sinewave/sine.c" 
+
+

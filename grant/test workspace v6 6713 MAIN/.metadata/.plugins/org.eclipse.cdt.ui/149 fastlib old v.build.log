@@ -1,0 +1,23 @@
+
+**** Build of configuration Debug for project 149 fastlib old v ****
+
+"C:\\ti2\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building target: 149 fastlib old v.out'
+'Invoking: C6000 Linker'
+"C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/bin/cl6x" -mv6700 --abi=coffabi -g --define=c6713 --display_error_number --diag_warning=225 --diag_wrap=off --printf_support=full -z --stack_size=0x800 -m"149 fastlib old v.map" --heap_size=0x800 -i"C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/lib" -i"C:/ti2/ccsv6/tools/compiler/c6000_7.4.7/include" --reread_libs --priority --warn_sections --display_error_number --diag_wrap=off --xml_link_info="149 fastlib old v_linkInfo.xml" --rom_model -o "149 fastlib old v.out"  "./fastlib.obj" "../C6713.cmd" -l"libc.a" -l"C:\Documents and Settings\One\Desktop\DT Docs\CCS\libraries\mthlib\lib\fastrts67x.lib" 
+<Linking>
+warning #16002-D: build attribute vendor section TI missing in "C:\Documents and Settings\One\Desktop\DT Docs\CCS\libraries\mthlib\lib\fastrts67x.lib<divdp.obj>": compatibility cannot be determined
+warning #16002-D: build attribute vendor section TI missing in "C:\Documents and Settings\One\Desktop\DT Docs\CCS\libraries\mthlib\lib\fastrts67x.lib<divsp.obj>": compatibility cannot be determined
+warning #16002-D: build attribute vendor section TI missing in "C:\Documents and Settings\One\Desktop\DT Docs\CCS\libraries\mthlib\lib\fastrts67x.lib<recipdp.obj>": compatibility cannot be determined
+warning #16002-D: build attribute vendor section TI missing in "C:\Documents and Settings\One\Desktop\DT Docs\CCS\libraries\mthlib\lib\fastrts67x.lib<recipsp.obj>": compatibility cannot be determined
+warning #16002-D: build attribute vendor section TI missing in "C:\Documents and Settings\One\Desktop\DT Docs\CCS\libraries\mthlib\lib\fastrts67x.lib<sqrtdp.obj>": compatibility cannot be determined
+warning #16002-D: build attribute vendor section TI missing in "C:\Documents and Settings\One\Desktop\DT Docs\CCS\libraries\mthlib\lib\fastrts67x.lib<sqrtsp.obj>": compatibility cannot be determined
+error #10056: symbol "__divd" redefined: first defined in "C:\ti2\ccsv6\tools\compiler\c6000_7.4.7\lib\rts6700.lib<divd.obj>"; redefined in "C:\Documents and Settings\One\Desktop\DT Docs\CCS\libraries\mthlib\lib\fastrts67x.lib<divdp.obj>"
+error #10056: symbol "__divf" redefined: first defined in "C:\ti2\ccsv6\tools\compiler\c6000_7.4.7\lib\rts6700.lib<divf.obj>"; redefined in "C:\Documents and Settings\One\Desktop\DT Docs\CCS\libraries\mthlib\lib\fastrts67x.lib<divsp.obj>"
+error #10010: errors encountered during linking; "149 fastlib old v.out" not built
+
+>> Compilation failure
+gmake: *** [149 fastlib old v.out] Error 1
+gmake: Target `all' not remade because of errors.
+
+**** Build Finished ****
